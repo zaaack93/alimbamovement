@@ -785,6 +785,12 @@
       },
       {
         "type": "checkbox",
+        "id": "enable_cart_button",
+        "label": "Enable cart on header menu",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "enable_cart_animation",
         "label": "Enable cart bag dot animation",
         "default": true
