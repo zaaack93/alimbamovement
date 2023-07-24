@@ -12,6 +12,7 @@
   {{ 'lazysizes.min.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+  <script type="module" src="{{ 'custom-sections.js' | asset_url }}"></script>
 
   <link rel="preload" as="image" href="{{ 'loading.svg' | asset_url }}">{%- liquid
   assign loading_appearance = settings.loading_appearance
@@ -77,6 +78,7 @@
 
   {%- comment -%} CSS {%- endcomment -%}
   {{- 'theme.css' | asset_url | stylesheet_tag -}}
+  {{- 'main.css' | asset_url | stylesheet_tag -}}
 
   {%- comment -%}{{- 'theme.dev.css' | asset_url | stylesheet_tag -}}{%- endcomment -%}
 

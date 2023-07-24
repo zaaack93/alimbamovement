@@ -104,7 +104,7 @@
 
                 {%- if block.settings.show_newsletter_form -%}
                   <div class="popup__form">
-                    {%- render 'newsletter-form'
+                    {%- render 'newsletter-form-v2'
                       unique: block.id,
                       extra_fields: block.settings.extra_fields,
                       button_text: button_text,
@@ -190,7 +190,7 @@
                         {%- endif -%}
 
                         <div class="popup__form">
-                          {%- render 'newsletter-form'
+                          {%- render 'newsletter-form-v2'
                             unique: block.id,
                             extra_fields: block.settings.extra_fields,
                             button_text: button_text,
