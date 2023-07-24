@@ -35,6 +35,7 @@
     "show_payment_button": true,
     "max_inventory": 5,
     "cart_type": "drawer",
+    "enable_cart_button": false,
     "enable_cart_notes": false,
     "enable_gift_notes": false,
     "show_empty_cart_buttons": false,
