@@ -1,0 +1,510 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zcv7azH4.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Become a Founding Member",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "d758e26e-4391-40eb-b5a1-01e1d2c22f74": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>The Alimba Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alimba is the workout routine that fits perfectly into your life. <\/p><p><br\/><\/p><p>We use biomechanics and physics principles to build muscle and to ensure your workouts are as efficient and effective as possible, without wearing down your body and joints. Each week is specifically programmed to ensure all of your muscle groups are targeted, without being overused.<\/p><p><br\/><\/p><p>During each workout, you will focus on working individual muscle groups to allow for the most effective work to that muscle. Each week of classes is also scheduled for you. This means you won't be scrolling endlessly trying to find a workout (and landing on the same full body workout you always do. We know, we have been there). You also won't see us using any gimmicky marketing language about \"toning\", \"slimming your thighs\" or \"30 day shreds\". We are here to build strong, healthy bodies and mindsets. <\/p><p><br\/><\/p><p>Consistency and building a strong body is key. Alimba allows you to maintain a consistent routine without having to take time off with injuries and without the mental load of working out what workouts to do on what days. <\/p><p><br\/><\/p><p>Alimba is a movement. It is a new way of working out - <strong>for life<\/strong>.<\/p>",
+            "size": 100
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-0",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-1",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-3"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "30be7d1b-5a59-4886-bd93-66ef9853e1eb": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Meet Our Instructors<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-0",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-1",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-2",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-3"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 62,
+        "padding_bottom": 40
+      }
+    },
+    "cf149bf2-7dd0-48e4-87f2-b0f8cb92fe2f": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/93134viw.jpg",
+        "subheading": "",
+        "title": "<p>Ali<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "Aka. Al, Al-pal.\nAfter spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. \n\nIt wasn’t until she suffered a back injury that it clicked. Something had to change. \n\nAli studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. \n\nAfter undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. \n\nWords Ali lives by: If you can you must.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "c44c5a1d-82da-4d19-bd73-1f0282696608": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/340919254_745731490618595_911206770587806388_n.jpg",
+        "subheading": "",
+        "title": "<p>Maria<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "Aka. Marzy, Marzymar. \nMaria is our very own Canadian pocket rocket.\n\nMaria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. \n\nIn recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.\n\nMaria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. \n\nWords Maria lives by:  Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "overlapping-images": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/93134viw.jpg",
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Ali",
+        "description": "<p>After spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. <\/p><p>It wasn’t until she suffered a back injury that it clicked. Something had to change. <\/p><p>Ali studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. <\/p><p>After undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. <\/p><p>Words Ali lives by: If you can you must. <\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 86
+      }
+    },
+    "047367ee-0c6c-484c-a706-ac6ef0e5f505": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/341133375_6522668031086306_9158382991015258901_n_857722af-4ed6-45f2-9b8f-9fc88f9ecacf.jpg",
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Maria",
+        "description": "<p>Maria is our very own Canadian pocket rocket.<\/p><p>Maria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. <\/p><p>In recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.<\/p><p>Maria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. <br\/><br\/>Words Maria lives by:  Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.<\/p><p><\/p><p><\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "9eb1d012-59b6-430a-896d-cdfd9284912c": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "8ea5cba9-b783-4081-a21d-79003e29b418": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Class Styles<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "78117498-de91-4dc3-82c4-401097ebfae0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h4>Check out the <a href=\"\/pages\/styles-schedule\" title=\"Styles & Schedule\">Styles & Schedule <\/a>page for more info<\/h4>",
+            "size": 120,
+            "margin_bottom": 16
+          }
+        },
+        "38b85774-ec4a-45f1-a21d-0306c5f28300": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "8ea5cba9-b783-4081-a21d-79003e29b418",
+        "78117498-de91-4dc3-82c4-401097ebfae0",
+        "38b85774-ec4a-45f1-a21d-0306c5f28300"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 62,
+        "padding_bottom": 0
+      }
+    },
+    "16843155835b4fc65c": {
+      "type": "apps",
+      "blocks": {
+        "c7d92c90-4d1c-440b-b113-9584080f3d48": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "UwYp9B"
+          }
+        }
+      },
+      "block_order": [
+        "c7d92c90-4d1c-440b-b113-9584080f3d48"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/I3MX5hTU.jpg",
+            "title": "Lift",
+            "text": "<p>Lift classes use biomechanics to curate effective and efficient workouts to build strength and muscle, without compromising your joints.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/329572451_181522678045028_3840073137605689889_n.jpg",
+            "title": "Form",
+            "text": "<p>Form classes focus on strengthening the core and back, with some extra muscle groups sprinkled in. Little or no equipment is required. Form is generally mat-based \/ low to the ground.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__3510.jpg",
+            "title": "Move",
+            "text": "<p>The focus is on getting the heart rate up with plenty of low impact options for those that want to take the jump out. We mix in boxing-style movements, dance cardio and traditional HIIT to get your heart pumping.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "e441e619-c794-403f-a0d4-980edfbd3e50": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2752.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "Sound good?",
+            "heading_size": 100,
+            "text": "Now you know a bit more about us - we can't wait for you to get started!",
+            "button_text": "Start your free trial here",
+            "button_link": "https:\/\/alimbamovement.uscreen.io\/join_us",
+            "button_color": "btn--secondary",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small"
+          }
+        },
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Subheading",
+            "title": "Our Story",
+            "heading_size": 100,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 100,
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-0",
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-1"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 38,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "d758e26e-4391-40eb-b5a1-01e1d2c22f74",
+    "30be7d1b-5a59-4886-bd93-66ef9853e1eb",
+    "cf149bf2-7dd0-48e4-87f2-b0f8cb92fe2f",
+    "c44c5a1d-82da-4d19-bd73-1f0282696608",
+    "overlapping-images",
+    "047367ee-0c6c-484c-a706-ac6ef0e5f505",
+    "9eb1d012-59b6-430a-896d-cdfd9284912c",
+    "16843155835b4fc65c",
+    "columns",
+    "main",
+    "e441e619-c794-403f-a0d4-980edfbd3e50"
+  ]
+}

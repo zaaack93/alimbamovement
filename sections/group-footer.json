@@ -1,0 +1,63 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Alimba-Logo-02-White.png",
+            "logo_width": 120,
+            "show_shop_name": false,
+            "text": ""
+          }
+        },
+        "footer-block-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "footer_text": "<p>No more scrolling for what to do,<br\/>Our program's scheduled just for you.<\/p><p>Ali and Maria have your back,<br\/>Their tailored plans will keep you on track.<\/p><p>Efficient and effective too,<br\/>It'll build muscle, come join the crew.<\/p>"
+          }
+        },
+        "footer-block-2": {
+          "type": "link",
+          "settings": {
+            "menu": "footer",
+            "title": "Link things"
+          }
+        },
+        "footer-block-3": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Sign up to receive 20% off your membership.",
+            "text": "<p>Limited spaces. Get in quick.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-0",
+        "footer-block-1",
+        "footer-block-2",
+        "footer-block-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "show_footer_wave": true,
+        "show_social_links": true,
+        "show_payment_icons": true,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#155969",
+        "color_border": "#959ff2",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "currency_type": "country"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

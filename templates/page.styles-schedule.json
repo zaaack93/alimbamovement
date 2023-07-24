@@ -1,0 +1,716 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "aafd41e6-f6f5-45df-9ea2-6ef44a7fb886": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15055306948656__aafd41e6-f6f5-45df-9ea2-6ef44a7fb886-1681952290de3dc0db-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2849.jpg",
+            "overlay_opacity": 5,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Styles & Schedule",
+            "text": "Learn all about our super effective class styles and how we plan out our weeks below.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "template--15055306948656__aafd41e6-f6f5-45df-9ea2-6ef44a7fb886-1681952290de3dc0db-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__aafd41e6-f6f5-45df-9ea2-6ef44a7fb886-1681952290de3dc0db-0",
+        "template--15055306948656__aafd41e6-f6f5-45df-9ea2-6ef44a7fb886-1681952290de3dc0db-1"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "06b4654a-66a1-42b8-9e3a-4bf224c718af": {
+      "type": "section-text",
+      "blocks": {
+        "template--15055306948656__06b4654a-66a1-42b8-9e3a-4bf224c718af-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Class <em>Styles<\/em><\/p>",
+            "size": 130,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#959ff2"
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__06b4654a-66a1-42b8-9e3a-4bf224c718af-168195519289217bca-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 100,
+        "padding_bottom": 40
+      }
+    },
+    "d9cbcea3-88d1-40d8-8f1d-199594725ec3": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/I3MX5hTU.jpg",
+        "subheading": "",
+        "title": "<p>Lift Classes<\/p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#959ff2",
+        "heading_size": 110,
+        "text_content": "Lift classes build strength and muscle without compromising your joints, by using biomechanics to curate effective and efficient workouts.\n\nAlthough we do recommend some equipment as you progress (we love dumbbells), there are plenty of bodyweight options as you are starting out (or if you are on holidays) so never fear! \n\nLift classes are around 30 minutes (or 45 for Full Body).",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    },
+    "53677ae1-f9ed-4e30-a32f-d55fe198dede": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/Sr5jFnUQ_72dd8542-58c1-4108-9c3f-2b3bce4afa5b.jpg",
+        "subheading": "",
+        "title": "<p>Form Classes<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 110,
+        "text_content": "Form classes focus on strengthening the core and back, with some extra muscle groups sprinkled in. Little or no equipment is required.\n\nForm classes are generally all mat-based \/ low to the ground, making them approachable (but definitely not easy!). \n\nForm classes are around 30 minutes.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    },
+    "152e9b70-1cb7-4fcc-9ccb-4dbc39328985": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSC_0461.jpg",
+        "subheading": "",
+        "title": "<p>Move Classes<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 110,
+        "text_content": "Our Move cardio classes are an optional bonus in the schedule. If you are feeling good, chuck them in! \n\nThe focus is on getting the heart rate up with plenty of low impact options for those that want to take the jump out. We mix in boxing-style movements, dance cardio and traditional HIIT to get your heart pumping. \n\nThey are usually 10-20 minutes in duration (including warm up and cool down).",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    },
+    "4c6624d2-2754-49eb-a363-4d10fdf441c5": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "5bdce1c6-a036-42dd-9c4c-a32318326fd8": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Schedule",
+            "heading_size": 100,
+            "text": "<p>Our classes are designed to be taken by you whenever and wherever it suits your lifestyle best.<\/p><p>However, we do recommend the following schedules (depending on how many days a week you want to work out), to maximise your muscle recovery in between sessions.<\/p><p>Check out the below, and have a play around with what works for you. <\/p><p><span style=\"text-decoration:underline\"><strong>5 x per week schedule<\/strong><\/span><\/p><p><strong>Monday: <\/strong>Lower Body Lift<\/p><p><strong>Tuesday:<\/strong> Upper Body Lift<\/p><p><strong>Wednesday: <\/strong>Form<\/p><p><strong>Thursday:<\/strong> Cardio<\/p><p><strong>Friday: <\/strong>Full Body Lift<\/p><p><span style=\"text-decoration:underline\"><strong>4 x per week schedule<\/strong><\/span><\/p><p><strong>Monday: <\/strong>Lower Body Lift & Upper Body Lift<\/p><p><strong>Wednesday: <\/strong>Form<\/p><p><strong>Thursday:<\/strong> Cardio<\/p><p><strong>Friday: <\/strong>Full Body Lift<\/p><p><span style=\"text-decoration:underline\"><strong>3 x per week schedule<\/strong><\/span><\/p><p><strong>Monday: <\/strong>Lower Body Lift & Upper Body Lift<\/p><p><strong>Wednesday: <\/strong>Form & Cardio<\/p><p><strong>Friday: <\/strong>Full Body Lift<\/p><p>Ready to go? Let's do it. <\/p>",
+            "text_size": 100,
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "5bdce1c6-a036-42dd-9c4c-a32318326fd8"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "d9a60871-283c-4eb6-b359-cbc7b02f4967": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "overlay",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/340843075_1647441322374448_6472305974752730482_n.jpg",
+        "subheading": "We think our classes are the best.",
+        "title": "<p>And we know you'll love them too!<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#959ff2",
+        "heading_size": 100,
+        "text_content": "So enjoy the first 14 days on us and find out whether Alimba is your jam.",
+        "text_alignment": "left",
+        "button_text": "Start Free Trial",
+        "button_link": "https:\/\/alimbamovement.uscreen.io\/join_us",
+        "button_color": "btn--secondary",
+        "button_style": "btn--primary",
+        "button_size": "btn--large",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "99063ac9-0158-4712-91f7-ad85dc8a4a73": {
+      "type": "section-text",
+      "blocks": {
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Class <em>Schedule<\/em><\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#959ff2"
+          }
+        },
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our classes are designed to be taken by you whenever and wherever it suits your lifestyle best.<\/p><p><br\/><\/p><p>However, we do suggest the following schedules (depending on how many days a week you want to work out), to maximise your muscle recovery in between sessions.<\/p><p><br\/><\/p><p>Check out the below, and have a play around with what works for you. <\/p>",
+            "size": 100
+          }
+        },
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "1882b5f0-9f22-4316-a115-8cdbd9c33560": {
+          "type": "split-text",
+          "disabled": true,
+          "settings": {
+            "text_left": "<p>Palo Alto is a powerful Shopify theme that will set you apart from the rest.<\/p>",
+            "size_left": 100,
+            "text_right": "<p>It features ample space to showcase your imagery with Mosaic, Image with text, and Slideshow sections ... and even this Text section itself.<\/p>",
+            "size_right": 100
+          }
+        },
+        "a2256aea-27fd-4667-803a-54b2c3466291": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-0",
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-1",
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-2",
+        "template--15055306948656__99063ac9-0158-4712-91f7-ad85dc8a4a73-168195519289217bca-3",
+        "1882b5f0-9f22-4316-a115-8cdbd9c33560",
+        "a2256aea-27fd-4667-803a-54b2c3466291"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "ee677bf6-9412-47bd-b660-13c18aff5c88": {
+      "type": "section-custom-content",
+      "blocks": {
+        "712522c4-1da4-44ee-ba96-0779a695c3a9": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__3510.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small"
+          }
+        },
+        "45c3a425-b644-414b-8665-55fb05d04d53": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "",
+            "heading_size": 100,
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>5 x per week schedule<\/strong><\/span><\/h3><ul><li><h5><strong>Monday: <\/strong>Lower Body Lift<\/h5><\/li><li><h5><strong>Tuesday:<\/strong> Upper Body Lift<\/h5><\/li><li><h5><strong>Wednesday: <\/strong>Form<\/h5><\/li><li><h5><strong>Thursday:<\/strong> Cardio<\/h5><\/li><li><h5><strong>Friday: <\/strong>Full Body Lift<\/h5><\/li><\/ul>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "712522c4-1da4-44ee-ba96-0779a695c3a9",
+        "45c3a425-b644-414b-8665-55fb05d04d53"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "054f662e-edfd-4ef1-a6fe-cf4236549143": {
+      "type": "section-custom-content",
+      "blocks": {
+        "5a22a4dd-5c53-40d7-8a2e-ba7b79f0bcae": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2819.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small"
+          }
+        },
+        "c89711bd-018b-4b26-a60e-ccc20ef5b4f6": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "",
+            "heading_size": 100,
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>4 x per week schedule<\/strong><\/span><\/h3><ul><li><h5><strong>Monday: <\/strong>Lower Body Lift & Upper Body Lift<\/h5><\/li><li><h5><strong>Wednesday: <\/strong>Form<\/h5><\/li><li><h5><strong>Thursday:<\/strong> Cardio<\/h5><\/li><li><h5><strong>Friday: <\/strong>Full Body Lift<\/h5><\/li><\/ul>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "5a22a4dd-5c53-40d7-8a2e-ba7b79f0bcae",
+        "c89711bd-018b-4b26-a60e-ccc20ef5b4f6"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "d48138b2-7fb6-4658-b299-11a41bdfb525": {
+      "type": "section-custom-content",
+      "blocks": {
+        "12526f3c-2cde-475a-838b-64f42a23bc7d": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2744.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small"
+          }
+        },
+        "d9a2c090-c4be-4c99-babe-1373102525e8": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "",
+            "heading_size": 100,
+            "text": "<h3><span style=\"text-decoration:underline\">3 x per week schedule<\/span><\/h3><ul><li><h5><strong>Monday: <\/strong>Lower Body Lift & Upper Body Lift<\/h5><\/li><li><h5><strong>Wednesday: <\/strong>Form & Cardio<\/h5><\/li><li><h5><strong>Friday: <\/strong>Full Body Lift<\/h5><\/li><\/ul>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "12526f3c-2cde-475a-838b-64f42a23bc7d",
+        "d9a2c090-c4be-4c99-babe-1373102525e8"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "927588d5-a5fa-4716-b472-714d7b22aca3": {
+      "type": "section-text",
+      "blocks": {
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Our <em>Programs<\/em><\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#959ff2"
+          }
+        },
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In addition to our Signature weekly classes we have other programs available. Learn more below...<\/p>",
+            "size": 100
+          }
+        },
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-0",
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-1",
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-2",
+        "template--15055306948656__927588d5-a5fa-4716-b472-714d7b22aca3-1682939365bdd99a22-3"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "84a7fc92-51ef-49f5-ae89-aec956b83411": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2326.jpg",
+            "title": "Signature Weekly Schedule",
+            "text": "<p>Our weekly program. New classes are uploaded each week, with a fully programmed schedule. Just press play. <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cDc6Q7Y0.jpg",
+            "title": "Launchpad Program",
+            "text": "<p>The perfect schedule when you are first starting out with Alimba. 3 weeks worth of classes covering our key movements and styles, to get you across all things Alimba. <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/y1OG_HaY.jpg",
+            "title": "Revive Program",
+            "text": "<p>The perfect week of classes when you are just getting back into training after being sick, or having a slow week.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-0",
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-1",
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-2",
+        "template--15055306948656__84a7fc92-51ef-49f5-ae89-aec956b83411-16829392773c35376e-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "03491d20-b4e9-4563-bb8f-d3150d691505": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-0",
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-1",
+        "template--15055306948656__03491d20-b4e9-4563-bb8f-d3150d691505-1682939365bdd99a22-2"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aafd41e6-f6f5-45df-9ea2-6ef44a7fb886",
+    "06b4654a-66a1-42b8-9e3a-4bf224c718af",
+    "d9cbcea3-88d1-40d8-8f1d-199594725ec3",
+    "53677ae1-f9ed-4e30-a32f-d55fe198dede",
+    "152e9b70-1cb7-4fcc-9ccb-4dbc39328985",
+    "4c6624d2-2754-49eb-a363-4d10fdf441c5",
+    "d9a60871-283c-4eb6-b359-cbc7b02f4967",
+    "99063ac9-0158-4712-91f7-ad85dc8a4a73",
+    "ee677bf6-9412-47bd-b660-13c18aff5c88",
+    "054f662e-edfd-4ef1-a6fe-cf4236549143",
+    "d48138b2-7fb6-4658-b299-11a41bdfb525",
+    "927588d5-a5fa-4716-b472-714d7b22aca3",
+    "84a7fc92-51ef-49f5-ae89-aec956b83411",
+    "03491d20-b4e9-4563-bb8f-d3150d691505"
+  ]
+}

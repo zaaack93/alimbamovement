@@ -1,0 +1,425 @@
+{
+  "sections": {
+    "0ac22fc0-1722-4ac1-9da7-2a195193b646": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15026239209520__0ac22fc0-1722-4ac1-9da7-2a195193b646-1681952290de3dc0db-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LqCAakKo.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/LqCAakKo.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "FAQs",
+            "text": "Because we know you're curious",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "template--15026239209520__0ac22fc0-1722-4ac1-9da7-2a195193b646-1681952290de3dc0db-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239209520__0ac22fc0-1722-4ac1-9da7-2a195193b646-1681952290de3dc0db-0",
+        "template--15026239209520__0ac22fc0-1722-4ac1-9da7-2a195193b646-1681952290de3dc0db-1"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Alimba different?",
+            "text": "<p>We hear you - there are a bunch of fitness programs on the market - why should you choose this one?<\/p><p>Some of the key features that make Alimba the best (if you ask our mums anyway) are:<\/p><ul><li><strong>Unique workouts recorded each week. <\/strong>Classes aren't pre-recorded and stitched together, and your classes are taught by us - real humans! <\/li><li><strong>Curated week of classes - every week. <\/strong>We do the programming for you - all you have to do is show up. This ensures you are hitting all your muscle groups to maximise impact, and minimise overuse. <\/li><li><strong>Efficient and effective.<\/strong> Our program utilises biomechanics principles to ensure every movement is building strength - without unnecessary stress through your joints. Sound complicated? Don't worry - we do all the science-y stuff so you don't have to. <\/li><li><strong>Workouts are modifiable. <\/strong>Meaning that Alimba is suitable for everyone. We provide you with the tools to make every class feel like a personal training session. <\/li><li><strong>Focus on building muscle.<\/strong> After age 30, we lose 3-8% of our muscle mass every decade. That is a LOT. You know what slows that down? Strength training. This is the main focus of Alimba workouts. <\/li><\/ul>"
+          }
+        },
+        "ed53808a-a461-4c41-8d9a-e95a19c02af5": {
+          "type": "text",
+          "settings": {
+            "title": "Who is Alimba for?",
+            "text": "<p>Alimba is designed to be suitable for every person and every body. <\/p><p>Each class provides a number of variations\/options for each movement to ensure that you can make the workout fit you and your body. There is no “one size fits all” approach.<\/p><p>So whether you are recovering from years of high impact workouts, a stressful period of life, or are looking to get back into your fitness, there is a place for you at Alimba. <\/p><p>We recommend that you get advice from your doctor and\/or any physiotherapist or similar that you are currently seeing to ensure that you are cleared to workout and if you require any restrictions\/modifications in your workouts. Alimba does not take the place of any of these specialists in your health and routine. <\/p>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "Who is Alimba not for?",
+            "text": "<p>If you are still looking for:<\/p><ul><li>consistent high intensity “no pain no gain” workouts; <\/li><li>30 day shreds or bikini body challenges; or<\/li><li>gimmicky marketing about \"shedding belly fat\" or \"toning your inner thighs\" - <\/li><\/ul><p>I am sorry, but Alimba is <strong>not<\/strong> the place for you. <\/p><p>Come back when you have seen the light and we will welcome you with open arms and efficient workouts.<\/p>"
+          }
+        },
+        "3fb1abd9-3d69-4345-ae62-9b3acb8d8af5": {
+          "type": "text",
+          "settings": {
+            "title": "I haven't done strength training before - what is it all about?",
+            "text": "<p>As we age, past 30 we begin to lose muscle unless we actively focus on maintaining our muscle mass. <\/p><p>The key to Alimba being so effective is the use of resistance. Resistance is needed to build muscle. More muscle = faster metabolism and a stronger body (among a myriad of other good things). Muscle = your friend. <\/p><p>If you have never focused on building muscle before, or find it a bit intimidating, rest assured - Alimba is a perfect first step into strength training. For some movements we use relatively light weights and no weights for others, and provide plenty of options to build up your strength.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "ed53808a-a461-4c41-8d9a-e95a19c02af5",
+        "accordion_block_1_2",
+        "3fb1abd9-3d69-4345-ae62-9b3acb8d8af5"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "FAQs",
+        "subheading": "Why Alimba?",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "3a685ac8-4e77-447b-bb66-0d3083bf8c15": {
+          "type": "text",
+          "settings": {
+            "title": "How does the program work?",
+            "text": "<p>Every week the following core classes are uploaded, and the videos are available for you to take class at any time that suits you:<\/p><ul><li>Lower body Lift<\/li><li>Upper body Lift<\/li><li>Full body Lift<\/li><li>Form<\/li><li>Move class (low-impact cardio)<\/li><\/ul><p>The week is programmed out to ensure that we are hitting different muscle groups enough to build muscle, without overuse. <\/p><p>We will also be working on bringing in some bonus workouts to your week with specialists in their fields, including meditation, mindfulness and lots more. <\/p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "How long are the workouts?",
+            "text": "<p>Our classes range in length from 15-45 minutes.<\/p><ul><li>Our Upper and Lower Body Lift classes are approx. 30 minutes.<\/li><li>Our Full Body Lift class is approx. 45 minutes.<\/li><li>Our Cardio Move classes are approx. 15 minutes.<\/li><\/ul><p>We will also have a range of mini classes coming soon!<\/p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "What equipment do I need?",
+            "text": "<p>So you’re thinking - this all sounds great, but what do I need to get started?<\/p><p>We have been working out using this method for the past 3 years completely from home.<\/p><p>Equipment is minimal (and as you will see in the suggested equipment swaps table <a href=\"\/pages\/equipment-swaps\" title=\"Equipment swaps\">here<\/a> there are always alternatives you can find in your house to start with). However, there are a few pieces we recommend you add to your arsenal, to get the most out of your workouts.<\/p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "settings": {
+            "title": "Can I workout from home & the gym?",
+            "text": "<p>Yes! Our workouts are designed to be done from home, however you can of course do our workouts in the gym. <\/p><p>Find yourself a corner with some dumbbells, a wall and a bench and you will be good to go.<\/p>"
+          }
+        },
+        "a4be2d9b-774e-4c18-a3fb-c342e3aa4c1a": {
+          "type": "text",
+          "settings": {
+            "title": "Is there a weekly schedule for me to follow?",
+            "text": "<p>Absolutely. We have a schedule of brand new classes uploaded into the \"Weekly Workouts\" section of the members portal every week! This is our signature program and takes all the guesswork out of what workouts you should be doing. <\/p><p>If you want an overview of the schedules we recommend e.g. what day of the week you should do what classes, check out our <a href=\"\/pages\/styles-schedule\" title=\"Styles & Schedule\"><span style=\"text-decoration:underline\"><strong>Styles & Schedule<\/strong><\/span><\/a> page. <\/p>"
+          }
+        },
+        "9e567540-d3f5-40a1-a801-9bd10b28ea94": {
+          "type": "text",
+          "settings": {
+            "title": "What programs do you offer?",
+            "text": "<p>In addition to our Signature weekly classes, we also have the following programs available:<\/p><h4>Launchpad Program<\/h4><p>The Launchpad Program is a 3-week intro program that gets you across all of our main movements, with heaps of cues to help you get familiar with the Alimba style of classes. We spend a bit more time cueing and getting you into position (but don't be fooled, this does not mean these classes are easy!).<\/p><h4>Revive Program<\/h4><p>Our Revive Program is 1 week of classes that are all mat-based, low to the ground and gentle. <\/p><p>These are perfectly designed for those weeks when you are feeling stressed, or maybe you are getting back in to training after being sick or maybe you just feel like a gentle week of movement. <\/p>"
+          }
+        },
+        "f5cd9cd2-29d7-470b-b5cd-3303719dbdb5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I modify movements or classes?",
+            "text": "<p>For sure - that is what we are all about! We like to make our classes fit our bodies (not the other way around). <\/p><p>In class, we will often cue alternative movements or modifications that you can take to make sure the movements are working for your body. <\/p><p>In our membership portal we also have a table of suggested movement swaps so you can still be hitting the right muscles in the way that suits you best. <\/p><p>Of course if you have any specific physical requirements, be sure to discuss these with your doctor or health care professional, before starting any new program. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3a685ac8-4e77-447b-bb66-0d3083bf8c15",
+        "accordion_block_2_1",
+        "accordion_block_2_3",
+        "accordion_block_2_4",
+        "a4be2d9b-774e-4c18-a3fb-c342e3aa4c1a",
+        "9e567540-d3f5-40a1-a801-9bd10b28ea94",
+        "f5cd9cd2-29d7-470b-b5cd-3303719dbdb5"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "Program details",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 38
+      }
+    },
+    "accordion-section-3": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_3_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer a free trial?",
+            "text": "<p>Yeah, we do! Access our 14 day free trial <a href=\"https:\/\/alimbamovement.uscreen.io\/join_us\" title=\"https:\/\/alimbamovement.uscreen.io\/join_us\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a>. We know you will be hooked.<\/p>"
+          }
+        },
+        "accordion_block_3_1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have an app?",
+            "text": "<p>We currently don't have an app - however you can still access our classes on any mobile device via the internet directly. <\/p><p>Stay tuned however - as an app is in the works!<\/p>"
+          }
+        },
+        "752aab2b-9635-4c6c-b56b-ec72c10548c9": {
+          "type": "text",
+          "settings": {
+            "title": "How fit or familiar with exercise do I need to be before starting?",
+            "text": "<p>Any fitness level can join Alimba (subject to your doc giving you the all clear of course). There are plenty of options and modifications cued throughout classes so you can always find a movement that suits you. <\/p><p>We recommend all new joiners start off with our Launchpad Program. This is a 3-week intro program that gets you across all of our main movements, with heaps of cues to help you get familiar with the Alimba style of classes. <\/p>"
+          }
+        },
+        "3861737b-c2d5-49f4-bf2e-3ec828502467": {
+          "type": "text",
+          "settings": {
+            "title": "Is Alimba pregnancy safe?",
+            "text": "<p>We currently do not have specific pre-natal or post-natal programs (however these will be coming soon!) so for our mummas to be, we would recommend finding a specific program to suit your needs.<\/p><p>As always, please ensure you run any exercise program and movements past your medical professionals.<\/p>"
+          }
+        },
+        "accordion_block_3_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there anything I need to do before I start?",
+            "text": "<p>Be sure to always consult with your doctor before commencing any new health, fitness or nutrition program. While we’re always here to provide general help and support, this should not be used in place of professional advice. <\/p><p>For your health and safety, please also ensure you read and comply with our terms prior to joining. When working out - it is also important to ensure you are always working out in a safe and appropriate environment, with suitable equipment.<\/p>"
+          }
+        },
+        "7d6a4e8c-d6be-471c-b91e-adb2e507b01e": {
+          "type": "text",
+          "settings": {
+            "title": "What are the membership options?",
+            "text": "<p>We of course have our 14 day free trial - where you can dip your toe in the water of all things Alimba.<\/p><p>We then offer monthly and 6-monthly subscriptions. Check out the options <a href=\"https:\/\/alimbamovement.uscreen.io\/join_us\" title=\"https:\/\/alimbamovement.uscreen.io\/join_us\"><strong>here<\/strong><\/a>. <\/p><p>We can't wait for you to join the Alimba Movement community. <\/p>"
+          }
+        },
+        "defea195-28cf-4d40-ada2-fc8a0f8e213c": {
+          "type": "text",
+          "settings": {
+            "title": "Can I join from anywhere in the world?",
+            "text": "<p>Thanks to the beauty of the internet you can take our classes from anywhere in the world (that has an internet connection), however we unfortunately do not currently offer our membership or content to anyone based in the United States or Canada. <\/p>"
+          }
+        },
+        "f22a9f80-34c6-4af7-a321-165388712b22": {
+          "type": "text",
+          "settings": {
+            "title": "Can I cancel my membership?",
+            "text": "<p>We understand that sometimes things change - and that's ok. But we will miss you. <\/p><p>You can cancel your subscription at any time and you will have access until the end of that billing period. Further details are available in our Ts & Cs. <\/p><p>Please also feel free to reach out to us directly for any assistance via our <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact form<\/a>. <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_3_0",
+        "accordion_block_3_1",
+        "752aab2b-9635-4c6c-b56b-ec72c10548c9",
+        "3861737b-c2d5-49f4-bf2e-3ec828502467",
+        "accordion_block_3_2",
+        "7d6a4e8c-d6be-471c-b91e-adb2e507b01e",
+        "defea195-28cf-4d40-ada2-fc8a0f8e213c",
+        "f22a9f80-34c6-4af7-a321-165388712b22"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "Getting started & membership",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-accordions",
+      "disabled": true,
+      "blocks": {
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br\/><br\/>Please enquire for more information about our Refund policy.<\/p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "How long after I complete a purchase can I ask for a refund?",
+            "text": "<p>A refund request can be submitted within a month after the purchase is made.<\/p>"
+          }
+        },
+        "accordion_block_4_2": {
+          "type": "text",
+          "settings": {
+            "title": "How much can I get refunded?",
+            "text": "<p>In the case when the<strong>product and packaging are unopened and undamaged<\/strong>, you are<strong>eligible<\/strong>for a full refund.<br\/><br\/>In the case when<strong>the packaging has been opened and the product has been used<\/strong>, you are<strong>eligible<\/strong>for a partial refund.<br\/><br\/>In the case when a<strong>product has been damaged<\/strong>, and the damage is not covered by your warranty, you are<strong>not eligible<\/strong>for a refund.<br\/><br\/>Please check our <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a> to see if you're eligible for a refund.<\/p>"
+          }
+        },
+        "accordion_block_4_3": {
+          "type": "text",
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund when the order doesn't have free shipping?",
+            "text": "<p>When an order does not include free shipping, all shipping costs (including the return shipping) are handled by the customer.<\/p>"
+          }
+        },
+        "accordion_block_4_4": {
+          "type": "text",
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
+            "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_4_0",
+        "accordion_block_4_1",
+        "accordion_block_4_2",
+        "accordion_block_4_3",
+        "accordion_block_4_4"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Returns & Refunds",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "8fb9581c-3e76-443d-8cae-f608ec116748": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15026239209520__8fb9581c-3e76-443d-8cae-f608ec116748-168232809250a25a6a-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "More questions?",
+            "heading_size": 100,
+            "text": "<p>If we have missed a question - please reach out to us directly via our <a href=\"\/pages\/contact\" title=\"Contact\">Contact<\/a> page. We are always happy to help and love talking all things Alimba to anyone that will listen. <\/p>",
+            "text_size": 100,
+            "button_text": "Contact us",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_color": "btn--secondary",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239209520__8fb9581c-3e76-443d-8cae-f608ec116748-168232809250a25a6a-1"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "11f7c344-6d58-4a6f-973e-fec767d8b660": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": false,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "0ac22fc0-1722-4ac1-9da7-2a195193b646",
+    "main",
+    "accordion-section-1",
+    "accordion-section-2",
+    "accordion-section-3",
+    "accordion-section-4",
+    "8fb9581c-3e76-443d-8cae-f608ec116748",
+    "11f7c344-6d58-4a6f-973e-fec767d8b660"
+  ]
+}

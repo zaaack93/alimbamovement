@@ -1,0 +1,38 @@
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "6427f421-3aa9-42f3-a584-14585e575f61": {
+          "type": "bar",
+          "settings": {
+            "image_aspect_ratio": 0.5,
+            "title": "Founding Member Promo",
+            "text": "Subscribe & Save 20%",
+            "extra_fields": "",
+            "button_text": "Subscribe",
+            "trigger": "delayed_3",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile",
+            "bg_color": "#959ff2",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "6427f421-3aa9-42f3-a584-14585e575f61"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "popup"
+  ]
+}
