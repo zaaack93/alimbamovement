@@ -746,6 +746,7 @@ span.membership-header {
     align-items: center;
     justify-content: center;
     /* gap: 20px; */
+    font-size: 18px;
 }
 .custom-lp .program_free .Program_section .rich-text__buttons.main-buttons .main-buttons__item:first-child a img{
     margin-left: 10px;
