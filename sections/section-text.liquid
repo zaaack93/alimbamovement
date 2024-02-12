@@ -74,71 +74,72 @@
                 assign heading_highlight_type = block.settings.heading_highlight_type
                 assign highlight_color = block.settings.highlight_color
               -%}{% comment %}
-  Enhanced text decorations options - Liqiud variables
+                    Enhanced text decorations options - Liqiud variables
 
-  Dependencies:
-    - Title liquid object from settings: `assign title = section.settings.title`
-    - Highlight type from settings: `assign heading_highlight_type = section.settings.heading_highlight_type`
-    - Highlight color from settings: `assign highlight_color = section.settings.highlight_color or assign highlight_color = block.settings.highlight_color`
-    - SVG icons:
-      - icon-squiggle.svg (assets)
-      - icon-circle.liquid (snippet)
-{% endcomment %}
+                    Dependencies:
+                      - Title liquid object from settings: `assign title = section.settings.title`
+                      - Highlight type from settings: `assign heading_highlight_type = section.settings.heading_highlight_type`
+                      - Highlight color from settings: `assign highlight_color = section.settings.highlight_color or assign highlight_color = block.settings.highlight_color`
+                      - SVG icons:
+                        - icon-squiggle.svg (assets)
+                        - icon-circle.liquid (snippet)
+                  {% endcomment %}
 
-{%- liquid
-  assign icon_url = ''
-  assign icon_color = 'var(--text)'
+              {%- liquid
+                assign icon_url = ''
+                assign icon_color = 'var(--text)'
 
-  if highlight_color != 'rgba(0,0,0,0)' and highlight_color != ''
-    assign icon_color = highlight_color
-  endif
+                if highlight_color != 'rgba(0,0,0,0)' and highlight_color != ''
+                  assign icon_color = highlight_color
+                endif
 
-  capture text_highlight_icon
-    assign has_text_highlight = false
+                capture text_highlight_icon
+                  assign has_text_highlight = false
 
-    if title contains '<em>'
-      case heading_highlight_type
-        when 'squiggle'
-          assign icon_url = 'icon-squiggle.svg' | asset_url
-          echo '<span class="text-highlight__icon"></span>'
-        when 'circle'
-          echo '<span class="text-highlight__icon">'
-          render 'icon-circle', color: icon_color
-          echo '</span>'
-        when 'stroke' or 'circle' or 'squiggle'
-          assign has_text_highlight = true
-      endcase
-    endif
-  endcapture
+                  if title contains '<em>'
+                    case heading_highlight_type
+                      when 'squiggle'
+                        assign icon_url = 'icon-squiggle.svg' | asset_url
+                        echo '<span class="text-highlight__icon"></span>'
+                      when 'circle'
+                        echo '<span class="text-highlight__icon">'
+                        render 'icon-circle', color: icon_color
+                        echo '</span>'
+                      when 'stroke' or 'circle' or 'squiggle'
+                        assign has_text_highlight = true
+                    endcase
+                  endif
+                endcapture
 
-  capture icon_bg
-    if icon_url != ''
-      echo 'url( "' | append: icon_url | append: '" )'
-    else
-      echo 'none'
-    endif
-  endcapture
-  capture icon_styles
-    assign icon_bg = icon_bg | replace: '"', "'"
-    echo 'style="--icon-url: ' | append: icon_bg | append: ';' | append: '--icon-color: ' | append: icon_color | append: ';"'
-  endcapture
+                capture icon_bg
+                  if icon_url != ''
+                    echo 'url( "' | append: icon_url | append: '" )'
+                  else
+                    echo 'none'
+                  endif
+                endcapture
+                capture icon_styles
+                  assign icon_bg = icon_bg | replace: '"', "'"
+                  echo 'style="--icon-url: ' | append: icon_bg | append: ';' | append: '--icon-color: ' | append: icon_color | append: ';z-index:0;"'
+                endcapture
 
-  assign text_highlight_wrapper_class = 'text-highlight-wrapper' | append: ' text-highlight-wrapper--' | append: heading_highlight_type
-  capture text_highlight_start
-    echo '<span class="text-highlight" ' | append: icon_styles | append: '>'
-  endcapture
-  capture text_highlight_end
-    echo text_highlight_icon
-    echo '</span>'
-  endcapture
+                assign text_highlight_wrapper_class = 'text-highlight-wrapper' | append: ' text-highlight-wrapper--' | append: heading_highlight_type
+                capture text_highlight_start
+                  echo '<span class="text-highlight" ' | append: icon_styles | append: '>'
+                endcapture
+                capture text_highlight_end
+                  echo text_highlight_icon
+                  echo '</span>'
+                endcapture
 
-  if title != blank and title contains '<em>'
-    case heading_highlight_type
-      when 'squiggle' or 'circle' or 'stroke'
-        assign title = title | replace: '<em>', text_highlight_start | replace: '</em>', text_highlight_end
-    endcase
-  endif
--%}{%- style -%}
+                if title != blank and title contains '<em>'
+                  case heading_highlight_type
+                    when 'squiggle' or 'circle' or 'stroke'
+                      assign title = title | replace: '<em>', text_highlight_start | replace: '</em>', text_highlight_end
+                  endcase
+                endif
+              -%}
+              {%- style -%}
                 #Text--{{ block_id }}.text__heading {
                   --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ text_size_mobile }});
                   --highlight-color: var(--text);

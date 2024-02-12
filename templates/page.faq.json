@@ -113,13 +113,21 @@
             "title": "I haven't done strength training before - what is it all about?",
             "text": "<p>As we age, past 30 we begin to lose muscle unless we actively focus on maintaining our muscle mass. <\/p><p>The key to Alimba being so effective is the use of resistance. Resistance is needed to build muscle. More muscle = faster metabolism and a stronger body (among a myriad of other good things). Muscle = your friend. <\/p><p>If you have never focused on building muscle before, or find it a bit intimidating, rest assured - Alimba is a perfect first step into strength training. For some movements we use relatively light weights and no weights for others, and provide plenty of options to build up your strength.<\/p>"
           }
+        },
+        "67fe7ab8-9fb0-4ba0-a623-2dd1cb61707e": {
+          "type": "text",
+          "settings": {
+            "title": "I usually just pick random workouts from my online program, is that how this works?",
+            "text": "<p>Alimba is about building strength through consistency. Therefore, the way our program works is that there is a schedule of 5 new classes for you to take every week, with suggested days for you to take each class. These classes have been specifically programmed to grow your muscles, without overuse.<\/p><p>If you chop and change around different classes, this can lead to overuse or even underuse of some muscle groups.<\/p><p>We therefore recommend that you take the 4 strength training classes every week (with the cardio class being optional).<\/p><p>It may seem like a big change to how you currently work out, but once you get into the rhythm it makes working out a joy. All you have to do is show up and click play on that day's workout!<\/p>"
+          }
         }
       },
       "block_order": [
         "accordion_block_1_1",
         "ed53808a-a461-4c41-8d9a-e95a19c02af5",
         "accordion_block_1_2",
-        "3fb1abd9-3d69-4345-ae62-9b3acb8d8af5"
+        "3fb1abd9-3d69-4345-ae62-9b3acb8d8af5",
+        "67fe7ab8-9fb0-4ba0-a623-2dd1cb61707e"
       ],
       "settings": {
         "layout": "one-column",
@@ -128,11 +136,12 @@
         "subheading": "Why Alimba?",
         "text": "",
         "tabs_bg_color": "#fafafa",
+        "sec_bg_color": "#fff",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 40
+        "padding_bottom": 60
       }
     },
     "accordion-section-2": {
@@ -156,7 +165,7 @@
           "type": "text",
           "settings": {
             "title": "What equipment do I need?",
-            "text": "<p>So you’re thinking - this all sounds great, but what do I need to get started?<\/p><p>We have been working out using this method for the past 3 years completely from home.<\/p><p>Equipment is minimal (and as you will see in the suggested equipment swaps table <a href=\"\/pages\/equipment-swaps\" title=\"Equipment swaps\">here<\/a> there are always alternatives you can find in your house to start with). However, there are a few pieces we recommend you add to your arsenal, to get the most out of your workouts.<\/p>"
+            "text": "<p>So you’re thinking - this all sounds great, but what do I need to get started?<\/p><p>We have been working out using this method for the past 3 years completely from home.<\/p><p>Equipment is minimal (and as you will see in the suggested equipment swaps table <a href=\"\/pages\/equipment-swaps\" title=\"Equipment swaps\">here<\/a> there are always alternatives you can find in your house to start with). However, there are a few pieces we recommend you add to your arsenal, to get the most out of your workouts.<\/p><ul><li>Dumbbells. A set of light (1-3kg) medium (4-7kg) and heavy (7+kg) weights are ideal. If you are just starting out, you can definitely get away with a set of 5kg weights and a heavy water bottle (to use as your lighter weight). But as you start to progress, it is great to have some variation in your weight options.<\/li><li>Resistance bands. The long stretchy ones are the most versatile in our classes.<\/li><li>Small pilates ball.<\/li><li>A sturdy dining chair \/ bench.<\/li><\/ul>"
           }
         },
         "accordion_block_2_4": {
@@ -204,11 +213,12 @@
         "subheading": "Program details",
         "text": "",
         "tabs_bg_color": "#fafafa",
+        "sec_bg_color": "#fff",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 0,
-        "padding_bottom": 38
+        "padding_bottom": 60
       }
     },
     "accordion-section-3": {
@@ -221,11 +231,11 @@
             "text": "<p>Yeah, we do! Access our 14 day free trial <a href=\"https:\/\/alimbamovement.uscreen.io\/join_us\" title=\"https:\/\/alimbamovement.uscreen.io\/join_us\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a>. We know you will be hooked.<\/p>"
           }
         },
-        "accordion_block_3_1": {
+        "c6020391-8194-4ae9-8afc-a60aee6ea3d5": {
           "type": "text",
           "settings": {
-            "title": "Do you have an app?",
-            "text": "<p>We currently don't have an app - however you can still access our classes on any mobile device via the internet directly. <\/p><p>Stay tuned however - as an app is in the works!<\/p>"
+            "title": "I just signed up - where do I start?",
+            "text": "<p>Our Launchpad program is where all our new members should begin! <\/p><p>This is 3 weeks worth of workouts, that are a little bit slower, work through a wide range of our most common Alimba movements, so you an get familiar with our method of working out.<\/p>"
           }
         },
         "752aab2b-9635-4c6c-b56b-ec72c10548c9": {
@@ -233,13 +243,6 @@
           "settings": {
             "title": "How fit or familiar with exercise do I need to be before starting?",
             "text": "<p>Any fitness level can join Alimba (subject to your doc giving you the all clear of course). There are plenty of options and modifications cued throughout classes so you can always find a movement that suits you. <\/p><p>We recommend all new joiners start off with our Launchpad Program. This is a 3-week intro program that gets you across all of our main movements, with heaps of cues to help you get familiar with the Alimba style of classes. <\/p>"
-          }
-        },
-        "3861737b-c2d5-49f4-bf2e-3ec828502467": {
-          "type": "text",
-          "settings": {
-            "title": "Is Alimba pregnancy safe?",
-            "text": "<p>We currently do not have specific pre-natal or post-natal programs (however these will be coming soon!) so for our mummas to be, we would recommend finding a specific program to suit your needs.<\/p><p>As always, please ensure you run any exercise program and movements past your medical professionals.<\/p>"
           }
         },
         "accordion_block_3_2": {
@@ -263,23 +266,38 @@
             "text": "<p>Thanks to the beauty of the internet you can take our classes from anywhere in the world (that has an internet connection), however we unfortunately do not currently offer our membership or content to anyone based in the United States or Canada. <\/p>"
           }
         },
+        "3861737b-c2d5-49f4-bf2e-3ec828502467": {
+          "type": "text",
+          "settings": {
+            "title": "Is Alimba pregnancy safe?",
+            "text": "<p>We currently do not have specific pre-natal or post-natal programs (however these will be coming soon!) so for our mummas to be, we would recommend finding a specific program to suit your needs.<\/p><p>As always, please ensure you run any exercise program and movements past your medical professionals.<\/p>"
+          }
+        },
         "f22a9f80-34c6-4af7-a321-165388712b22": {
           "type": "text",
           "settings": {
             "title": "Can I cancel my membership?",
             "text": "<p>We understand that sometimes things change - and that's ok. But we will miss you. <\/p><p>You can cancel your subscription at any time and you will have access until the end of that billing period. Further details are available in our Ts & Cs. <\/p><p>Please also feel free to reach out to us directly for any assistance via our <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact form<\/a>. <\/p><p><\/p>"
           }
+        },
+        "accordion_block_3_1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have an app?",
+            "text": "<p>We currently don't have an app - however you can still access our classes on any mobile device via the internet directly. <\/p><p>Stay tuned however - as an app is in the works!<\/p>"
+          }
         }
       },
       "block_order": [
         "accordion_block_3_0",
-        "accordion_block_3_1",
+        "c6020391-8194-4ae9-8afc-a60aee6ea3d5",
         "752aab2b-9635-4c6c-b56b-ec72c10548c9",
-        "3861737b-c2d5-49f4-bf2e-3ec828502467",
         "accordion_block_3_2",
         "7d6a4e8c-d6be-471c-b91e-adb2e507b01e",
         "defea195-28cf-4d40-ada2-fc8a0f8e213c",
-        "f22a9f80-34c6-4af7-a321-165388712b22"
+        "3861737b-c2d5-49f4-bf2e-3ec828502467",
+        "f22a9f80-34c6-4af7-a321-165388712b22",
+        "accordion_block_3_1"
       ],
       "settings": {
         "layout": "one-column",
@@ -288,6 +306,7 @@
         "subheading": "Getting started & membership",
         "text": "",
         "tabs_bg_color": "#fafafa",
+        "sec_bg_color": "#fff",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -297,7 +316,6 @@
     },
     "accordion-section-4": {
       "type": "section-accordions",
-      "disabled": true,
       "blocks": {
         "accordion_block_4_0": {
           "type": "text",
@@ -342,6 +360,7 @@
         "accordion_block_4_3",
         "accordion_block_4_4"
       ],
+      "disabled": true,
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
@@ -349,6 +368,7 @@
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
+        "sec_bg_color": "#fff",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -363,13 +383,19 @@
           "type": "text",
           "settings": {
             "text_position": "left",
+            "only_on_mobile": false,
             "top_image_width": 100,
             "text_color": "text-dark",
             "subheading": "",
             "title": "More questions?",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
             "heading_size": 100,
             "text": "<p>If we have missed a question - please reach out to us directly via our <a href=\"\/pages\/contact\" title=\"Contact\">Contact<\/a> page. We are always happy to help and love talking all things Alimba to anyone that will listen. <\/p>",
             "text_size": 100,
+            "show_btn_arrow": false,
             "button_text": "Contact us",
             "button_link": "shopify:\/\/pages\/contact",
             "button_color": "btn--secondary",
@@ -388,7 +414,9 @@
         "template--15026239209520__8fb9581c-3e76-443d-8cae-f608ec116748-168232809250a25a6a-1"
       ],
       "settings": {
-        "height": "six-fifty-height",
+        "height": "one-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
         "bg_color": "",
         "width": "wrapper",
         "add_gutter": false,

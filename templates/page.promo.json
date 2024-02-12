@@ -48,7 +48,6 @@
     },
     "d758e26e-4391-40eb-b5a1-01e1d2c22f74": {
       "type": "section-text",
-      "disabled": true,
       "blocks": {
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-0": {
           "type": "subheading",
@@ -93,6 +92,7 @@
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2",
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-3"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "left",
         "bg_color_secondary": false,
@@ -104,7 +104,6 @@
     },
     "30be7d1b-5a59-4886-bd93-66ef9853e1eb": {
       "type": "section-text",
-      "disabled": true,
       "blocks": {
         "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-0": {
           "type": "subheading",
@@ -150,6 +149,7 @@
         "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-2",
         "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-3"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": false,
@@ -202,7 +202,7 @@
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "heading_size": 130,
-        "text_content": "Aka. Marzy, Marzymar. \nMaria is our very own Canadian pocket rocket.\n\nMaria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. \n\nIn recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.\n\nMaria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. \n\nWords Maria lives by:  Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.",
+        "text_content": "Aka. Marzy, Marzymar. \nMaria is our very own Canadian pocket rocket.\n\nMaria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. \n\nIn recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.\n\nMaria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. \n\nWords Maria lives by:\u2028 Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -258,7 +258,7 @@
         "image_link_2": "",
         "hide_image_2": false,
         "heading": "Maria",
-        "description": "<p>Maria is our very own Canadian pocket rocket.<\/p><p>Maria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. <\/p><p>In recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.<\/p><p>Maria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. <br\/><br\/>Words Maria lives by:  Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.<\/p><p><\/p><p><\/p>",
+        "description": "<p>Maria is our very own Canadian pocket rocket.<\/p><p>Maria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. <\/p><p>In recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.<\/p><p>Maria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. <br\/><br\/>Words Maria lives by:\u2028 Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.<\/p><p><\/p><p><\/p>",
         "heading_size": 100,
         "button_text": "",
         "button_link": "",
@@ -275,7 +275,6 @@
     },
     "9eb1d012-59b6-430a-896d-cdfd9284912c": {
       "type": "section-text",
-      "disabled": true,
       "blocks": {
         "8ea5cba9-b783-4081-a21d-79003e29b418": {
           "type": "heading",
@@ -308,6 +307,7 @@
         "78117498-de91-4dc3-82c4-401097ebfae0",
         "38b85774-ec4a-45f1-a21d-0306c5f28300"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": false,
@@ -339,7 +339,6 @@
     },
     "columns": {
       "type": "section-columns",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "text_block",
@@ -408,6 +407,7 @@
         "column-2",
         "column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "text-left",

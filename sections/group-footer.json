@@ -5,49 +5,50 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-block-0": {
+        "9122d98c-333c-45ca-8c55-cbc54767bf77": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alimba-Logo-02-White.png",
-            "logo_width": 120,
+            "image": "shopify:\/\/shop_images\/18ad7aa8d12f0fd1ddfcbbc70b98fed4_4d473206-6674-430f-99de-2e29c17fb843.png",
+            "logo_width": 150,
             "show_shop_name": false,
             "text": ""
           }
         },
-        "footer-block-1": {
+        "text_8z7gFe": {
           "type": "text",
           "settings": {
             "title": "",
             "footer_text": "<p>No more scrolling for what to do,<br\/>Our program's scheduled just for you.<\/p><p>Ali and Maria have your back,<br\/>Their tailored plans will keep you on track.<\/p><p>Efficient and effective too,<br\/>It'll build muscle, come join the crew.<\/p>"
           }
         },
-        "footer-block-2": {
+        "6871b274-f656-4c3b-a589-bffc17f14c2e": {
           "type": "link",
           "settings": {
-            "menu": "footer",
-            "title": "Link things"
+            "menu": "main-menu",
+            "title": "Links n things"
           }
         },
-        "footer-block-3": {
+        "newsletter_DXthMj": {
           "type": "newsletter",
           "settings": {
-            "title": "Sign up to receive 20% off your membership.",
-            "text": "<p>Limited spaces. Get in quick.<\/p>"
+            "title": "",
+            "text": "<p>Sign up to receive 20% off your membership.<\/p><p>Limited spaces. Get in quick.<\/p>"
           }
         }
       },
       "block_order": [
-        "footer-block-0",
-        "footer-block-1",
-        "footer-block-2",
-        "footer-block-3"
+        "9122d98c-333c-45ca-8c55-cbc54767bf77",
+        "text_8z7gFe",
+        "6871b274-f656-4c3b-a589-bffc17f14c2e",
+        "newsletter_DXthMj"
       ],
       "settings": {
+        "custom_class": "",
         "width": "wrapper",
-        "show_footer_wave": true,
+        "show_footer_wave": false,
         "show_social_links": true,
         "show_payment_icons": true,
-        "bottom_menu": "",
+        "bottom_menu": "test",
         "color_text": "#ffffff",
         "color_bg": "#155969",
         "color_border": "#959ff2",

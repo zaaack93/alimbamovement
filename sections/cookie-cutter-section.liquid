@@ -1,0 +1,465 @@
+{% style %}
+  .block-container{
+    /* border: 3px solid black; */
+    /* border-radius: 15px; */
+    /* padding: 40px; */
+    padding: 49px 30px 32px 0;
+    border-radius:26px;
+    background:white;
+    /* width:100; */
+    max-width:100%;
+    margin:auto;
+    /* margin-top: {{ section.settings.top-margin }}px ;
+    margin-bottom: {{ section.settings.bottom-margin }}px ; */
+    overflow-x:auto;
+  }
+
+  span.alimba-img {
+    display: block;
+    /* background: #2B4E67; */
+  }
+
+  .tittle-blocks:nth-child(2) {
+      /* background: #2B4E67; */
+      border-top-right-radius: 13px;
+      border-top-left-radius: 13px;
+  }
+
+  span.alimba-img img {
+      background: #2B4E67;
+      /* height: 100%; */
+      width: 100%;
+      max-width: 100px;
+  }
+
+  .heading-and-img-rapper .heading-and-img-blocks:nth-child(2) {
+      /* background: #2B4E67; */
+  }
+
+  .heading-and-img-rapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+  }
+
+  .cus_head-5 {
+      border-bottom-left-radius: 13px;
+      border-bottom-right-radius: 13px;
+  }
+
+  .heading-and-img-blocks{
+      /* border-bottom: 2px solid black; */
+      /* padding: 20px 0px 10px 0px; */
+      padding:15px 13px;
+  }
+
+  .heading-and-img-rapper:last-child {
+    border-bottom: 0;
+  }
+
+  section.cookie-cuter-section {
+      background: #9AB7F9;
+      
+  }
+
+  .cookie-cuter-section .btn {
+      padding: 10px 100px;
+      background: #CCDB79;
+      color: #2B4E67;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+  }
+
+  .cookie_footer_content span {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+  .cookie_footer_content {
+      margin: 15px 0;
+  }
+
+  .img-rapper img{
+      width: 100%;
+      max-width: 32px;
+  }
+  .img-align{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+  }
+  .tittle-align{
+      text-align: center;
+  }
+
+  .heading-and-img-rapper > *:not(:last-child) {
+    border-bottom: 2px solid #B8C977;
+  }
+
+  .main_container.wrapper{
+    position: relative;
+  }
+
+  .righ_block_section.slick-dotted{
+    position: unset;
+    margin: 0;
+  }
+
+  .righ_block_section .slick-dots{
+    left: 0;
+  }
+
+
+  @media screen and (min-width:768px) {
+
+    .tittle-blocks h3 {
+      color: #2B4E67;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding:5px 0px;    
+    }
+
+    .tittle-rapper{
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      border-bottom:3px solid #B8C977;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+
+  .section__header.icons-row__headings{
+    margin-bottom: 60px;
+  }
+
+  .section__header.icons-row__headings .slick-dots {
+    bottom: -43px;
+  }
+
+  .tittle-rapper {
+      display: flex;
+      justify-content:space-between;
+  }
+
+  .heading-and-img-blocks {
+      position: relative;
+  }
+
+    /* .tittle-blocks.tittle-align {
+        border-bottom: 3px solid #CCDB79;
+    } */
+
+    /* .heading-and-img-blocks:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background:#CCDB79;
+        z-index: 1;
+        max-width:100%;
+        margin:auto;
+    } */
+
+    /* .heading-and-img-blocks {
+        border-bottom: 3px solid #CCDB79;
+    } */
+
+    /* .heading-and-img-rapper:last-child .heading-and-img-blocks {
+        border-bottom: 0;
+    } */
+
+    .tittle-rapper>* {
+        flex: 0 0 33%;
+    }
+
+    span.alimba-img img{
+      max-width:70px;
+    }
+
+    /* .tittle-blocks:nth-child(2) {
+      padding-top:10px;
+    } */
+
+    .tittle-blocks.tittle-align h3 {
+      color: #2B4E67;
+      text-align: center;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+    }
+
+
+    .block-container{
+      padding-inline:10px;
+      padding-top: 15px;      
+      padding-bottom: 15px;
+    }
+
+    .cookie-cuter-section .btn{
+      padding-inline:50px;
+      padding-block: 13px !important;
+    }
+  }
+{% endstyle %}
+
+
+<section class="cookie-cuter-section cuter--{{ section.id }}" style="padding-top: {{ section.settings.top_padding }}px; padding-bottom:{{ section.settings.bottom_padding }}px;">
+  <div class="section__header icons-row__headings">
+    {% if section.settings.textid !=blank %}
+      <h2 class="h2 text-center">{{ section.settings.textid }}</h2>
+    {% endif %}
+
+    {% if section.settings.textid_paragraph !=blank %}
+      <div class="icons-row__subheading text-center">
+        <p>{{ section.settings.textid_paragraph  }}</p>
+      </div>    
+    {% endif %}
+
+    {% comment %} Table Code  {% endcomment %}
+    <div class="main_container wrapper">
+      <div class="mob-cookie">
+        <div class="m-content">
+          <div class="heading-and-img-blocks"></div>
+          <div class="heading-and-img-blocks">
+            <p>Access anywhere</p>
+          </div>
+          <div class="heading-and-img-blocks">
+            <p>5 new classes every week</p>
+          </div>
+          <div class="heading-and-img-blocks">
+            <p>Scheduled for you</p>
+          </div>
+          <div class="heading-and-img-blocks">
+            <p>No overuse of muscle groups</p>
+          </div>
+          <div class="heading-and-img-blocks">
+            <p>Less than $1 per day</p>
+          </div>
+        </div>
+        <div class="alimba_img_div">
+          <div class="a-img">
+          <span class="alimba-img">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/18ad7aa8d12f0fd1ddfcbbc70b98fed4_4d473206-6674-430f-99de-2e29c17fb843.png?v=1702976908" alt="alimbaimg">
+          </span>
+          </div>
+          <div class="heading-and-img-blocks img-align">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Group_99.svg?v=1702902141" alt="">
+          </div>
+          <div class="heading-and-img-blocks img-align">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Group_99.svg?v=1702902141" alt="">
+          </div>
+          <div class="heading-and-img-blocks img-align">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Group_99.svg?v=1702902141" alt="">
+          </div>
+          <div class="heading-and-img-blocks img-align">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Group_99.svg?v=1702902141" alt="">
+          </div>
+          <div class="heading-and-img-blocks img-align">
+            <img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Group_99.svg?v=1702902141" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="wrapper block-container">
+        {% comment %} <div> {{ section.settings.textid }}</div> {% endcomment %}            
+        <div class="righ_block_section">
+
+          {%- assign checkImg = section.settings.select-img-1 | img_url: 'master' -%}
+          {%- assign unCheckImg = section.settings.select-img-2 | img_url: 'master' -%}
+
+          {% if checkImg == blank %}
+            {%- assign checkImg = 'image' | placeholder_svg_tag: 'placeholder-svg-filled' -%}
+          {% endif %}
+
+          {% if unCheckImg == blank %}
+            {%- assign unCheckImg = 'image' | placeholder_svg_tag: 'placeholder-svg-filled' -%}
+          {% endif %}
+
+          {% for block in section.blocks %}
+            <div class="heading-and-img-rapper">
+
+              <div class="tittle-blocks tittle-align">
+                <h3>{% if block.settings.block-heading != blank %}{{ block.settings.block-heading }}{% else %}Heading{% endif %}</h3>
+              </div>
+
+              <div class="heading-and-img-blocks img-align">
+                <div class="img-rapper"><img src="{% if block.settings.check_1 != blank and checkImg != blank %}{{ checkImg }}{% else %}{{ unCheckImg }}{% endif %}" alt=""></div>
+              </div>
+            
+              <div class="heading-and-img-blocks img-align">
+                <div class="img-rapper"><img src="{% if block.settings.check_2 != blank and checkImg != blank %}{{ checkImg }}{% else %}{{ unCheckImg }}{% endif %}" alt=""></div>
+              </div>
+            
+              <div class="heading-and-img-blocks img-align">
+                <div class="img-rapper"><img src="{% if block.settings.check_3 != blank and checkImg != blank %}{{ checkImg }}{% else %}{{ unCheckImg }}{% endif %}" alt=""></div>
+              </div>
+            
+              <div class="heading-and-img-blocks img-align">
+                <div class="img-rapper"><img src="{% if block.settings.check_4 != blank and checkImg != blank %}{{ checkImg }}{% else %}{{ unCheckImg }}{% endif %}" alt=""></div>
+              </div>
+            
+              <div class="heading-and-img-blocks img-align">
+                <div class="img-rapper">
+                  {% if block.settings.text_check_4 != blank %}
+                    <p style="margin: 0;">{{ block.settings.text_check_4 }}</p>
+                  {%  else %}
+                    <img src="{% if block.settings.check_5 != blank and checkImg != blank %}{{ checkImg }}{% else %}{{ unCheckImg }}{% endif %}" alt="">
+                  {% endif %}
+                </div>
+              </div>
+
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {% if section.settings.btn_label !=blank %}
+    <div class="icons-row__actions text-center">
+      <a href="#{{ section.settings.btn_url }}" class="btn btn--solid btn--small btn--black">{{ section.settings.btn_label }}</a>
+      <div class="cookie_footer_content">
+        {% if section.settings.paragraph !=blank %}
+          <span class="icons-row__subheading text-center">{{ section.settings.paragraph }}</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+"name":"block-section",
+"settings": [
+  {
+     "type": "richtext",
+     "id": "textid",
+     "label": "Headings"
+  },
+  {
+     "type": "richtext",
+     "id": "textid_paragraph",
+     "label": "Subheadings"
+  },
+  {
+      "type": "range",
+      "id": "top_padding",
+      "label": "Top-padding",
+      "max": 200,
+      "step": 5,
+      "min":0,
+      "unit": "px",
+      "default":0
+  },
+  {
+      "type": "range",
+      "id": "bottom_padding",
+      "label": "Bottom-padding",
+      "max": 200,
+      "step": 5,
+      "min":0,
+      "unit": "px",
+      "default":0
+  },
+  {
+     "type": "image_picker",
+      "id": "select-img-1",
+      "label": "Show Image on True"
+  },
+  {
+     "type": "image_picker",
+      "id": "select-img-2",
+      "label": "Show Image on False"
+  },
+  {
+     "type": "text",
+      "id": "btn_label",
+      "label": "btn label"
+  },
+  {
+     "type": "text",
+      "id": "btn_url",
+      "label": "btn url"
+  },
+  {
+     "type": "text",
+      "id": "paragraph",
+      "label": "paragraph"
+  }
+],
+"blocks": [
+  {
+      "type": "block",
+      "name": "headings-and-img",
+      "settings": [
+          {
+              "type": "text",
+              "id": "block-heading",
+              "label": "Ender-heading",
+              "default": "Write Here"
+          },
+          {
+              "type": "checkbox",
+              "id": "check_1",
+              "label": "Access anywhere"
+          },
+          {
+              "type": "checkbox",
+              "id": "check_2",
+              "label": "5 new classes every week"
+          },
+          {
+              "type": "checkbox",
+              "id": "check_3",
+              "label": "Scheduled for you"
+          },
+          {
+              "type": "checkbox",
+              "id": "check_4",
+              "label": "No overuse of muscle groups"
+          },
+          {
+              "type": "checkbox",
+              "id": "check_5",
+              "label": "Less than $1 per day"
+          },
+          {
+            "type": "text",
+            "id": "text_check_4",
+            "label": "Other text"
+          }
+      ]
+  }
+],
+"presets": [
+  {
+      "name": "cookie-block-section"
+  }
+]
+}
+{% endschema %}
+
+
+<script>
+  if (window.matchMedia( "(max-width: 992px)" ).matches){
+    $('.cuter--{{ section.id }} .righ_block_section').slick({
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false
+    });
+  }
+</script>

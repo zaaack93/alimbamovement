@@ -2,14 +2,14 @@
   "type": "header",
   "name": "Header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "custom_announcement_bar_7Gkq9X": {
+      "type": "custom_announcement_bar",
       "blocks": {
-        "b3894ac2-ab63-466b-9598-b792c5d74681": {
+        "text_zUQhkT": {
           "type": "text",
           "settings": {
-            "text": "<p>Founding Member Promotion - 20% OFF (Limited Spots)<\/p>",
-            "icon_name": "flower",
+            "text": "<p>Today’s Offer: Free Trial + 20% Off<\/p>",
+            "icon_name": "none",
             "icon_color": "",
             "icon_width": 20,
             "target_url_enabled": false,
@@ -19,11 +19,47 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
+        }
+      },
+      "block_order": [
+        "text_zUQhkT"
+      ],
+      "settings": {
+        "custom_class": "custom_annoucement",
+        "bg_color": "#2b4e67",
+        "color": "#ffffff",
+        "layout": "slider",
+        "padding": 10,
+        "slider_speed": 5,
+        "marquee_speed": 75,
+        "text_size": 100,
+        "message_spacing": 25
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "b3894ac2-ab63-466b-9598-b792c5d74681": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Today’s Offer: Free Trial + 20% Off<\/p>",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": true,
+            "target_url": "shopify:\/\/pages\/intro-offer",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
         },
         "d432a3dd-e870-4814-8cce-efbdf844928f": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><a href=\"\/pages\/founding-member-promo\" title=\"Founding member promo\">GET STARTED<\/a><\/p>",
+            "text": "<p>Founding Member Promotion: <a href=\"\/pages\/founding-member-promo\" target=\"_blank\" title=\"Founding member promo\">Get 20% OFF<\/a><\/p>",
             "icon_name": "none",
             "icon_color": "",
             "icon_width": 20,
@@ -41,12 +77,13 @@
         "d432a3dd-e870-4814-8cce-efbdf844928f"
       ],
       "settings": {
-        "bg_color": "#155969",
+        "custom_class": "custom_annoucement",
+        "bg_color": "#2b4e67",
         "color": "#ffffff",
         "layout": "marquee",
         "padding": 10,
-        "slider_speed": 7,
-        "marquee_speed": 100,
+        "slider_speed": 5,
+        "marquee_speed": 75,
         "text_size": 100,
         "message_spacing": 25
       }
@@ -54,7 +91,10 @@
     "header": {
       "type": "header",
       "settings": {
-        "sticky_header": true,
+        "custom_class": "custom_header",
+        "custom_btn_label": "Try Alimba for Free Today",
+        "custom_btn_url": "Hero_id",
+        "sticky_header": false,
         "header_border": false,
         "logo_not_home": "shopify:\/\/shop_images\/Alimba-Logo-01-Green.png",
         "logo_max_width": 100,
@@ -65,13 +105,14 @@
         "highlight_item": "Sale",
         "highlight_item_color": "#959ff2",
         "header_transparent": true,
-        "logo": "shopify:\/\/shop_images\/Yonder-Client-Logo-White_Alimba.png",
+        "logo": "shopify:\/\/shop_images\/18ad7aa8d12f0fd1ddfcbbc70b98fed4_4d473206-6674-430f-99de-2e29c17fb843.png",
         "header_text_color": "white",
-        "header_gradient": false
+        "header_gradient": true
       }
     }
   },
   "order": [
+    "custom_announcement_bar_7Gkq9X",
     "announcement-bar",
     "header"
   ]

@@ -104,7 +104,7 @@
 {%- endstyle -%}
 
 <header id="{{ header_id }}"
-  class="site-header site-header--{{ header_position }} site-header--nav-{{ nav_alignment }}{% if header_transparent %} site-header--transparent{% endif %}{% if header_gradient %} site-header--has-gradient{% endif %}{% if logo or logo_not_home %} site-header--has-logo{% endif %}{% if section.settings.header_border %} site-header--has-border{% endif %} site-header--loading"
+  class="{{ section.settings.custom_class }} site-header site-header--{{ header_position }} site-header--nav-{{ nav_alignment }}{% if header_transparent %} site-header--transparent{% endif %}{% if header_gradient %} site-header--has-gradient{% endif %}{% if logo or logo_not_home %} site-header--has-logo{% endif %}{% if section.settings.header_border %} site-header--has-border{% endif %} site-header--loading"
   role="banner"
   data-site-header
   data-section-id="{{ section.id }}"
@@ -187,8 +187,18 @@
 
 <h1 class="logo" data-logo data-takes-space>
   {%- if logo_not_home_markup != blank or logo_markup != blank -%}
-    {{- logo_not_home_markup -}}
-    {{- logo_markup -}}
+    {% if template.suffix == 'custom-lp' %}
+      {%  style  %} 
+        .logo__image-link--home:not(.logo__image-link--single) {
+          position: relative;
+          opacity: 1;
+        }
+      {% endstyle %}
+      {{ logo_markup }}
+    {% else %}
+      {{- logo_not_home_markup -}}
+      {{- logo_markup -}}
+    {% endif %}  
   {%- else -%}
     <a href="{{ routes.root_url }}" class="logo__text-link" data-logo-text-link>{{ shop.name }}</a>
   {%- endif -%}
@@ -209,6 +219,8 @@
   {%- endcase -%}
 {%- endcapture -%}
 
+
+
 <nav id="NavStandard" class="nav nav--default nav--weight-{{ settings.nav_font_weight }}{% if settings.nav_caps %} caps{% endif %}" data-nav {{ style }}>
   <div class="menu__item menu__item--compress" data-nav-items-compress>
     {%- if settings.show_header_search -%}
@@ -226,6 +238,11 @@
     </button>
   </div>
 
+  {% if section.settings.custom_btn_label !=blank %}
+  <div class="header_btn">
+    <a href="#{{ section.settings.custom_btn_url }}">{{ section.settings.custom_btn_label }}</a>
+  </div>
+{% endif %}
   <div class="menu__items" data-takes-space>
     {%- for link in linklists[section.settings.main-menu].links -%}
       {%- render 'nav-item', link: link, section: section, index: forloop.index, highlight_item: highlight_item -%}
@@ -255,6 +272,8 @@
     {%endif%}
   </div>
 </nav>
+
+
 
 <div class="mobile-menu" data-mobile-menu>
   {%- if settings.show_header_search -%}
@@ -332,6 +351,21 @@
   "name": "Header",
   "class": "shopify-section-header",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "custom_btn_label",
+      "label": "Custom btn label"
+    },
+    {
+      "type": "text",
+      "id": "custom_btn_url",
+      "label": "Custom btn url"
+    },
     {
       "type": "checkbox",
       "id": "sticky_header",

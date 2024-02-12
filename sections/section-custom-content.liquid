@@ -26,11 +26,11 @@
 {%- endstyle -%}
 
 <section id="brick-section--{{ section.id }}"
-  class="section-padding brick__section"
+  class="{{ section.settings.Custom_Class }} section-padding brick__section"
   data-section-id="{{ section.id }}"
   data-section-type="custom-content">
 
-  <div class="brick__section__wrapper {{ section_width }} {{ section_height }}">
+  <div id="{{ section.settings.Custom_id }}" class="brick__section__wrapper {{ section_width }} {{ section_height }}">
     <div class="brick__blocks__flex brick__blocks__flex--{% if add_gutter %}gap{% else %}stuck{% endif %}">
       {%- if section.blocks.size > 0 -%}
         {%- for block in section.blocks -%}
@@ -40,12 +40,12 @@
             assign animation_delay = 150
             assign image = block.settings.image
             assign button_text = block.settings.button_text
-            assign button_link = block.settings.button_link | default: '#!'
+            assign button_link = block.settings.button_link | default: '#Hero_id'
             assign button_style = block.settings.button_style
             assign button_color = block.settings.button_color
             assign button_size = block.settings.button_size
             assign button_2_text = block.settings.button_2_text
-            assign button_2_link = block.settings.button_2_link | default: '#!'
+            assign button_2_link = block.settings.button_2_link | default: '#Hero_id'
             assign button_2_style = block.settings.button_2_style
             assign button_2_color = block.settings.button_2_color
             assign button_2_size = block.settings.button_2_size
@@ -76,7 +76,7 @@
                       assign aspect_ratio = image.aspect_ratio | default: 1.66
                     -%}
 
-                    <div class="brick__image {{ section_height }} align--{{ text_position }}"
+                    <div class="brick__image {% if block.settings.hide_sm %}hidden-sm{% endif %} {{ section_height }} align--{{ text_position }}"
                       id="FeaturedImage--{{ section.id }}--{{ block.id }}"
                       {% if animations_enabled %}
                         data-aos="zoom-out"
@@ -85,59 +85,62 @@
                       {% endif %}
                       {% if section_height == 'original-height' %}
                         style="padding-top: {{ 1 | divided_by: aspect_ratio | times: 100 | round: 2 }}%;"
-                      {% endif %}>{%- style -%}
-  #FeaturedImage--{{ section.id }}--{{ block.id }} { --overlay-opacity: {{ overlay_opacity }}; }
-  #FeaturedImage--{{ section.id }}--{{ block.id }} .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size }}) }
-{%- endstyle -%}
+                      {% endif %}>
+                      {%- style -%}
+                        #FeaturedImage--{{ section.id }}--{{ block.id }} { --overlay-opacity: {{ overlay_opacity }}; }
+                        #FeaturedImage--{{ section.id }}--{{ block.id }} .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size }}) }
+                      {%- endstyle -%}
 
-<div class="featured-image__pane">
-  <div class="featured-image__scale">
-    {%- render 'image-fill', is_background: true, img_object: image, classes: 'featured-image__bg' -%}
+                      <div class="featured-image__pane">
+                        <div class="featured-image__scale">
+                          {%- render 'image-fill', is_background: true, img_object: image, classes: 'featured-image__bg' -%}
 
-    <div class="overlay"></div>
-  </div>
-</div>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
 
-<div class="featured-image__content">
-  <div class="featured-image__content-inner{% if show_text_shadow and wrapper == 'full' %} backdrop--radial{% endif %}">
-    {%- if title != blank -%}
-      <h1 class="featured-image__heading main-heading"
-        {% if animations_enabled %}
-          data-aos="fade-up"
-          data-aos-anchor="{{ animation_anchor }}"
-          data-aos-delay="{{ animation_delay }}"
-          {%- assign animation_delay = animation_delay | plus: 150 -%}
-        {% endif %}>{{ title | escape }}</h1>
-    {%- endif -%}
+                      <div class="featured-image__content">
+                        <div class="featured-image__content-inner{% if show_text_shadow and wrapper == 'full' %} backdrop--radial{% endif %}">
+                          {%- if title != blank -%}
+                            <h1 class="featured-image__heading main-heading"
+                              {% if animations_enabled %}
+                                data-aos="fade-up"
+                                data-aos-anchor="{{ animation_anchor }}"
+                                data-aos-delay="{{ animation_delay }}"
+                                {%- assign animation_delay = animation_delay | plus: 150 -%}
+                              {% endif %}>{{ title | escape }}</h1>
+                          {%- endif -%}
 
-    {%- if text != blank -%}
-      <h2 class="featured-image__caption main-text"
-        {% if animations_enabled %}
-          data-aos="fade-up"
-          data-aos-anchor="{{ animation_anchor }}"
-          data-aos-delay="{{ animation_delay }}"
-          {%- assign animation_delay = animation_delay | plus: 150 -%}
-        {% endif %}>{{ text | escape }}</h2>
-    {%- endif -%}
+                          {%- if text != blank -%}
+                            <h2 class="featured-image__caption main-text"
+                              {% if animations_enabled %}
+                                data-aos="fade-up"
+                                data-aos-anchor="{{ animation_anchor }}"
+                                data-aos-delay="{{ animation_delay }}"
+                                {%- assign animation_delay = animation_delay | plus: 150 -%}
+                              {% endif %}>{{ text | escape }}</h2>
+                          {%- endif -%}
 
-    {%- if button_text != blank -%}
-      <div class="featured-image__buttons main-buttons">
-        <div class="main-buttons__item"
-          {% if animations_enabled %}
-            data-aos="fade-up"
-            data-aos-anchor="{{ animation_anchor }}"
-            data-aos-delay="{{ animation_delay }}"
-          {% endif %}>
-          <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} call-to-action" href="{{ button_link }}">{{ button_text | escape }}</a>
-        </div>
-      </div>
-    {%- endif -%}
-  </div>
+                          {%- if button_text != blank -%}
+                            <div class="featured-image__buttons main-buttons">
+                              <div class="main-buttons__item"
+                                {% if animations_enabled %}
+                                  data-aos="fade-up"
+                                  data-aos-anchor="{{ animation_anchor }}"
+                                  data-aos-delay="{{ animation_delay }}"
+                                {% endif %}>
+                                <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} call-to-action" href="{{ button_link }}">{{ button_text | escape }}</a>
+                              </div>
+                            </div>
+                          {%- endif -%}
+                        </div>
 
-  {%- if button_text == blank and button_link != '#!' -%}
-    <a class="featured-image__link" href="{{ button_link }}"></a>
-  {%- endif -%}
-</div></div>
+                        {% comment %}{%- if button_text == blank and button_link != '#!' -%}
+                          <a class="featured-image__link" href="{{ button_link }}"></a>
+                        {%- endif -%}
+                        {% endcomment %}
+                      </div>
+                    </div>
 
                   {%- when 'text' -%}
                     {%- liquid
@@ -147,6 +150,7 @@
 
                     {%- render 'rich-text',
                       block_id: block.id,
+                      block: block,
                       text_position: text_position,
                       top_image: top_image,
                       top_image_width: top_image_width,
@@ -165,7 +169,10 @@
                       button_2_style: button_2_style,
                       button_2_color: button_2_color,
                       button_2_size: button_2_size,
-                      animation_anchor: animation_anchor
+                      animation_anchor: animation_anchor,
+                      only_on_mobile: block.settings.only_on_mobile;
+                      hide-lg: block.settings.only_on_mobile,
+                      show_btn_arrow: block.settings.show_btn_arrow
                     -%}
 
                   {%- when 'newsletter' -%}
@@ -335,7 +342,6 @@
 {% schema %}
 {
   "name": "Custom content",
-  "max_blocks": 2,
   "settings": [
     {
       "type": "select",
@@ -361,6 +367,17 @@
     {
       "type": "header",
       "content": "Colors"
+    },
+    {
+      "type": "text",
+      "id": "Custom_Class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "Custom_id",
+      "label": "Custom ID",
+      "info":"Custom Id for All Btn"
     },
     {
       "type": "color",
@@ -454,6 +471,12 @@
                 "label": "Bottom right"
               }
             ]
+          },
+          {
+            "type": "checkbox",
+            "id": "hide_sm",
+            "label": "Hide in Mobile",
+            "default": false
           },
           {
             "type": "header",
@@ -569,9 +592,9 @@
         ]
       },
       {
-      "type": "text",
-      "name": "Text",
-      "settings": [
+        "type": "text",
+        "name": "Text",
+        "settings": [
         {
           "type": "select",
           "id": "text_position",
@@ -600,6 +623,12 @@
           "type": "image_picker",
           "id": "top_image",
           "label": "Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "only_on_mobile",
+          "label": "Show image only on Mobile",
+          "default": false
         },
         {
           "type": "range",
@@ -644,6 +673,32 @@
           "default": "Our Story"
         },
         {
+          "type": "text",
+          "id": "custom-class",
+          "label": "Custom Class"
+        },
+        {
+          "type": "richtext",
+          "id": "para",
+          "label": "subparagraph"
+        },
+        {
+          "type": "richtext",
+          "id": "mobile_para",
+          "label": "subparagraph for mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_membership",
+          "label": "Show Memebership",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "rating-img",
+          "label": "rating img"
+        },
+        {
           "type": "range",
           "id": "heading_size",
           "label": "Heading size",
@@ -672,6 +727,12 @@
         {
           "type": "header",
           "content": "Buttons"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_btn_arrow",
+          "label": "Show arrow on first button",
+          "default": false
         },
         {
           "type": "text",
@@ -720,7 +781,7 @@
           ]
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "button_2_text",
           "label": "Second button text"
         },

@@ -248,7 +248,7 @@
 
 {% schema %}
 {
-  "name": "Footer",
+  "name": "Custom Footer",
   "max_blocks": 5,
   "settings": [
     {
@@ -484,8 +484,10 @@
       ]
     }
   ],
-  "enabled_on": {
-    "groups": ["footer"]
-  }
+    "presets": [
+    {
+        "name": "Custom Footer"
+    }
+    ]
 }
 {% endschema %}

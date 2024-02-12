@@ -58,7 +58,6 @@
     },
     "locations": {
       "type": "section-locations",
-      "disabled": true,
       "blocks": {
         "locations-0": {
           "type": "locations",
@@ -91,6 +90,7 @@
         "locations-1",
         "locations-2"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Get in touch",
@@ -101,7 +101,6 @@
     },
     "contact-form": {
       "type": "section-contact-form",
-      "disabled": true,
       "blocks": {
         "contact-form-0": {
           "type": "heading",
@@ -140,6 +139,7 @@
         "contact-form-2",
         "contact-form-3"
       ],
+      "disabled": true,
       "settings": {
         "button_color": "btn--black",
         "button_style": "btn--solid",

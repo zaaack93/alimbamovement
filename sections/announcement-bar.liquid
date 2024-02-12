@@ -156,160 +156,164 @@
                 <div {{ block_attributes }}>
                   <div data-ticker-frame class="top-bar__message">
                     <div data-ticker-scale class="top-bar__scale">
-                      <div data-ticker-text class="top-bar__text">{%- liquid
-  assign free_shipping_text = block.settings.message | default: settings.message
-  assign is_enable = false
+                      <div data-ticker-text class="top-bar__text">
+                        {%- liquid
+                          assign free_shipping_text = block.settings.message | default: settings.message
+                          assign is_enable = false
 
-  if block.settings.message != blank
-    assign is_enable = true
-  endif
+                          if block.settings.message != blank
+                            assign is_enable = true
+                          endif
 
-  if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank
-    assign is_enable = true
-  endif
--%}
+                          if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank
+                            assign is_enable = true
+                          endif
+                        -%}
 
-{%- if is_enable -%}
-  {%- liquid
-    assign limit = settings.free_shipping_limit | plus: 0
-    assign limit_currency = limit | times: 100
-    assign cart_total_price = cart.total_price
-    assign subtotal_without_currency = cart_total_price | plus: 0 | divided_by: 100
-  -%}
+                        {%- if is_enable -%}
+                          {%- liquid
+                            assign limit = settings.free_shipping_limit | plus: 0
+                            assign limit_currency = limit | times: 100
+                            assign cart_total_price = cart.total_price
+                            assign subtotal_without_currency = cart_total_price | plus: 0 | divided_by: 100
+                          -%}
 
-  {%- capture left_to_spend -%}
-    <span data-left-to-spend>
-      {%- if settings.currency_code_enable -%}
-        {{- limit_currency | minus: cart_total_price | money_with_currency | remove: '.00' | remove: ',00' -}}
-      {%- else -%}
-        {{- limit_currency | minus: cart_total_price | money_without_trailing_zeros -}}
-      {%- endif -%}
-    </span>
-  {%- endcapture -%}
+                          {%- capture left_to_spend -%}
+                            <span data-left-to-spend>
+                              {%- if settings.currency_code_enable -%}
+                                {{- limit_currency | minus: cart_total_price | money_with_currency | remove: '.00' | remove: ',00' -}}
+                              {%- else -%}
+                                {{- limit_currency | minus: cart_total_price | money_without_trailing_zeros -}}
+                              {%- endif -%}
+                            </span>
+                          {%- endcapture -%}
 
-  {%- liquid
-    assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend
-    assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t
-    assign class_message = ''
+                          {%- liquid
+                            assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend
+                            assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t
+                            assign class_message = ''
 
-    if subtotal_without_currency >= limit
-      if qualified_shipping_message != blank
-        assign class_message = ' is-success'
-        assign is_default_message_hidden = ' is-hidden'
-      else
-        assign class_message = ' is-hidden'
-      endif
-    elsif subtotal_without_currency == 0
-      assign class_message = ' is-hidden'
-    endif
+                            if subtotal_without_currency >= limit
+                              if qualified_shipping_message != blank
+                                assign class_message = ' is-success'
+                                assign is_default_message_hidden = ' is-hidden'
+                              else
+                                assign class_message = ' is-hidden'
+                              endif
+                            elsif subtotal_without_currency == 0
+                              assign class_message = ' is-hidden'
+                            endif
 
-    assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit
-    assign percent = 100 | minus: percent
-  -%}
+                            assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit
+                            assign percent = 100 | minus: percent
+                          -%}
 
-  <p class="{% unless template.name == 'cart' or section.id == 'announcement-bar' %}cart-drawer__message {% endunless %}cart__message{{ class_message }}"
-    data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
-    data-limit="{{ limit }}"
-    {% if animations_enabled %}
-      data-aos="fade-up"
-      data-aos-delay="{{ animation_delay }}"
-      {%- assign animation_delay = animation_delay | plus: 100 -%}
-    {% endif %}>
-    <span class="cart__message__default{{ is_default_message_hidden }}" data-message-default>{{ free_shipping_message }}</span>
+                          <p class="{% unless template.name == 'cart' or section.id == 'announcement-bar' %}cart-drawer__message {% endunless %}cart__message{{ class_message }}"
+                            data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
+                            data-limit="{{ limit }}"
+                            {% if animations_enabled %}
+                              data-aos="fade-up"
+                              data-aos-delay="{{ animation_delay }}"
+                              {%- assign animation_delay = animation_delay | plus: 100 -%}
+                            {% endif %}>
+                            <span class="cart__message__default{{ is_default_message_hidden }}" data-message-default>{{ free_shipping_message }}</span>
 
-    {%- if qualified_shipping_message != blank -%}
-      <span class="cart__message__success">{{ qualified_shipping_message }}</span>
-    {%- endif -%}
+                            {%- if qualified_shipping_message != blank -%}
+                              <span class="cart__message__success">{{ qualified_shipping_message }}</span>
+                            {%- endif -%}
 
-    {%- unless is_top -%}
-      <span class="cart__message__progress__holder">
-        <progress class="cart__message__progress" data-cart-message-progress value="{{ percent }}" max="100" style="--progress-width: {{ percent }}%;"></progress>
-        {%- comment -%}Second progress bar shows only on Firefox{%- endcomment -%}
-        <progress class="cart__message__progress" data-cart-message-progress max="100" style="--progress-width: {{ percent }}%;"></progress>
-      </span>
-    {%- endunless -%}
-  </p>
-{%- endif -%}</div>
+                            {%- unless is_top -%}
+                              <span class="cart__message__progress__holder">
+                                <progress class="cart__message__progress" data-cart-message-progress value="{{ percent }}" max="100" style="--progress-width: {{ percent }}%;"></progress>
+                                {%- comment -%}Second progress bar shows only on Firefox{%- endcomment -%}
+                                <progress class="cart__message__progress" data-cart-message-progress max="100" style="--progress-width: {{ percent }}%;"></progress>
+                              </span>
+                            {%- endunless -%}
+                          </p>
+                        {%- endif -%}
+                      </div>
                     </div>
                   </div>
                 </div>
               {%- endif -%}
 
               {%- if layout == 'marquee' -%}
-                <div {{ block_attributes }}>{%- liquid
-  assign free_shipping_text = block.settings.message | default: settings.message
-  assign is_enable = false
+                <div {{ block_attributes }}>
+                  {%- liquid
+                    assign free_shipping_text = block.settings.message | default: settings.message
+                    assign is_enable = false
 
-  if block.settings.message != blank
-    assign is_enable = true
-  endif
+                    if block.settings.message != blank
+                      assign is_enable = true
+                    endif
 
-  if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank
-    assign is_enable = true
-  endif
--%}
+                    if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank
+                      assign is_enable = true
+                    endif
+                  -%}
 
-{%- if is_enable -%}
-  {%- liquid
-    assign limit = settings.free_shipping_limit | plus: 0
-    assign limit_currency = limit | times: 100
-    assign cart_total_price = cart.total_price
-    assign subtotal_without_currency = cart_total_price | plus: 0 | divided_by: 100
-  -%}
+                  {%- if is_enable -%}
+                    {%- liquid
+                      assign limit = settings.free_shipping_limit | plus: 0
+                      assign limit_currency = limit | times: 100
+                      assign cart_total_price = cart.total_price
+                      assign subtotal_without_currency = cart_total_price | plus: 0 | divided_by: 100
+                    -%}
 
-  {%- capture left_to_spend -%}
-    <span data-left-to-spend>
-      {%- if settings.currency_code_enable -%}
-        {{- limit_currency | minus: cart_total_price | money_with_currency | remove: '.00' | remove: ',00' -}}
-      {%- else -%}
-        {{- limit_currency | minus: cart_total_price | money_without_trailing_zeros -}}
-      {%- endif -%}
-    </span>
-  {%- endcapture -%}
+                    {%- capture left_to_spend -%}
+                      <span data-left-to-spend>
+                        {%- if settings.currency_code_enable -%}
+                          {{- limit_currency | minus: cart_total_price | money_with_currency | remove: '.00' | remove: ',00' -}}
+                        {%- else -%}
+                          {{- limit_currency | minus: cart_total_price | money_without_trailing_zeros -}}
+                        {%- endif -%}
+                      </span>
+                    {%- endcapture -%}
 
-  {%- liquid
-    assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend
-    assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t
-    assign class_message = ''
+                    {%- liquid
+                      assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend
+                      assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t
+                      assign class_message = ''
 
-    if subtotal_without_currency >= limit
-      if qualified_shipping_message != blank
-        assign class_message = ' is-success'
-        assign is_default_message_hidden = ' is-hidden'
-      else
-        assign class_message = ' is-hidden'
-      endif
-    elsif subtotal_without_currency == 0
-      assign class_message = ' is-hidden'
-    endif
+                      if subtotal_without_currency >= limit
+                        if qualified_shipping_message != blank
+                          assign class_message = ' is-success'
+                          assign is_default_message_hidden = ' is-hidden'
+                        else
+                          assign class_message = ' is-hidden'
+                        endif
+                      elsif subtotal_without_currency == 0
+                        assign class_message = ' is-hidden'
+                      endif
 
-    assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit
-    assign percent = 100 | minus: percent
-  -%}
+                      assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit
+                      assign percent = 100 | minus: percent
+                    -%}
 
-  <p class="{% unless template.name == 'cart' or section.id == 'announcement-bar' %}cart-drawer__message {% endunless %}cart__message{{ class_message }}"
-    data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
-    data-limit="{{ limit }}"
-    {% if animations_enabled %}
-      data-aos="fade-up"
-      data-aos-delay="{{ animation_delay }}"
-      {%- assign animation_delay = animation_delay | plus: 100 -%}
-    {% endif %}>
-    <span class="cart__message__default{{ is_default_message_hidden }}" data-message-default>{{ free_shipping_message }}</span>
+                    <p class="{% unless template.name == 'cart' or section.id == 'announcement-bar' %}cart-drawer__message {% endunless %}cart__message{{ class_message }}"
+                      data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
+                      data-limit="{{ limit }}"
+                      {% if animations_enabled %}
+                        data-aos="fade-up"
+                        data-aos-delay="{{ animation_delay }}"
+                        {%- assign animation_delay = animation_delay | plus: 100 -%}
+                      {% endif %}>
+                      <span class="cart__message__default{{ is_default_message_hidden }}" data-message-default>{{ free_shipping_message }}</span>
 
-    {%- if qualified_shipping_message != blank -%}
-      <span class="cart__message__success">{{ qualified_shipping_message }}</span>
-    {%- endif -%}
+                      {%- if qualified_shipping_message != blank -%}
+                        <span class="cart__message__success">{{ qualified_shipping_message }}</span>
+                      {%- endif -%}
 
-    {%- unless is_top -%}
-      <span class="cart__message__progress__holder">
-        <progress class="cart__message__progress" data-cart-message-progress value="{{ percent }}" max="100" style="--progress-width: {{ percent }}%;"></progress>
-        {%- comment -%}Second progress bar shows only on Firefox{%- endcomment -%}
-        <progress class="cart__message__progress" data-cart-message-progress max="100" style="--progress-width: {{ percent }}%;"></progress>
-      </span>
-    {%- endunless -%}
-  </p>
-{%- endif -%}</div>
+                      {%- unless is_top -%}
+                        <span class="cart__message__progress__holder">
+                          <progress class="cart__message__progress" data-cart-message-progress value="{{ percent }}" max="100" style="--progress-width: {{ percent }}%;"></progress>
+                          {%- comment -%}Second progress bar shows only on Firefox{%- endcomment -%}
+                          <progress class="cart__message__progress" data-cart-message-progress max="100" style="--progress-width: {{ percent }}%;"></progress>
+                        </span>
+                      {%- endunless -%}
+                    </p>
+                  {%- endif -%}
+                </div>
               {%- endif -%}
             {%- endif -%}
           {%- when 'custom' -%}
@@ -340,67 +344,69 @@
   {%- endfor -%}
 {%- endif -%}
 
-<div data-announcement-bar>
-  <div id="Announcement--{{ section.id }}"
-    data-section-type="announcement-bar"
-    data-section-id="{{ section.id }}"
-    data-announcement-wrapper
-    {% if settings.animations_enabled %}
-      data-aos="fade"
-      data-aos-anchor="{{ animation_anchor }}"
-      data-aos-delay="{{ animation_delay }}"
-    {% endif %}>
-    <div class="ie11-error-message">
-      <p>{{- 'general.ie11_support_message' | t -}}</p>
-    </div>
 
-    {%- if bar_markup != blank -%}
-      {%- style -%}
-        #Announcement--{{ section.id }} .top-bar {
-          --adjust-body: calc(var(--FONT-ADJUST-BODY) * {{ text_size }});
-          --padding: {{ padding }};
+{% if template.suffix != 'custom-lp' %}
+  <div data-announcement-bar>
+    <div id="Announcement--{{ section.id }}"
+      data-section-type="announcement-bar"
+      data-section-id="{{ section.id }}"
+      data-announcement-wrapper
+      {% if settings.animations_enabled %}
+        data-aos="fade"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-delay="{{ animation_delay }}"
+      {% endif %}>
+      <div class="ie11-error-message">
+        <p>{{- 'general.ie11_support_message' | t -}}</p>
+      </div>
+        {%- if bar_markup != blank -%}
+          {%- style -%}
+            #Announcement--{{ section.id }} .top-bar {
+              --adjust-body: calc(var(--FONT-ADJUST-BODY) * {{ text_size }});
+              --padding: {{ padding }};
 
-          {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
-            --bg: {{ bg_color }};
-          {%- endif -%}
+              {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
+                --bg: {{ bg_color }};
+              {%- endif -%}
 
-          {%- if text_color != 'rgba(0,0,0,0)' and text_color != '' -%}
-            --text: {{ text_color }};
-          {%- endif -%}
-        }
-        #Announcement--{{ section.id }} .flickity-enabled .ticker--animated,
-        #Announcement--{{ section.id }} .top-bar__ticker { padding: 0 {{ message_spacing }}; }
+              {%- if text_color != 'rgba(0,0,0,0)' and text_color != '' -%}
+                --text: {{ text_color }};
+              {%- endif -%}
+            }
+            #Announcement--{{ section.id }} .flickity-enabled .ticker--animated,
+            #Announcement--{{ section.id }} .top-bar__ticker { padding: 0 {{ message_spacing }}; }
 
-        /* Prevent CLS on page load */
-        :root { --announcement-height: calc(.75rem * var(--FONT-ADJUST-BODY) * {{ text_size }} * 1.5 + calc({{ padding }} * 2)); }
-      {%- endstyle -%}
+            /* Prevent CLS on page load */
+            :root { --announcement-height: calc(.75rem * var(--FONT-ADJUST-BODY) * {{ text_size }} * 1.5 + calc({{ padding }} * 2)); }
+          {%- endstyle -%}
 
-      <div class="top-bar" data-bar>
-        {%- if layout == 'slider' -%}
-          <div class="top-bar__slider"
-            data-slider
-            data-slider-speed="{{ section.settings.slider_speed | times: 1000 }}">
-              {{ bar_markup }}
-          </div>
-        {%- endif -%}
+          <div class="{{ section.settings.custom_class }} top-bar" data-bar>
+            {%- if layout == 'slider' -%}
+              <div class="top-bar__slider"
+                data-slider
+                data-slider-speed="{{ section.settings.slider_speed | times: 1000 }}">
+                  {{ bar_markup }}
+              </div>
+            {%- endif -%}
 
-        {%- if layout == 'marquee' -%}
-          <div class="top-bar__slider">
-            <div class="top-bar__slide" data-top-bar-slide>
-              <div data-ticker-frame data-marquee-speed="{{ section.settings.marquee_speed }}" class="top-bar__message">
-                <div data-ticker-scale class="ticker--unloaded top-bar__scale">
-                  <div data-ticker-text class="top-bar__text">
-                    {{ bar_markup }}
+            {%- if layout == 'marquee' -%}
+              <div class="top-bar__slider">
+                <div class="top-bar__slide" data-top-bar-slide>
+                  <div data-ticker-frame data-marquee-speed="{{ section.settings.marquee_speed }}" class="top-bar__message">
+                    <div data-ticker-scale class="ticker--unloaded top-bar__scale">
+                      <div data-ticker-text class="top-bar__text">
+                        {{ bar_markup }}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            {%- endif -%}
           </div>
         {%- endif -%}
-      </div>
-    {%- endif -%}
+    </div>
   </div>
-</div>
+{% endif %}
 
 {% schema %}
 {
@@ -409,7 +415,17 @@
   "settings": [
     {
       "type": "header",
+      "content": "All Page Announcement except 1",
+      "info" : "This section will be visible on every other page except Landing Page."
+    },
+    {
+      "type": "header",
       "content": "Colors"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     },
     {
       "type": "color",

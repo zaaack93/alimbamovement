@@ -12,8 +12,8 @@
             "text_position": "center",
             "text_color": "text-light",
             "subheading": "",
-            "title": "About Alimba Movement",
-            "text": "Learn a little more about Alimba and the team",
+            "title": "Alimba for your workplace",
+            "text": "Create a healthier, happier team",
             "button_1_text": "",
             "button_1_link": "",
             "button_1_color": "btn--white",
@@ -61,7 +61,7 @@
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>The Alimba Story<\/p>",
+            "text": "<p>Why Alimba for your workplace?<\/p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747"
@@ -70,7 +70,7 @@
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Alimba is the workout routine that fits perfectly into your life. <\/p><p><br\/><\/p><p>We use biomechanics and physics principles to build muscle and to ensure your workouts are as efficient and effective as possible, without wearing down your body and joints. Each week is specifically programmed to ensure all of your muscle groups are targeted, without being overused.<\/p><p><br\/><\/p><p>During each workout, you will focus on working individual muscle groups to allow for the most effective work to that muscle. Each week of classes is also scheduled for you. This means you won't be scrolling endlessly trying to find a workout (and landing on the same full body workout you always do. We know, we have been there). You also won't see us using any gimmicky marketing language about \"toning\", \"slimming your thighs\" or \"30 day shreds\". We are here to build strong, healthy bodies and mindsets. <\/p><p><br\/><\/p><p>Consistency and building a strong body is key. Alimba allows you to maintain a consistent routine without having to take time off with injuries and without the mental load of working out what workouts to do on what days. <\/p><p><br\/><\/p><p>Alimba is a movement. It is a new way of working out - <strong>for life<\/strong>.<\/p>",
+            "text": "<p>Healthy team members are happy and productive team members. <\/p><p><br\/><\/p><p>Wellness should be a key pillar of every workplace. Encouraging and providing space for your employees to be their healthiest and happiest selves is beneficial not only for the employee - but for your workplace. <\/p><p><br\/><\/p><p><strong>We are the perfect fit<\/strong><\/p><p>Ali, a lawyer by background, has worked across multiple big corporations, including law firms and big-4 multi-national consulting firms. She understands how important wellness is to employees working long hours, often seated at their desks. <\/p><p><br\/><\/p><p>Maria has worked across multiple large mining sites across Australia, including as a #health and wellness rep##, encouraging fitness and exercise across these workplaces. <\/p><p><br\/><\/p><p>Ali & Maria have both seen how a well implemented health and wellness program can benefit workplaces and are passionate about bringing the Alimba method to as many workplaces as possible. <\/p>",
             "size": 100
           }
         },
@@ -108,7 +108,7 @@
           "type": "subheading",
           "disabled": true,
           "settings": {
-            "text": "<p>Subheading<\/p>",
+            "text": "<p>What Alimba can do for you<\/p>",
             "size": 100,
             "margin_bottom": 16
           }
@@ -116,7 +116,7 @@
         "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Meet Our Instructors<\/p>",
+            "text": "<p>What Alimba can do for you<\/p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747"
@@ -164,13 +164,13 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify:\/\/shop_images\/93134viw.jpg",
+        "image": "shopify:\/\/shop_images\/KP1QLSUw.jpg",
         "subheading": "",
-        "title": "<p>Ali<\/p>",
+        "title": "<p>Online workouts - ready anytime, anywhere<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "heading_size": 130,
-        "text_content": "Aka. Al, Al-pal, Bessy.\nAfter spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. Meanwhile, Ali was also working as a lawyer in law firms and corporate companies, with long hours, allowing little time to focus on fitness.\n\nIt wasn’t until she suffered a back injury that it clicked. Something had to change. \n\nAli studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. \n\nAfter undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. \n\nWords Ali lives by: If you can you must.",
+        "text_content": "You aren't limited by employees being in the office or available to come in for an early once a week run. Employees can take classes at home, from the gym or in a group at work.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -192,13 +192,13 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify:\/\/shop_images\/DSC_0151.jpg",
+        "image": "shopify:\/\/shop_images\/LqCAakKo.jpg",
         "subheading": "",
-        "title": "<p>Maria<\/p>",
+        "title": "<p>Weekly scheduling<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "heading_size": 130,
-        "text_content": "Aka. Marzy, Marzymar. \nMaria is our very own Canadian pocket rocket.\n\nMaria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. \n\nIn recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.\n\nMaria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. \n\nWords Maria lives by:\u2028 Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.",
+        "text_content": "Every week is programmed for our members. This means that each week, everyone is doing the same workouts - creating a fantastic sense of community. \n\nThe workouts are fresh every week - keeping members engaged and motivated.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -419,9 +419,9 @@
             "text_color": "text-light",
             "title": "Sound good?",
             "heading_size": 100,
-            "text": "Now you know a bit more about us - we can't wait for you to get started!",
-            "button_text": "Start your free trial here",
-            "button_link": "https:\/\/alimbamovement.uscreen.io\/join_us",
+            "text": "If this sounds like a good fit for your business - let's get started!",
+            "button_text": "Contact us here to discuss packages",
+            "button_link": "shopify:\/\/pages\/contact-us",
             "button_color": "btn--secondary",
             "button_style": "btn--primary btn--small",
             "button_size": "btn--small"

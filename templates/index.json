@@ -93,7 +93,7 @@
         "padding": 15,
         "bg_color": "#959ff2",
         "color": "#ffffff",
-        "marquee_speed": 100,
+        "marquee_speed": 75,
         "slider_speed": 7,
         "text_size": 110,
         "message_spacing": 25,
@@ -108,13 +108,19 @@
           "type": "text",
           "settings": {
             "text_position": "left",
+            "only_on_mobile": false,
             "top_image_width": 100,
             "text_color": "text-dark",
             "subheading": "",
             "title": "An online fitness program you will want to stick to",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
             "heading_size": 100,
             "text": "<p>With all new classes programmed for you every week - all you have to do is show up.<\/p>",
             "text_size": 100,
+            "show_btn_arrow": false,
             "button_text": "See Class Styles & Schedule",
             "button_link": "shopify:\/\/pages\/styles-schedule",
             "button_color": "btn--secondary",
@@ -132,6 +138,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
+            "hide_sm": false,
             "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2712.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
@@ -152,10 +159,12 @@
       ],
       "settings": {
         "height": "five-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
         "bg_color": "",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "add_gutter": true,
-        "padding_top": 60,
+        "padding_top": 30,
         "padding_bottom": 40
       }
     },
@@ -242,7 +251,6 @@
     },
     "41836b12-338a-43db-8add-1c1e4182dc19": {
       "type": "section-text",
-      "disabled": true,
       "blocks": {
         "template--15026239078448__41836b12-338a-43db-8add-1c1e4182dc19-16809552239d0907e1-0": {
           "type": "subheading",
@@ -287,6 +295,7 @@
         "template--15026239078448__41836b12-338a-43db-8add-1c1e4182dc19-16809552239d0907e1-2",
         "template--15026239078448__41836b12-338a-43db-8add-1c1e4182dc19-16809552239d0907e1-3"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": false,
@@ -298,7 +307,6 @@
     },
     "25b6c407-5fdc-4040-80fa-d657e18a4b78": {
       "type": "section-text",
-      "disabled": true,
       "blocks": {
         "template--15062879076400__25b6c407-5fdc-4040-80fa-d657e18a4b78-subheading-1": {
           "type": "subheading",
@@ -342,6 +350,7 @@
         "template--15062879076400__25b6c407-5fdc-4040-80fa-d657e18a4b78-text-1",
         "template--15062879076400__25b6c407-5fdc-4040-80fa-d657e18a4b78-button-1"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "left",
         "bg_color_secondary": true,
@@ -384,7 +393,7 @@
         "heading_size": 130,
         "text_content": "At Alimba, we use biomechanics and physics principles to design workouts that are effective and efficient, without excess stress on your joints. \n\nWe are all about working smarter, not harder.",
         "text_alignment": "left",
-        "button_text": "Learn More",
+        "button_text": "Learn More About Alimba",
         "button_link": "shopify:\/\/pages\/about-us",
         "button_color": "btn--primary",
         "button_style": "btn--primary",
@@ -399,7 +408,6 @@
     },
     "38e7bebf-083d-4d99-bae2-ca34290e3503": {
       "type": "section-slideshow",
-      "disabled": true,
       "blocks": {
         "template--15062879076400__38e7bebf-083d-4d99-bae2-ca34290e3503-168337707020eca682-0": {
           "type": "image",
@@ -456,6 +464,7 @@
         "template--15062879076400__38e7bebf-083d-4d99-bae2-ca34290e3503-168337707020eca682-0",
         "template--15062879076400__38e7bebf-083d-4d99-bae2-ca34290e3503-168337707020eca682-1"
       ],
+      "disabled": true,
       "settings": {
         "slide_height": "full-height",
         "enable_mobile_height": true,
@@ -470,6 +479,233 @@
         "heading_size": 100
       }
     },
+    "e39fa223-34b6-4746-a272-b884b79d8d6f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "only_on_mobile": false,
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "What makes Alimba different?",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
+            "heading_size": 100,
+            "text": "<p>We think our program is pretty special. Check out this vid highlighting 3 features of Alimba that sets it apart from the other online fitness programs out there.<\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "b15babeb-357d-4ad0-b405-79efe2dc88e0": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1",
+        "b15babeb-357d-4ad0-b405-79efe2dc88e0"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "add_gutter": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "3ec77d5b-731c-4c4e-b232-12d4f3ac28e0": {
+      "type": "section-testimonials",
+      "blocks": {
+        "96b4f76b-d5de-4e38-8e83-f38a5621bebd": {
+          "type": "text",
+          "settings": {
+            "heading": "Hear from our community about how Alimba fits in with their life:",
+            "text_size": 115,
+            "subheading": "",
+            "block_color": "#929379",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "976223b2-52f0-4079-bd72-04cc57829497": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I am loving Alimba. I love that all the thinking is done for me and I just turn up. I actually feel motivated to finish the last reps and get the most out of them.<\/p>",
+            "customer_name": "Ellen J.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>After years of trying different forms of workouts that usually put unnecesary pressure on my joints and resulted in injuries, I am excited to have Alimba at my fingertips!<\/p>",
+            "customer_name": "Rachael B.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Alimba's raw and unedited content sets it apart from other platforms. It is a far more personal experience than what I have experienced with fitness apps in the past.<\/p>",
+            "customer_name": "Imogen S.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I really love Alimba! There are so many class options each week so I can pick something depending on my mood or how I am feeling that day.<\/p>",
+            "customer_name": "Ruby B.",
+            "subheading": "<p>Member since August 2023<\/p>"
+          }
+        },
+        "faa0d301-d125-4aa1-baf1-7bd0dd48b908": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Been doing Alimba for a few weeks now and loving the workouts. Having them all planned to just smash out is epic!<\/p>",
+            "customer_name": "Mav W.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "fc740991-3204-44d6-8fe3-70a52d00bd29": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>My partner & I love Alimba. It's not just for the ladies. New workouts every week makes keep it fresh. The trainers explain the movements really well, so it’s easy to follow.<\/p>",
+            "customer_name": "Luke W.",
+            "subheading": "<p>Member since August 2023<\/p>"
+          }
+        },
+        "7cb339a4-6487-4b63-9d9b-393d7a4877f1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>As a working mum, Alimba makes exercise easy as my week is planned. As an engineer, I love the ‘physics’ approach, I’m too busy to waste time when there is a smarter way to workout. <\/p>",
+            "customer_name": "Shana B.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "582fe026-e347-4aa0-808a-a1c98eb4def8": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>This platform is amazing!! I love the workouts and education they provide. There are always modifications & they encourage you to listen to your body. 10\/10 recommend!<\/p>",
+            "customer_name": "Danielle N.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "ab451c1f-8f70-45ba-bd83-d538db6e8173": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Alimba has been a game changer for me while travelling. Easy setup & simple equipment, and I feel good afterwards. The first online workouts I can see myself doing long term.<\/p>",
+            "customer_name": "Julia H.",
+            "subheading": "<p>Member since September 2023<\/p>"
+          }
+        },
+        "83dd01bd-2bb0-48ca-af4e-d055305578a0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>As a 30 yr old carpenter, I found it hard and taxing on my body trying to get to the gym routinely. Alimba workouts help me feel strong as a carpenter. I have more time and it’s cheaper than the gym! <\/p>",
+            "customer_name": "Tom H.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "cdaf7bb6-5e73-4880-a376-c1ec0f032e65": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I’ve just finished my first Alimba workout and loved it. I’ve had multiple injuries throughout my life from Motorcross and I was able to get through the entire workout pain free!<\/p>",
+            "customer_name": "Eli E.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "a746159b-affd-442f-8310-90c6ce775c12": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I love how Alimba isolates specific muscle groups in class so I can really connect to them and feel them working. I don't feel completely exhausted after class and still have energy for my day. <\/p>",
+            "customer_name": "Jocelyn M.",
+            "subheading": "<p>Member since September 2023<\/p>"
+          }
+        },
+        "e3bbb7a6-a962-4808-80e3-b80c6e771bdd": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Alimba feels like a personal training session. As I am getting stronger I am increasing my weights which is exciting! I am 62 - these workouts are suitable for any age as they are so easily adaptable. <\/p>",
+            "customer_name": "Lou T.",
+            "subheading": "<p>Member since July 2023<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "96b4f76b-d5de-4e38-8e83-f38a5621bebd",
+        "976223b2-52f0-4079-bd72-04cc57829497",
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-2",
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-5",
+        "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-1",
+        "faa0d301-d125-4aa1-baf1-7bd0dd48b908",
+        "fc740991-3204-44d6-8fe3-70a52d00bd29",
+        "7cb339a4-6487-4b63-9d9b-393d7a4877f1",
+        "582fe026-e347-4aa0-808a-a1c98eb4def8",
+        "ab451c1f-8f70-45ba-bd83-d538db6e8173",
+        "83dd01bd-2bb0-48ca-af4e-d055305578a0",
+        "cdaf7bb6-5e73-4880-a376-c1ec0f032e65",
+        "a746159b-affd-442f-8310-90c6ce775c12",
+        "e3bbb7a6-a962-4808-80e3-b80c6e771bdd"
+      ],
+      "settings": {
+        "title": "But don't just take our word for it...",
+        "text_size": 100,
+        "text_alignment": "text-center",
+        "bg_color": "#f7f7f7",
+        "testimonial_block_color": "#ffffff",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "d3a101bf-6771-469e-a5a5-a78f37ee34c6": {
       "type": "section-custom-content",
       "blocks": {
@@ -478,6 +714,7 @@
           "disabled": true,
           "settings": {
             "text_position": "middle-center",
+            "hide_sm": false,
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "Welcome to Palo Alto",
@@ -493,15 +730,21 @@
         "template--15062879076400__d3a101bf-6771-469e-a5a5-a78f37ee34c6-text-1": {
           "type": "text",
           "settings": {
-            "text_position": "left",
+            "text_position": "center",
+            "only_on_mobile": false,
             "top_image_width": 100,
             "text_color": "text-light",
             "subheading": "",
             "title": "Become a Founding Member",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
             "heading_size": 100,
             "text": "<p>For the OG's - Sign up to the AM News and get 20% off your membership. For life. <\/p><p><em>Limited spots available - get in quick!<\/em><\/p>",
             "text_size": 100,
-            "button_text": "Get your founder discount",
+            "show_btn_arrow": false,
+            "button_text": "Get Your Founder Discount",
             "button_link": "shopify:\/\/pages\/founding-member-promo",
             "button_color": "btn--secondary",
             "button_style": "btn--solid",
@@ -520,7 +763,9 @@
         "template--15062879076400__d3a101bf-6771-469e-a5a5-a78f37ee34c6-text-1"
       ],
       "settings": {
-        "height": "four-fifty-height",
+        "height": "two-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
         "bg_color": "#959ff2",
         "width": "wrapper",
         "add_gutter": false,
@@ -543,9 +788,9 @@
         "template--15026239078448__19178dfd-7ffc-449d-8dd3-3be0b204b7b4-1682920691b38265c3-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>What does <strong>a typical week<\/strong> look like?<\/p>",
+            "text": "<p>What does <em>a typical week<\/em> look like?<\/p>",
             "size": 100,
-            "heading_highlight_type": "circle",
+            "heading_highlight_type": "squiggle",
             "highlight_color": "#c8dc69"
           }
         },
@@ -640,7 +885,7 @@
         "template--15026239078448__70df011d-c845-4830-b600-53e014fc9458-168292061986cab9fb-3": {
           "type": "image",
           "settings": {
-            "width": "50",
+            "width": "33.33",
             "image": "shopify:\/\/shop_images\/DSC_0461.jpg",
             "overlay_opacity": 0,
             "text_position": "center",
@@ -654,10 +899,27 @@
             "text_color": "text-light"
           }
         },
+        "image_9YNNGD": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/329572451_181522678045028_3840073137605689889_n_3ef1ae96-46db-4cfc-acf4-b1f90bcf6e9e.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Align",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
         "fc56cbc3-e5c3-4c05-99e3-c6e4ee180002": {
           "type": "image",
           "settings": {
-            "width": "50",
+            "width": "33.33",
             "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2901.jpg",
             "overlay_opacity": 10,
             "text_position": "center",
@@ -677,6 +939,7 @@
         "template--15026239078448__70df011d-c845-4830-b600-53e014fc9458-168292061986cab9fb-1",
         "template--15026239078448__70df011d-c845-4830-b600-53e014fc9458-168292061986cab9fb-2",
         "template--15026239078448__70df011d-c845-4830-b600-53e014fc9458-168292061986cab9fb-3",
+        "image_9YNNGD",
         "fc56cbc3-e5c3-4c05-99e3-c6e4ee180002"
       ],
       "settings": {
@@ -694,6 +957,76 @@
         "add_gutter": true,
         "padding_top": 0,
         "padding_bottom": 22
+      }
+    },
+    "49a6b752-a8ab-4c71-8937-13f7ddb60f2c": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-1": {
+          "type": "text",
+          "settings": {
+            "title": "Lower Body Lift",
+            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Lower Body Lift, we are focusing on the glutes, quads and hammies. Big juicy muscle groups that will get your heart pumping. <\/p><p>Duration - approx. 30 minutes. <\/p>"
+          }
+        },
+        "05e89fc6-dd4a-4b3c-8c78-2d861f36b871": {
+          "type": "text",
+          "settings": {
+            "title": "Lower Body Lift",
+            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Lower Body Lift, we are focusing on the glutes, quads and hammies. Big juicy muscle groups that will get your heart pumping. <\/p><p>Duration - approx. 30 minutes. <\/p>"
+          }
+        },
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-0": {
+          "type": "text",
+          "settings": {
+            "title": "Upper Body Lift",
+            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Upper Body Lift, we are focusing on the arms, chest and back. Dumbbells are recommended for these classes, however there will often be no equipment options available. <\/p><p>Duration - approx. 30 minutes. <\/p>"
+          }
+        },
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-3": {
+          "type": "text",
+          "settings": {
+            "title": "Form",
+            "text": "<p>Our Form classes are mat-based classes, with a focus on core and back strength. Requiring little to no equipment, this class is the perfect mid week class to break things up. Don't be fooled - this does not mean it is easy! Get ready for those abs to be burning.<\/p><p>Duration - approx. 30 minutes. <\/p>"
+          }
+        },
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-2": {
+          "type": "text",
+          "settings": {
+            "title": "Move cardio",
+            "text": "<p>Our Move cardio class is a short, low-impact, high intensity class that will get your heart pumping (without making your body feel like it is falling apart). <\/p><p>There are a range of styles covered, from more dance-style cardio to shadow boxing, this class keeps things fresh.<\/p><p>This class is not part of our core schedule, and is totally optional depending on where you are at in your fitness journey. If you are experiencing a lot of stress, or are just moving across from a consistently high intensity program, we recommend dropping the cardio from your schedule, until you are feeling it. <\/p><p>Duration - approx. 15 minutes. <\/p>"
+          }
+        },
+        "17ae520a-167d-44a0-8a19-6f78642f0421": {
+          "type": "text",
+          "settings": {
+            "title": "Full Body Lift",
+            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Full Body Lift, we hit select muscle groups each week across the whole body. We love ending the week with this satisfying class.<\/p><p>Duration - approx. 45 minutes. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-1",
+        "05e89fc6-dd4a-4b3c-8c78-2d861f36b871",
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-0",
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-3",
+        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-2",
+        "17ae520a-167d-44a0-8a19-6f78642f0421"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "What does a typical week look like?",
+        "subheading": "",
+        "text": "<p>5 unique workouts uploaded every week, strategically planned to minimise overuse and maximise effectiveness.<\/p>",
+        "tabs_bg_color": "#f7f7f7",
+        "sec_bg_color": "#fff",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "81e96e0f-7c91-495f-b8c2-540c8fe5435c": {
@@ -759,77 +1092,8 @@
         "bg_color_secondary": false,
         "text_color": "text-light",
         "width": "wrapper--narrow",
-        "padding_top": 26,
+        "padding_top": 18,
         "padding_bottom": 62
-      }
-    },
-    "49a6b752-a8ab-4c71-8937-13f7ddb60f2c": {
-      "type": "section-accordions",
-      "disabled": true,
-      "blocks": {
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-1": {
-          "type": "text",
-          "settings": {
-            "title": "Lower Body Lift",
-            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Lower Body Lift, we are focusing on the glutes, quads and hammies. Big juicy muscle groups that will get your heart pumping. <\/p><p>Duration - approx. 30 minutes. <\/p>"
-          }
-        },
-        "05e89fc6-dd4a-4b3c-8c78-2d861f36b871": {
-          "type": "text",
-          "settings": {
-            "title": "Lower Body Lift",
-            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Lower Body Lift, we are focusing on the glutes, quads and hammies. Big juicy muscle groups that will get your heart pumping. <\/p><p>Duration - approx. 30 minutes. <\/p>"
-          }
-        },
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-0": {
-          "type": "text",
-          "settings": {
-            "title": "Upper Body Lift",
-            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Upper Body Lift, we are focusing on the arms, chest and back. Dumbbells are recommended for these classes, however there will often be no equipment options available. <\/p><p>Duration - approx. 30 minutes. <\/p>"
-          }
-        },
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-3": {
-          "type": "text",
-          "settings": {
-            "title": "Form",
-            "text": "<p>Our Form classes are mat-based classes, with a focus on core and back strength. Requiring little to no equipment, this class is the perfect mid week class to break things up. Don't be fooled - this does not mean it is easy! Get ready for those abs to be burning.<\/p><p>Duration - approx. 30 minutes. <\/p>"
-          }
-        },
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-2": {
-          "type": "text",
-          "settings": {
-            "title": "Move cardio",
-            "text": "<p>Our Move cardio class is a short, low-impact, high intensity class that will get your heart pumping (without making your body feel like it is falling apart). <\/p><p>There are a range of styles covered, from more dance-style cardio to shadow boxing, this class keeps things fresh.<\/p><p>This class is not part of our core schedule, and is totally optional depending on where you are at in your fitness journey. If you are experiencing a lot of stress, or are just moving across from a consistently high intensity program, we recommend dropping the cardio from your schedule, until you are feeling it. <\/p><p>Duration - approx. 15 minutes. <\/p>"
-          }
-        },
-        "17ae520a-167d-44a0-8a19-6f78642f0421": {
-          "type": "text",
-          "settings": {
-            "title": "Full Body Lift",
-            "text": "<p>Our Lift classes are our signature classes and part of our core schedule. <\/p><p>Lift classes focus on building strength and muscle, using biomechanics principles to ensure the most effective work to the muscle, without having to use insanely heavy weights. <\/p><p>These classes are totally customisable depending on where you are at in your fitness journey, and what equipment you have on hand. <\/p><p>In Full Body Lift, we hit select muscle groups each week across the whole body. We love ending the week with this satisfying class.<\/p><p>Duration - approx. 45 minutes. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-1",
-        "05e89fc6-dd4a-4b3c-8c78-2d861f36b871",
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-0",
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-3",
-        "template--15026239078448__49a6b752-a8ab-4c71-8937-13f7ddb60f2c-1680955407c290bd49-2",
-        "17ae520a-167d-44a0-8a19-6f78642f0421"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "What does a typical week look like?",
-        "subheading": "",
-        "text": "<p>5 unique workouts uploaded every week, strategically planned to minimise overuse and maximise effectiveness.<\/p>",
-        "tabs_bg_color": "#f7f7f7",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "b42dfa80-8718-40fe-8ad2-3a957b6e9672": {
@@ -863,7 +1127,6 @@
     },
     "section-press": {
       "type": "section-press",
-      "disabled": true,
       "blocks": {
         "section-press-0": {
           "type": "press",
@@ -895,6 +1158,7 @@
         "section-press-1",
         "section-press-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "show_quotations": true,
@@ -904,9 +1168,117 @@
         "padding_bottom": 60
       }
     },
+    "e1933c2a-7e3f-49e9-9b31-4f848150213a": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "What equipment do I need to get started?",
+            "text": "<p>There are a few pieces we recommend you add to your arsenal, to get the most out of your workouts. <\/p><p>These are: <\/p><ul><li>Dumbbells. A set of light (1-3kg) medium (4-7kg) and heavy (7+kg) weights are ideal. If you are just starting out, you can definitely get away with a set of 5kg weights and a heavy water bottle (to use as your lighter weight). But as you start to progress, it is great to have some variation in your weight options. <\/li><li>Resistance bands. The long stretchy ones are the most versatile in our classes. <\/li><li>Small pilates ball.<\/li><li>A sturdy dining chair \/ bench.<\/li><\/ul><p><\/p><p>Equipment is minimal (and as you will see in the suggested equipment swaps table <a href=\"\/pages\/equipment-swaps\" title=\"Equipment swaps\">here,<\/a> there are always alternatives you can find in your house to start with). <\/p><p>More info on equipment can be found  on our FAQs page <a href=\"\/pages\/faqs\" target=\"_blank\" title=\"FAQs\">here<\/a>. <\/p>"
+          }
+        },
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "I usually just pick random workouts from my online program, is that how this works?",
+            "text": "<p>Not exactly. <\/p><p>We have a schedule of 5 new classes every week, with suggested days for you to take each class. These classes have been specifically programmed to grow your muscles, without overuse. <\/p><p>Remember - Alimba is about building strength through consistency. If you chop and change around different classes, this can lead to overuse or even underuse of some muscle groups.<\/p><p>We recommend that you take the 4 strength training classes every week (with the cardio class being optional). <\/p><p>It may seem like a big change to how you currently work out, but once you get into the rhythm it makes working out a joy. All you have to do is show up and click play on that day's workout! <\/p>"
+          }
+        },
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Alimba different?",
+            "text": "<p>At Alimba, we focus on building muscle, without overuse or compromising your joints. We use biomechanics and physics principles to ensure our workouts are effective and efficient. <\/p><p>There are no before and after photos, or 30 day shreds. Just consistent training that provides amazing results, for life.  <\/p>"
+          }
+        },
+        "9c1ec106-5b28-4383-a149-2420a581fbcf": {
+          "type": "text",
+          "settings": {
+            "title": "Are the classes \/ movements modifiable?",
+            "text": "<p>For sure - that is what we are all about! We like to make our classes fit our bodies (not the other way around).<\/p><p>In class, we will often cue alternative movements or modifications that you can take to make sure the movements are working for your body.<\/p><p>In our membership portal we also have a table of suggested movement swaps so you can still be hitting the right muscles in the way that suits you best.<\/p><p>Of course if you have any specific physical requirements, be sure to discuss these with your doctor or health care professional, before starting any new program.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-1",
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-2",
+        "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-3",
+        "9c1ec106-5b28-4383-a149-2420a581fbcf"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#f7f7f7",
+        "sec_bg_color": "#fff",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "2c032e7a-769f-434e-ba96-d723d918af70": {
+      "type": "section-text",
+      "blocks": {
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Read More FAQs",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-subheading-1",
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-heading-1",
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-text-1",
+        "template--15062879076400__2c032e7a-769f-434e-ba96-d723d918af70-button-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
     "section-banner-text-columns": {
       "type": "section-banner-text-columns",
-      "disabled": true,
       "blocks": {
         "section-banner-text-columns-0": {
           "type": "column",
@@ -964,6 +1336,7 @@
         "section-banner-text-columns-2",
         "section-banner-text-columns-3"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "five-fifty-height",
         "enable_mobile_height": false,
@@ -987,7 +1360,7 @@
         "image_width": "standard",
         "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2849.jpg",
         "subheading": "Two free weeks. Our shout!",
-        "title": "<p>Start Your <em>14-day Free Trial<\/em><\/p>",
+        "title": "<p>Start Your <em>14-Day Free Trial<\/em><\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#959ff2",
         "heading_size": 100,
@@ -1017,13 +1390,17 @@
     "bcd925b3-ea7a-4852-aea3-ef130c83affc",
     "d67d4fed-04c4-47dd-9489-96b4ad927d71",
     "38e7bebf-083d-4d99-bae2-ca34290e3503",
+    "e39fa223-34b6-4746-a272-b884b79d8d6f",
+    "3ec77d5b-731c-4c4e-b232-12d4f3ac28e0",
     "d3a101bf-6771-469e-a5a5-a78f37ee34c6",
     "19178dfd-7ffc-449d-8dd3-3be0b204b7b4",
     "70df011d-c845-4830-b600-53e014fc9458",
-    "81e96e0f-7c91-495f-b8c2-540c8fe5435c",
     "49a6b752-a8ab-4c71-8937-13f7ddb60f2c",
+    "81e96e0f-7c91-495f-b8c2-540c8fe5435c",
     "b42dfa80-8718-40fe-8ad2-3a957b6e9672",
     "section-press",
+    "e1933c2a-7e3f-49e9-9b31-4f848150213a",
+    "2c032e7a-769f-434e-ba96-d723d918af70",
     "section-banner-text-columns",
     "f05e0ce2-8a60-4f6d-9a34-1fda4defccc3"
   ]

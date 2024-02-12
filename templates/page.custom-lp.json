@@ -1,0 +1,1049 @@
+{
+  "sections": {
+    "11d00d37-e09d-40d9-b91f-67860def3c6b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15275770937392__11d00d37-e09d-40d9-b91f-67860def3c6b-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "only_on_mobile": false,
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Rated 5 out of 5 stars",
+            "title": "Experience a better way to workout online",
+            "custom-class": "custom-content-rich-text",
+            "para": "<ul><li>6 fresh workouts every week<\/li><li>15-45 min classes - covering all muscle groups<\/li><li>All scheduled for you - you just show up<\/li><\/ul>",
+            "mobile_para": "<ul><li>6 new classes weekly<\/li><li>Scheduled for you<\/li><li>15-45 min classes<\/li><li>Rate 5\/5 Stars<\/li><\/ul>",
+            "show_membership": false,
+            "rating-img": "shopify:\/\/shop_images\/Group_391.png",
+            "heading_size": 100,
+            "text": "<p>A science-based fitness program to help women build strong bodies for life<\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "Start Your Free 14 Day Trial",
+            "button_link": "",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--large",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "template--15275770937392__11d00d37-e09d-40d9-b91f-67860def3c6b-image-1": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "hide_sm": false,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_17.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15275770937392__11d00d37-e09d-40d9-b91f-67860def3c6b-text-1",
+        "template--15275770937392__11d00d37-e09d-40d9-b91f-67860def3c6b-image-1"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "custom-content-background",
+        "Custom_id": "",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa61f089-9ede-4da3-af35-cddb4c93ab00": {
+      "type": "section-marquee",
+      "blocks": {
+        "template--15220003766320__aa61f089-9ede-4da3-af35-cddb4c93ab00-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Science-Backed<\/strong><\/p>",
+            "icon_name": "scientific",
+            "icon_color": "",
+            "icon_width": 45,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15220003766320__aa61f089-9ede-4da3-af35-cddb4c93ab00-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Women-Led<\/strong><\/p>",
+            "icon_name": "flower",
+            "icon_color": "",
+            "icon_width": 45,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--15220003766320__aa61f089-9ede-4da3-af35-cddb4c93ab00-text-1",
+        "template--15220003766320__aa61f089-9ede-4da3-af35-cddb4c93ab00-text-2"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "padding": 14,
+        "bg_color": "#959ff2",
+        "color": "#ffffff",
+        "marquee_speed": 100,
+        "slider_speed": 7,
+        "text_size": 140,
+        "message_spacing": 20,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "691b96ad-4452-4e69-853e-efb3a3ff3fb0": {
+      "type": "video-section",
+      "blocks": {
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "video": "shopify:\/\/files\/videos\/6f279fc1-acbf-43ad-a93f-a6bd0e3f509e.mp4",
+            "poster_image": "shopify:\/\/shop_images\/Nikki.jpg",
+            "background_color": "",
+            "show_rating": true,
+            "title": "",
+            "text": "",
+            "author": "Nikki",
+            "joining": "Verified Member Since June"
+          }
+        },
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "video": "shopify:\/\/files\/videos\/00a64baf-91c7-4f9b-8193-caf3ea23f13b.MP4",
+            "poster_image": "shopify:\/\/shop_images\/rubes.jpg",
+            "background_color": "",
+            "show_rating": true,
+            "title": "",
+            "text": "",
+            "author": "Ruby",
+            "joining": "Verified Member Since July"
+          }
+        },
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "video": "shopify:\/\/files\/videos\/copy_30300233-CC95-484B-A8B9-D27808524F4B.mov",
+            "poster_image": "shopify:\/\/shop_images\/lou.jpg",
+            "background_color": "",
+            "show_rating": true,
+            "title": "",
+            "text": "",
+            "author": "Lou",
+            "joining": "Verified Member Since September"
+          }
+        },
+        "b4ec8b8c-a4be-4a15-8989-d637484fa0ef": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "video": "shopify:\/\/files\/videos\/73fb939e-8c81-4496-99e9-515ecf70a2f0.mp4",
+            "poster_image": "shopify:\/\/shop_images\/jules.jpg",
+            "background_color": "",
+            "show_rating": true,
+            "title": "",
+            "text": "",
+            "author": "Jules",
+            "joining": "Verified Member Since August"
+          }
+        }
+      },
+      "block_order": [
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-1",
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-2",
+        "template--15275770937392__691b96ad-4452-4e69-853e-efb3a3ff3fb0-text-3",
+        "b4ec8b8c-a4be-4a15-8989-d637484fa0ef"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "“Like a Personal Trainer in your Home”",
+        "Custom_class": "custom-video",
+        "subheading": "<p>For multitasking mums, corporate climbers and anyone in between looking to <strong>workout smarter, not harder. <\/strong><\/p>",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "Start Your Free 14 Day Trial",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "20fc1638-61e9-454f-9057-5a48de884448": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_15.png",
+            "background_color": "#ffffff",
+            "show_rating": false,
+            "title": "Consistency First",
+            "text": "<p>No ‘30-Day Shreds’ or punishing your body! Just efficient workouts, programmed for you.<\/p>",
+            "author": ""
+          }
+        },
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_20.png",
+            "background_color": "#ffffff",
+            "show_rating": false,
+            "title": "Built for Women",
+            "text": "<p>A hormone-friendly program that won’t place unnecessary stress on your body (or joints).<\/p>",
+            "author": ""
+          }
+        },
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_18.png",
+            "background_color": "#ffffff",
+            "show_rating": false,
+            "title": "Bio-Mechanics",
+            "text": "<p>Movements are effective & efficient - building muscle without the wear & tear.<\/p>",
+            "author": ""
+          }
+        },
+        "54e3df5f-d6a7-4bdb-8c69-ba7ebec8931e": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_19.png",
+            "background_color": "#ffffff",
+            "show_rating": false,
+            "title": "No Guesswork",
+            "text": "<p>New workouts weekly in an easy to follow schedule, hitting all muscle groups (without overuse).<\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-1",
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-2",
+        "template--15275770937392__20fc1638-61e9-454f-9057-5a48de884448-text-3",
+        "54e3df5f-d6a7-4bdb-8c69-ba7ebec8931e"
+      ],
+      "settings": {
+        "alignment": "left",
+        "columns": 2,
+        "icons_width": 100,
+        "heading": "A Physics-Based Training Method",
+        "Custom_class": "custom-image-with-text",
+        "subheading": "<p>At Alimba, we workout to strengthen our bodies and live our best lives. <br\/>Here’s our secret sauce:<\/p>",
+        "bg_color": "#2b4e67",
+        "text_color": "#ffffff",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "c4783011-df2b-430f-95e2-cd96c0cbd643": {
+      "type": "section-custom-content",
+      "blocks": {
+        "03e9dda9-21c9-48fc-bc70-083fef022775": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "hide_sm": true,
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2819_c876d351-173e-460e-8daf-e69a2833daa0_1.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "f3ae2fd0-2436-4f61-9015-ca90d76e7cb7": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image": "shopify:\/\/shop_images\/220717_LimbaMovement__2819_1_f5a7b108-9f0f-4ade-9ecf-d6f038be902d.png",
+            "only_on_mobile": true,
+            "top_image_width": 400,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Try Our Exercise Program for Free",
+            "custom-class": "Program_section",
+            "para": "<ul><li><h5>Bio-mechanically efficient exercises <\/h5><\/li><li><h5>15-45 min classes - all scheduled for you<\/h5><\/li><li><h5>6 new workouts filmed each week<\/h5><\/li><\/ul>",
+            "mobile_para": "",
+            "show_membership": true,
+            "rating-img": "shopify:\/\/shop_images\/Group_10.svg",
+            "heading_size": 100,
+            "text": "<h5>Everything you need to build a strong body from the comfort of your own home.<\/h5>",
+            "text_size": 100,
+            "show_btn_arrow": true,
+            "button_text": "START YOUR FREE TRIAL",
+            "button_link": "https:\/\/alimbamovement.uscreen.io\/checkout\/new?o=102271",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--medium",
+            "button_2_text": "<p>Limited Offer: Get 20% Off with code: <strong>SHOWUP<\/strong><\/p>",
+            "button_2_link": "https:\/\/alimbamovement.uscreen.io\/checkout\/new?o=102271",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--text",
+            "button_2_size": "btn--large",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "03e9dda9-21c9-48fc-bc70-083fef022775",
+        "f3ae2fd0-2436-4f61-9015-ca90d76e7cb7"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "program_free",
+        "Custom_id": "Hero_id",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f": {
+      "type": "new-section-icon-row",
+      "blocks": {
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_18_d8975bf7-b7ac-4432-8989-47f82641bf23.png",
+            "background_color": "#9ab7f9",
+            "show_rating": true,
+            "title": "I really love Alimba!",
+            "text": "<p>\"There are so many class options and new classes every week, so I can pick something depending on my mood or how I am feeling that day.\"<\/p>",
+            "author": "Ruby B.",
+            "joining": "Member Since July"
+          }
+        },
+        "595e4eec-d553-44f1-8c59-b74f02dee835": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify:\/\/shop_images\/Frame_31_490edc3e-0728-4370-9da7-01a6067ed5d0.png",
+            "background_color": "#ccdb79",
+            "show_rating": true,
+            "title": "This platform is amazing!",
+            "text": "<p>\"I love the workouts and the education they provide. There are always modifications and they encourage you to listen to your body. 10\/10 recommend!\"<\/p>",
+            "author": "Dani",
+            "joining": "Member Since August"
+          }
+        },
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_5_9f954d74-4b6e-496c-94ee-cbb56a6bb548.png",
+            "background_color": "#9ab7f9",
+            "show_rating": true,
+            "title": "I can feel it working",
+            "text": "<p>\"I love how Alimba isolates specific muscle groups so I can really connect to them & feel them working. I don't feel completely exhausted after & still have energy for my day.\"<\/p>",
+            "author": "Jocelyn",
+            "joining": "Member Since August"
+          }
+        },
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_6_9967e6ad-23a6-42fe-a199-9675c6d475c1.png",
+            "background_color": "#c8dc69",
+            "show_rating": true,
+            "title": "Great on my joints",
+            "text": "<p>After years of trying different forms of workouts that usually put unnecessary strain on my joints and result in injuries, I love having Alimba at my fingertips!<\/p>",
+            "author": "Rachael B.",
+            "joining": "Member Since August"
+          }
+        },
+        "8e965a85-cd97-48d6-850d-d2d3305cf2e3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/Frame_32_3d4cb59c-cd0d-4966-9db7-a6e859470b6d.png",
+            "background_color": "#9ab7f9",
+            "show_rating": true,
+            "title": "The thinking is done for me",
+            "text": "<p>\"I love that all the thinking is done for me and I can just hit play. I actually feel motivated to finish the last reps, and get the most out of them.\"<\/p>",
+            "author": "Ellen",
+            "joining": "Member Since August"
+          }
+        },
+        "b81153d8-6d04-4fce-b3f4-8db4110d70df": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify:\/\/shop_images\/Frame_33_173063be-4358-4948-a2e3-6fe39f435be1.png",
+            "background_color": "#c8dc69",
+            "show_rating": true,
+            "title": "Perfect for travelling",
+            "text": "<p>\"I love that the classes are short so you can smash them out, perfect when you are on the move. I love getting my teeth stuck into the longer classes when I have time too!\"<\/p>",
+            "author": "Nikki",
+            "joining": "Member Since June"
+          }
+        }
+      },
+      "block_order": [
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-1",
+        "595e4eec-d553-44f1-8c59-b74f02dee835",
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-2",
+        "template--15275770937392__9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f-text-3",
+        "8e965a85-cd97-48d6-850d-d2d3305cf2e3",
+        "b81153d8-6d04-4fce-b3f4-8db4110d70df"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 100,
+        "heading": "Join the Women Feeling the Difference",
+        "Custom_class": "custom-row-icon",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "07270191-86f9-4dbd-9348-5e49fd643b5c": {
+      "type": "tab-section",
+      "blocks": {
+        "42dbc87e-b5c9-4f43-a3b0-a971486c6f8b": {
+          "type": "image-text",
+          "settings": {
+            "title": "Monday",
+            "content_heading": "Lower Body Lift",
+            "content_sub_heading": "",
+            "block_content": "<p>We start the week with a BANG. 30 minutes targeting the glutes, hammies and quads (depending on the week). A focus on building muscle, with plenty of movement and equipment options provided.<br\/><br\/>All our classes include warm up, cool down and breathwork. <\/p>",
+            "image_or_video": "video",
+            "poster_image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-20_at_8.22.png",
+            "video": "shopify:\/\/files\/videos\/Lower Body LIft reel (3)-copy(4).mp4",
+            "block_btn_text": "",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        },
+        "d4997dc5-e727-43bc-a398-0b8784ae2510": {
+          "type": "image-text",
+          "settings": {
+            "title": "Tuesday",
+            "content_heading": "Upper Body Lift",
+            "content_sub_heading": "",
+            "block_content": "<p>On Tuesdays we give the legs a break and do ~30 minutes of upper body goodness. This session involves targeted resistance training on 2-3 upper body muscle groups, depending on the week. <\/p><p>All our classes include warm up, cool down and breathwork. <\/p>",
+            "image_or_video": "video",
+            "poster_image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-20_at_8.36.13_pm.png",
+            "video": "shopify:\/\/files\/videos\/Upper Body Reel(2) (4)-copy(5).mp4",
+            "block_btn_text": "Button",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        },
+        "8fc3469e-c806-491c-847e-d8249e10aa02": {
+          "type": "image-text",
+          "settings": {
+            "title": "Wednesday",
+            "content_heading": "Form (Core)",
+            "content_sub_heading": "",
+            "block_content": "<p>This mat based class is low to the ground, but that doesn’t mean easy! We connect to your deep core & back, sprinkling in other muscle groups.  <\/p><p>You will feel strong, and stable after this low equipment, 30 minute burner.<\/p>",
+            "image_or_video": "video",
+            "poster_image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-20_at_8.42.46_pm.png",
+            "video": "shopify:\/\/files\/videos\/Form Reel(3)-copy(4).mp4",
+            "block_btn_text": "Button",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        },
+        "5d234ec9-3b02-457f-a6fd-9cefd64a9af2": {
+          "type": "image-text",
+          "settings": {
+            "title": "Thursday",
+            "content_heading": "Cardio and\/or Align",
+            "content_sub_heading": "",
+            "block_content": "<p><strong>Cardio Move <\/strong>is the perfect way to get your heart rate up. We mix up class every week - think boxercise, HIIT, dance-style aerobics & more! We provide plenty of low\/no impact options so class is super adaptable. <\/p><p><strong>Align<\/strong> is our pilates \/ barre inspired class, we use lower weights and higher reps to tap into your endurance fibres.<\/p>",
+            "image_or_video": "video",
+            "poster_image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-20_at_8.45.24_pm.png",
+            "video": "shopify:\/\/files\/videos\/Cardio Reel(3)-copy(5).mp4",
+            "block_btn_text": "Button",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        },
+        "280ac6f8-0663-42ac-902a-63260b820756": {
+          "type": "image-text",
+          "settings": {
+            "title": "Friday",
+            "content_heading": "Full Body Lift",
+            "content_sub_heading": "",
+            "block_content": "<p>Combining the best bits of all our signature classes, we finish the week with an all over workout. <\/p><p>Lower, Upper & Core will get hit in less than 45 minutes. Then you’re off to enjoy your weekend.<\/p>",
+            "image_or_video": "video",
+            "poster_image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-20_at_8.50.15_pm.png",
+            "video": "shopify:\/\/files\/videos\/Full Body lift 4 by 3.mp4",
+            "block_btn_text": "Button",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        },
+        "b1e6973f-181d-41ae-aabf-f399159048af": {
+          "type": "image-text",
+          "settings": {
+            "title": "The Weekend",
+            "content_heading": "",
+            "content_sub_heading": "",
+            "block_content": "<p>We schedule 2 rest days every single week. We love to take these on the weekend - but the program is completely flexible and you can take these days whenever suits you best. Rest, play with friends, get outdoors - and because our workouts are gentle on your bod, you will love having energy left to enjoy your life! <\/p>",
+            "image_or_video": "image",
+            "block_image": "shopify:\/\/shop_images\/IMG_7738.jpg",
+            "block_btn_text": "Button",
+            "block_btn_url": "",
+            "block_direction": "right"
+          }
+        }
+      },
+      "block_order": [
+        "42dbc87e-b5c9-4f43-a3b0-a971486c6f8b",
+        "d4997dc5-e727-43bc-a398-0b8784ae2510",
+        "8fc3469e-c806-491c-847e-d8249e10aa02",
+        "5d234ec9-3b02-457f-a6fd-9cefd64a9af2",
+        "280ac6f8-0663-42ac-902a-63260b820756",
+        "b1e6973f-181d-41ae-aabf-f399159048af"
+      ],
+      "settings": {
+        "text_alignment": "text-center",
+        "title": "Here’s How Your New Program Works",
+        "Custom_class": "custom_tab_section",
+        "text": "<p>We upload 6 new workouts every week, specifically targeting key muscle groups, without overuse. <\/p><p>Note: You can switch up the days to fit your lifestyle.<\/p>",
+        "show_buttons": true,
+        "collection_button_text": "Shop Now",
+        "collection_button_color": "btn--black",
+        "collection_button_style": "btn--solid",
+        "collection_button_size": "btn--small",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "enable_custom_design": true,
+        "padding_top": 90,
+        "padding_bottom": 90
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1d6a19f8-e494-43c0-b57c-45aadc7bd642": {
+      "type": "section-custom-content",
+      "blocks": {
+        "ac5bd741-e07d-47a7-b8c1-39b4769bf636": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "only_on_mobile": false,
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Want to learn more?",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
+            "heading_size": 120,
+            "text": "<p>Hear from our founder Ali about how Alimba can fit into your life (and all the goodness it is going to bring to your bod & mind). <\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "49840e88-03cd-44ec-974e-326893c9fc4d": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a1c044efe5064ee394716f8362710f66.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a1c044efe5064ee394716f8362710f66.mp4",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "ac5bd741-e07d-47a7-b8c1-39b4769bf636",
+        "49840e88-03cd-44ec-974e-326893c9fc4d"
+      ],
+      "settings": {
+        "height": "seven-fifty-height",
+        "Custom_Class": "alimba_diff",
+        "Custom_id": "",
+        "bg_color": "rgba(0,0,0,0)",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "cdcde650-1adc-40c1-b4ec-00e4306157ac": {
+      "type": "cookie-cutter-section",
+      "blocks": {
+        "8de95e90-1bf1-4553-8657-f5b277ef8140": {
+          "type": "block",
+          "settings": {
+            "block-heading": "Gyms & Pilates",
+            "check_1": false,
+            "check_2": true,
+            "check_3": false,
+            "check_4": false,
+            "check_5": false,
+            "text_check_4": ""
+          }
+        },
+        "3dcb4221-6f7d-4d52-b67d-e18e6d9999d9": {
+          "type": "block",
+          "settings": {
+            "block-heading": "Personal Trainer",
+            "check_1": false,
+            "check_2": false,
+            "check_3": true,
+            "check_4": true,
+            "check_5": false,
+            "text_check_4": ""
+          }
+        },
+        "059fa136-44ea-4ae2-904f-26bf3409b03c": {
+          "type": "block",
+          "settings": {
+            "block-heading": "Other Online Programs",
+            "check_1": true,
+            "check_2": false,
+            "check_3": false,
+            "check_4": false,
+            "check_5": false,
+            "text_check_4": "Some"
+          }
+        }
+      },
+      "block_order": [
+        "8de95e90-1bf1-4553-8657-f5b277ef8140",
+        "3dcb4221-6f7d-4d52-b67d-e18e6d9999d9",
+        "059fa136-44ea-4ae2-904f-26bf3409b03c"
+      ],
+      "settings": {
+        "textid": "<p>We like Cookies,<br\/>Not Cookie-Cutter Workouts<\/p>",
+        "textid_paragraph": "<p>See how Alimba stacks up.<\/p>",
+        "top_padding": 60,
+        "bottom_padding": 60,
+        "select-img-1": "shopify:\/\/shop_images\/Group_99.svg",
+        "select-img-2": "shopify:\/\/shop_images\/Group_93.svg",
+        "btn_label": "Try Free for 14 Days",
+        "btn_url": "Hero_id",
+        "paragraph": "Psst... Don’t overthink it (it’s free for 2 weeks)"
+      }
+    },
+    "cb47819d-cfac-496b-9aab-f099226cf28b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "e1e57048-96ac-4424-81c0-cc8155b06f3b": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "only_on_mobile": false,
+            "top_image_width": 130,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Finding Our ‘Why’",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
+            "heading_size": 120,
+            "text": "<p>We started Alimba after a decade of endless high intensity workouts, punishing our bodies and trying to make ourselves as small as possible. Sound familiar? This unsustainable approach led our bodies to break down, with hormonal issues and back problems to follow. We figured there MUST be a better way to train. <\/p><p>During this period, Ali came across a new method of training and found it so beneficial that she undertook her 200-hour EVLO Certification to teach this new way of moving to others. After introducing the method to Maria (a personal trainer with a Bachelors in Health Education and an all round pocket rocket) - it was love at first lunge.<\/p><p>We thought - why aren’t all women training this way? Alimba is here to reinvigorate how we move (and how we talk about our bodies). We are here to be straight up, science-based and give our members a platform that provides consistency and a chance to fall in love with exercise again. <\/p><p>We hope you love it as much as we do. Ali & Maria xx<\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "a622c52d-df34-4156-a837-0f05fa4956f5": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "hide_sm": false,
+            "image": "shopify:\/\/shop_images\/DSC_0187_1.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "e1e57048-96ac-4424-81c0-cc8155b06f3b",
+        "a622c52d-df34-4156-a837-0f05fa4956f5"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "Custom_Class": "finding_why",
+        "Custom_id": "",
+        "bg_color": "rgba(0,0,0,0)",
+        "width": "wrapper--full-padded",
+        "add_gutter": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "561f9c05-1a54-415b-b872-caabe5d9b106": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "smile",
+            "title": "Joint friendly",
+            "text": ""
+          }
+        },
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "New classes every week",
+            "text": ""
+          }
+        },
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "compass",
+            "title": "Workout anywhere, anytime",
+            "text": ""
+          }
+        },
+        "81f9dacd-3a66-42bf-b175-b1ef996c3c94": {
+          "type": "text",
+          "settings": {
+            "icon_name": "scientific",
+            "title": "Science-Backed",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-1",
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-2",
+        "template--15220003766320__561f9c05-1a54-415b-b872-caabe5d9b106-text-3",
+        "81f9dacd-3a66-42bf-b175-b1ef996c3c94"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "#f7f7f7",
+        "text_color": "#155969",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--secondary",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "f6093fbe-6792-4982-8344-6f414b20cbfe": {
+      "type": "section-accordions",
+      "blocks": {
+        "98d75423-26fe-418d-b689-252b22c4e638": {
+          "type": "text",
+          "settings": {
+            "title": "How much does it cost after the 14 days?",
+            "text": "<p>Well firstly, we know you'll be hooked after you try it for 2 weeks. <\/p><p>We then offer monthly and 6-monthly subscriptions. <\/p><p>Our monthly membership is $29.90. That's less than $1 a day (well at least for most months it is... Does February really count?). With our current 20% off for life offer, it is only $23.92 a month. DEALS.<\/p><p>If you want to commit to your fitness routine - our 6 month membership is $159.00 - or only $127.20<\/p>"
+          }
+        },
+        "10279872-af54-4c57-8043-d00b99cf334a": {
+          "type": "text",
+          "settings": {
+            "title": "What programs do you offer?",
+            "text": "<p>We offer 3 main programs for our members to follow:<\/p><h4>Weekly Workouts<\/h4><p>We have a schedule of brand new classes uploaded into the \"Weekly Workouts\" section of the members portal every week! This is our signature program and takes all the guesswork out of what workouts you should be doing. Details on this structure is located above on this page. <\/p><p>In addition to our Signature weekly classes, we also have the following programs available:<\/p><h4>Launchpad Program<\/h4><p>The Launchpad Program is a 3-week intro program that gets you across all of our main movements, with heaps of cues to help you get familiar with the Alimba style of classes. We spend a bit more time cueing and getting you into position (but don't be fooled, this does not mean these classes are easy!).<\/p><h4>Revive Program<\/h4><p>Our Revive Program is 1 week of classes that are all mat-based, low to the ground and gentle.<\/p><p>These are perfectly designed for those weeks when you are feeling stressed, or maybe you are getting back in to training after being sick or maybe you just feel like a gentle week of movement.<\/p>"
+          }
+        },
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "What equipment do I need to get started?",
+            "text": "<p>You can start with bodyweight \/ items around the house while you are getting started and building your strength. <\/p><p>However, there are a few pieces we recommend you add to your arsenal, to get the most out of your workouts:<\/p><ul><li>Dumbbells. A set of light (1-3kg) medium (4-7kg) and heavy (7+kg) weights are ideal. If you are just starting out, you can definitely get away with a set of 5kg weights and a heavy water bottle (to use as your lighter weight). But as you start to progress, it is great to have some variation in your weight options.<\/li><li>Resistance bands. The long stretchy ones are the most versatile in our classes.<\/li><li>Small pilates ball.<\/li><li>A sturdy dining chair \/ bench.<\/li><\/ul>"
+          }
+        },
+        "c45b17fb-9d88-4783-bfab-8e11959d9f12": {
+          "type": "text",
+          "settings": {
+            "title": "Can I workout from home & the gym?",
+            "text": "<p>Yes! Our workouts are designed to be done from home, however you can of course do our workouts in the gym.<\/p><p>Find yourself a corner with some dumbbells, a wall and a bench and you will be good to go. You can also definitely use gym machines in place of dumbbells too.<\/p>"
+          }
+        },
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "What if I can't workout 5 times a week?",
+            "text": "<p>We totally get it. Life can get hectic. We provide options for stacking certain classes on the same day - and if there are weeks that you can't get all your workouts in - don't sweat it! <\/p><p><\/p>"
+          }
+        },
+        "80dd98ea-7e26-4df3-8abe-b2254983173b": {
+          "type": "text",
+          "settings": {
+            "title": "Are the classes \/ movements modifiable?",
+            "text": "<p>For sure - that is what we are all about! We like to make our classes fit our bodies (not the other way around).<\/p><p>In class, we will often cue alternative movements or modifications that you can take to make sure the movements are working for your body.<\/p><p>In our membership portal we also have a table of suggested movement swaps so you can still be hitting the right muscles in the way that suits you best.<\/p><p>Of course if you have any specific physical requirements, be sure to discuss these with your doctor or health care professional, before starting any new program.<\/p>"
+          }
+        },
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "I usually just pick random workouts from my online program, is that how this works?",
+            "text": "<p>Not exactly.<\/p><p>We have a schedule of 6 new classes every week, with suggested days for you to take each class. These classes have been specifically programmed to grow your muscles, without overuse.<\/p><p>Remember - Alimba is about building strength through consistency. If you chop and change around different classes and programs, this can lead to overuse or even underuse of some muscle groups.<\/p><p>We recommend that you take the 5 strength training classes every week (with the cardio class being optional).<\/p><p>It may seem like a big change to how you currently work out, but once you get into the rhythm it makes working out a joy. All you have to do is show up and click play on that day's workout!<\/p>"
+          }
+        },
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "What makes Alimba different?",
+            "text": "<p>At Alimba, we focus on building muscle, without overuse or compromising your joints. We use biomechanics and physics principles to ensure our workouts are effective and efficient.<\/p><p>There are no before and after photos, or 30 day shreds. Just consistent training that provides amazing results, for life.<\/p>"
+          }
+        },
+        "8b46f413-486f-4617-83a4-a129491e696b": {
+          "type": "text",
+          "settings": {
+            "title": "Can I cancel my membership at anytime?",
+            "text": "<p>Of course!<\/p><p>Although your body might be sad to leave us - we understand that sometimes things change - and that's ok (but we will miss you).<\/p><p>You can cancel your subscription at any time and you will have access until the end of that billing period. <\/p>"
+          }
+        },
+        "a184befc-aa4d-4131-be8e-06c0d6e463ec": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Alimba different?",
+            "text": "<p>We have science on our side.<\/p><p>At Alimba, we use biomechanics and physics principles to design workouts that are effective and efficient, without excess stress on your joints.<\/p><p>There are no before and after photos, or 30 day shreds. Just consistent training that provides amazing results, for life.<\/p><p>We are all about working smarter, not harder.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "98d75423-26fe-418d-b689-252b22c4e638",
+        "10279872-af54-4c57-8043-d00b99cf334a",
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-2",
+        "c45b17fb-9d88-4783-bfab-8e11959d9f12",
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-1",
+        "80dd98ea-7e26-4df3-8abe-b2254983173b",
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-3",
+        "template--15220003766320__f6093fbe-6792-4982-8344-6f414b20cbfe-text-4",
+        "8b46f413-486f-4617-83a4-a129491e696b",
+        "a184befc-aa4d-4131-be8e-06c0d6e463ec"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "<p>Got something on your mind that isn't covered below - shoot us a DM on Instagram <a href=\"https:\/\/www.instagram.com\/alimbamovement\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/alimbamovement\/\">here<\/a>.<\/p>",
+        "tabs_bg_color": "#c8dc69",
+        "sec_bg_color": "#f7f7f7",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 50
+      }
+    },
+    "870f8c55-dbca-4317-83b2-43b9147987d9": {
+      "type": "section-text",
+      "blocks": {
+        "template--15291478016048__870f8c55-dbca-4317-83b2-43b9147987d9-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Okay, I'm ready to get started",
+            "button_link": "https:\/\/alimbamovement.uscreen.io\/checkout\/new?o=102271",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15291478016048__870f8c55-dbca-4317-83b2-43b9147987d9-button-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 2,
+        "padding_bottom": 100
+      }
+    },
+    "56d4f933-3c45-431d-aad2-62791a355f15": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "title": "Sign up and Get 20% Off for Life",
+        "text": "<p>Subscribe to access our Founding Membership discount. Only while spots last. <\/p>",
+        "extra_fields": "",
+        "button_text": "Unlock Offer",
+        "bg_color": "#959ff2",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 90,
+        "padding_bottom": 90
+      }
+    },
+    "173af2b6-086c-46ca-9337-67521967b2cb": {
+      "type": "custom-footer",
+      "blocks": {
+        "37d42178-5102-4a6d-b9cc-96cc96c70801": {
+          "type": "link",
+          "settings": {
+            "menu": "privacy-policy",
+            "title": ""
+          }
+        },
+        "2f8c3c40-0bcf-44e6-a18e-e77732cb4a57": {
+          "type": "link",
+          "settings": {
+            "menu": "contact-us",
+            "title": ""
+          }
+        },
+        "4078ca9b-d32b-4489-896d-21d1e926f545": {
+          "type": "link",
+          "settings": {
+            "menu": "terms",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "37d42178-5102-4a6d-b9cc-96cc96c70801",
+        "2f8c3c40-0bcf-44e6-a18e-e77732cb4a57",
+        "4078ca9b-d32b-4489-896d-21d1e926f545"
+      ],
+      "settings": {
+        "custom_class": "custom_footer",
+        "width": "wrapper",
+        "Footer_img": "shopify:\/\/shop_images\/Group_403.png",
+        "show_footer_wave": false,
+        "show_social_links": false,
+        "show_payment_icons": true,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#2b4e67",
+        "color_border": "#ffffff",
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "currency_type": "currency"
+      }
+    }
+  },
+  "order": [
+    "11d00d37-e09d-40d9-b91f-67860def3c6b",
+    "aa61f089-9ede-4da3-af35-cddb4c93ab00",
+    "691b96ad-4452-4e69-853e-efb3a3ff3fb0",
+    "20fc1638-61e9-454f-9057-5a48de884448",
+    "c4783011-df2b-430f-95e2-cd96c0cbd643",
+    "9fb0dca1-c3f0-4af6-a5a1-1aa66ff4394f",
+    "07270191-86f9-4dbd-9348-5e49fd643b5c",
+    "main",
+    "1d6a19f8-e494-43c0-b57c-45aadc7bd642",
+    "cdcde650-1adc-40c1-b4ec-00e4306157ac",
+    "cb47819d-cfac-496b-9aab-f099226cf28b",
+    "561f9c05-1a54-415b-b872-caabe5d9b106",
+    "f6093fbe-6792-4982-8344-6f414b20cbfe",
+    "870f8c55-dbca-4317-83b2-43b9147987d9",
+    "56d4f933-3c45-431d-aad2-62791a355f15",
+    "173af2b6-086c-46ca-9337-67521967b2cb"
+  ]
+}

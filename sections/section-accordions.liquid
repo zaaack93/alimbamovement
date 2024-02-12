@@ -70,6 +70,10 @@
   {%- endif -%}
   }
 
+  #Accordions--{{ section.id }}.accordions-section{
+    background: {{ section.settings.sec_bg_color }}
+  }
+
   {%- if tabs_bg_color != 'rgba(0,0,0,0)' and tabs_bg_color != '' -%}
     #Accordions--{{ section.id }} .accordion__item { --bg: {{ tabs_bg_color }}; }
   {%- endif -%}
@@ -119,6 +123,7 @@
                 {%- assign animation_delay = animation_delay | plus: 150 -%}
               {% endif %}>{{ text }}</div>
           {%- endif -%}
+
         </div>
       </div>
     </div>
@@ -200,6 +205,9 @@
   {%- else -%}
     {%- render 'no-blocks' -%}
   {%- endif -%}
+
+  {{ button }}
+
 </section>
 
 {% schema %}
@@ -256,6 +264,12 @@
       "id": "tabs_bg_color",
       "label": "Tabs",
       "default": "#fafafa"
+    },
+    {
+      "type": "color_background",
+      "id": "sec_bg_color",
+      "label": "Swction Background Color",
+      "default": "#fff"
     },
     {
       "type": "checkbox",

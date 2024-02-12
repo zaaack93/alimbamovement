@@ -23,11 +23,35 @@
             "bg_color": "#959ff2",
             "text_color": "text-light"
           }
+        },
+        "2f4c9c48-727d-4578-b6a6-64ec8f3fbc58": {
+          "type": "popup-with-image",
+          "disabled": true,
+          "settings": {
+            "position": "center-center",
+            "height": "four-fifty-height",
+            "title": "Subscribe & Save 20% Off",
+            "text": "<p>Join our Founding Members - only for a limited time. <\/p>",
+            "show_newsletter_form": true,
+            "extra_fields": "",
+            "button_text": "Submit",
+            "trigger": "delayed_10",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile",
+            "bg_color": "#959ff2",
+            "text_color": "text-light"
+          }
         }
       },
       "block_order": [
-        "6427f421-3aa9-42f3-a584-14585e575f61"
+        "6427f421-3aa9-42f3-a584-14585e575f61",
+        "2f4c9c48-727d-4578-b6a6-64ec8f3fbc58"
       ],
+      "disabled": true,
       "settings": {
       }
     }

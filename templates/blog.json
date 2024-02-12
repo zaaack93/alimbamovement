@@ -3,6 +3,19 @@
     "main": {
       "type": "blog",
       "settings": {
+        "default_color": "accent",
+        "blog_style": "photo",
+        "post_columns": 3,
+        "image_aspect_ratio": 1.3,
+        "show_rss_icon": false,
+        "show_date": true,
+        "show_author": false,
+        "show_tags": true,
+        "show_comments_count": false,
+        "tag_alignment": "left",
+        "bg_color_secondary": false,
+        "padding_top": 98,
+        "padding_bottom": 100
       }
     }
   },

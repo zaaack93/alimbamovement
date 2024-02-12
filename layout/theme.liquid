@@ -18,8 +18,8 @@
   assign loading_appearance = settings.loading_appearance
   assign image_width = settings.loading_image_width
   assign image = settings.loading_image
--%}
-{%- unless loading_appearance == 'never' -%}
+  -%}
+  {%- unless loading_appearance == 'never' -%}
   {%- if image != blank -%}
     {%- assign image_height = image_width | divided_by: image.aspect_ratio | round -%}
     {%- capture preload_image_size -%}{{ image_width }}x{{ image_height }}{%- endcapture -%}
@@ -51,7 +51,7 @@
       document.documentElement.classList.add('is-loading');
     }
   </script>
-{%- endunless -%}{%- if settings.favicon != blank -%}
+  {%- endunless -%}{%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
@@ -79,6 +79,7 @@
   {%- comment -%} CSS {%- endcomment -%}
   {{- 'theme.css' | asset_url | stylesheet_tag -}}
   {{- 'main.css' | asset_url | stylesheet_tag -}}
+  {{- 'custom-mw.css' | asset_url | stylesheet_tag -}}
 
   {%- comment -%}{{- 'theme.dev.css' | asset_url | stylesheet_tag -}}{%- endcomment -%}
 
@@ -225,6 +226,7 @@
 
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom-mw.js' | asset_url }}" defer="defer"></script>
 
   {%- comment -%}
     If you need to do some edits in Theme JS use theme.dev.js file
@@ -238,7 +240,22 @@
   {%- endcomment -%}
 
   {{ content_for_header }}
-</head>{%- capture body_classes -%}
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+</head>
+{%- capture body_classes -%}
 template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
 {% if customer %} customer-logged-in{% endif %}
 {% if settings.show_rounded_corners %} body--rounded-corners{% endif %}
@@ -247,7 +264,9 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
 {% if settings.color_body_bg == '#ffffff' or settings.color_body_bg == '#fff' %} palette--light{% endif %}
   no-outline
 {%- endcapture -%}
-{%- assign body_classes = body_classes | strip_newlines | strip -%}<body id="{{ page_title | handle }}" class="{{ body_classes }}" data-animations="{{ settings.animations_enabled }}">
+{%- assign body_classes = body_classes | strip_newlines | strip -%}
+
+<body id="{{ page_title | handle }}" class="{{ body_classes }} {{ template.suffix }} " data-animations="{{ settings.animations_enabled }}">
   {%- render 'loading' -%}
 
   <a class="in-page-link skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -259,7 +278,11 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
     {{ content_for_layout }}
   </main>
 
-  {% sections 'group-footer' %}
+  {% if template.suffix == 'custom-lp' %}
+    {% sections 'custom-footer' %}
+  {% else %}
+     {% sections 'group-footer' %}
+  {% endif %}
 
   {%- comment -%} Photoswipe containers {%- endcomment -%}
   {%- render 'zoom-pswp', template_index: 0 -%}

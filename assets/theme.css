@@ -2735,6 +2735,9 @@ search-form[loading] .predictive-search__loader {
   .align--top-right {
     text-align: right;
   }
+  .hidden-lg {
+    display: none !important;
+  }
 }
 
 .align--middle-left {

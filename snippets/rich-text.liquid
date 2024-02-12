@@ -9,7 +9,8 @@
 -%}
 
 {%- capture content -%}
-  {%- if top_image != blank -%}
+  
+  {%- if top_image != blank and only_on_mobile == false -%}
     <div class="rich-text__top-image"
       {% if animations_enabled %}
         data-aos="fade-up"
@@ -51,7 +52,11 @@
         data-aos-anchor="{{ animation_anchor }}"
         data-aos-delay="{{ animation_delay }}"
         {%- assign animation_delay = animation_delay | plus: 150 -%}
-      {% endif %}>{{ subheading }}</div>
+      {% endif %}>
+      {% if block.settings.rating-img !=blank %}   
+      <span><img src="{{ block.settings.rating-img |  img_url: 'master' }}" alt=""></span>
+      {% endif %}
+      {{ subheading }}</div>
   {%- endif -%}
 
   {%- if heading != blank -%}
@@ -84,6 +89,100 @@
       {% endif %}>{{ text }}</div>
   {%- endif -%}
 
+  {% if block.settings.para !=blank %}
+    <div class="custom-paragraph Desktop-paragraph">
+    {{ block.settings.para }}
+    </div>
+  {% endif %}
+
+  {%- if top_image != blank and only_on_mobile -%}
+  <div class="rich-text__top-image {% if hide-lg %}hidden-lg{% endif %}"
+      {% if animations_enabled %}
+        data-aos="fade-up"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-delay="{{ animation_delay }}"
+      {% endif %}>
+      {%- liquid
+        assign image_url_pattern = top_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+        assign image_widths = "[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100]"
+        assign animation_delay = animation_delay | plus: 150
+        assign image_alt = top_image.alt | escape
+
+        capture styles
+          echo 'width: ' | append: top_image_width | append: 'px;'
+        endcapture
+      -%}
+
+      <img class="rich-text__top-image-img lazyload"
+        src="{{ 'blank.gif' | asset_img_url: '1x1' }}"
+        data-src="{{ image_url_pattern }}"
+        data-widths= "{{ image_widths }}"
+        data-aspectratio="{{ top_image.aspect_ratio }}"
+        data-sizes="auto"
+        style="{{ styles }}"
+        alt="{{ image_alt }}">
+      <noscript>
+        {{- top_image
+          | image_url: width: top_image.width
+          | image_tag: class: 'rich-text__top-image-img img-object-contain', style: styles, alt: image_alt
+        -}}
+      </noscript>
+    </div>
+  {%- endif -%}
+
+  {% if block.settings.show_membership == true %}
+    <div class="membership">
+      <div class="m-content">
+      <span class="membership-header">
+        <input class="checkbox-round" id="mem-header" type="radio" checked>
+        <label for="mem-header">Monthly Membership</label>
+      </span>
+      <div class="membership-content">
+        <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+        <path d="M2 5.88889L4.4 9L8 2" stroke="#2B4E67" stroke-width="2.1" stroke-linecap="square" stroke-linejoin="bevel"/>
+        </svg>
+        </span>
+        <span>
+          <p>Less than a dollar a day</p>
+        </span>
+      </div>
+      <div class="membership-content">
+        <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+        <path d="M2 5.88889L4.4 9L8 2" stroke="#2B4E67" stroke-width="2.1" stroke-linecap="square" stroke-linejoin="bevel"/>
+        </svg>
+        </span>
+        <span>
+          <p>No lock in contracts</p>
+        </span>
+      </div>
+      <div class="membership-content">
+        <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+        <path d="M2 5.88889L4.4 9L8 2" stroke="#2B4E67" stroke-width="2.1" stroke-linecap="square" stroke-linejoin="bevel"/>
+        </svg>
+        </span>
+        <span>
+          <p>Cancel anytime</p>
+        </span>
+      </div>
+      </div>
+
+      <div class="member-btn">
+        <a href="#">$29.90/month</a>
+      </div>
+
+    </div>
+  {% endif %}
+
+  {% if block.settings.mobile_para !=blank %}
+    <div class="custom-paragraph mobile-paragraph">
+    {{ block.settings.mobile_para }}
+    </div>
+  {% endif %}
+ 
+
   {%- if button_text != blank or button_2_text != blank -%}
     <div class="rich-text__buttons main-buttons">
       {%- if button_text != blank -%}
@@ -94,7 +193,7 @@
             data-aos-delay="{{ animation_delay }}"
             {%- assign animation_delay = animation_delay | plus: 150 -%}
           {% endif %}>
-          <a class="btn {{ button_style }} {{ button_size }} {{ button_color }}" href="{{ button_link }}">{{ button_text }}</a>
+        <a class="btn {{ button_style }} {{ button_size }} {{ button_color }}" href="{{ button_link }}">{{ button_text }} {% if show_btn_arrow %}<img src="https://cdn.shopify.com/s/files/1/0566/5721/5536/files/Arrow_3.svg?v=1703497984" alt="">{% endif %} </a>
         </div>
       {%- endif -%}
 
@@ -113,7 +212,7 @@
   {%- endif -%}
 {%- endcapture -%}
 
-<div class="rich-text text-{{ text_position }}">
+<div class="{{ block.settings.custom-class }} rich-text text-{{ text_position }}">
   <div class="{{ section_width }}">
     <div class="rich-text__container">
       {{- content -}}
