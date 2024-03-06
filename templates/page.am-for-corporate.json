@@ -70,7 +70,7 @@
         "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Healthy team members are happy and productive team members. <\/p><p><br\/><\/p><p>Wellness should be a key pillar of every workplace. Encouraging and providing space for your employees to be their healthiest and happiest selves is beneficial not only for the employee - but for your workplace. <\/p><p><br\/><\/p><p><strong>We are the perfect fit<\/strong><\/p><p>Ali, a lawyer by background, has worked across multiple big corporations, including law firms and big-4 multi-national consulting firms. She understands how important wellness is to employees working long hours, often seated at their desks. <\/p><p><br\/><\/p><p>Maria has worked across multiple large mining sites across Australia, including as a #health and wellness rep##, encouraging fitness and exercise across these workplaces. <\/p><p><br\/><\/p><p>Ali & Maria have both seen how a well implemented health and wellness program can benefit workplaces and are passionate about bringing the Alimba method to as many workplaces as possible. <\/p>",
+            "text": "<p>Healthy team members are happy and productive team members. <\/p><p><br\/><\/p><p>Wellness should be a key pillar of every workplace. Encouraging and providing space for your employees to be their healthiest & happiest selves is beneficial not only for the employee - but for your workplace. <\/p><p><br\/><\/p><p><strong>We are the perfect fit<\/strong><\/p><p>Our founder Ali is a lawyer by background. She has worked across multiple big corporations, including law firms and big-4 multi-national consulting firms. She understands how important wellness is to employees working long hours, often seated at their desks. <\/p><p><br\/><\/p><p>Maria has worked across multiple large mining sites across Australia, including as a #health and wellness rep##, encouraging fitness and exercise across these workplaces. <\/p><p><br\/><\/p><p>Ali & Maria have both seen how a well implemented health and wellness program can benefit workplaces and are passionate about bringing the Alimba method to as many workplaces as possible. <\/p>",
             "size": 100
           }
         },
@@ -166,11 +166,11 @@
         "image_width": "standard",
         "image": "shopify:\/\/shop_images\/KP1QLSUw.jpg",
         "subheading": "",
-        "title": "<p>Online workouts - ready anytime, anywhere<\/p>",
+        "title": "<p>Online workouts - anytime, anywhere<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "heading_size": 130,
-        "text_content": "You aren't limited by employees being in the office or available to come in for an early once a week run. Employees can take classes at home, from the gym or in a group at work.",
+        "text_content": "You aren't limited by employees being in the office or available to come in early for a weekly run or bootcamp. Employees can take classes at home, from the gym or even in a group at work.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -204,6 +204,34 @@
         "button_link": "",
         "button_color": "btn--black",
         "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_mLU8xM": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSC_0650.jpg",
+        "subheading": "",
+        "title": "<p>In-house workshops<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "Looking to take your employee wellness to the next level? We also offer in-house workshops with your team to share up-to-date knowledge on fitness & wellness to get your team living their best lives.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
         "button_size": "btn--small",
         "video_link": "",
         "text_color": "text-dark",
@@ -348,9 +376,24 @@
         "column-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__3510.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_0464.jpg",
             "title": "Move",
             "text": "<p>The focus is on getting the heart rate up with plenty of low impact options for those that want to take the jump out. We mix in boxing-style movements, dance cardio and traditional HIIT to get your heart pumping.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_zYC6cL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__3013.jpg",
+            "title": "Align",
+            "text": "<p>Fun low weight, high rep movements to keep you motivated and feeling the burn! Still strength oriented - we tap into your Type 1 endurance fibres. A Pilates\/Barre inspired workout, with our signature Alimba twist.<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -380,6 +423,7 @@
         "column-0",
         "column-1",
         "column-2",
+        "text_block_zYC6cL",
         "column-3"
       ],
       "settings": {
@@ -414,6 +458,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
+            "hide_sm": false,
             "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2752.jpg",
             "overlay_opacity": 0,
             "text_color": "text-light",
@@ -432,13 +477,19 @@
           "disabled": true,
           "settings": {
             "text_position": "center",
+            "only_on_mobile": false,
             "top_image_width": 100,
             "text_color": "text-dark",
             "subheading": "Subheading",
             "title": "Our Story",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": true,
             "heading_size": 100,
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "text_size": 100,
+            "show_btn_arrow": false,
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -459,6 +510,8 @@
       ],
       "settings": {
         "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
         "bg_color": "",
         "width": "wrapper",
         "add_gutter": false,
@@ -473,6 +526,7 @@
     "30be7d1b-5a59-4886-bd93-66ef9853e1eb",
     "cf149bf2-7dd0-48e4-87f2-b0f8cb92fe2f",
     "c44c5a1d-82da-4d19-bd73-1f0282696608",
+    "section_image_with_text_mLU8xM",
     "overlapping-images",
     "047367ee-0c6c-484c-a706-ac6ef0e5f505",
     "9eb1d012-59b6-430a-896d-cdfd9284912c",

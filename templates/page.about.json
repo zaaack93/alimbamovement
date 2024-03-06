@@ -170,7 +170,7 @@
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "heading_size": 130,
-        "text_content": "Aka. Al, Al-pal, Bessy.\nAfter spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. Meanwhile, Ali was also working as a lawyer in law firms and corporate companies, with long hours, allowing little time to focus on fitness.\n\nIt wasn’t until she suffered a back injury that it clicked. Something had to change. \n\nAli studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. \n\nAfter undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. \n\nWords Ali lives by: If you can you must.",
+        "text_content": "Aka. Al, Al-pal, Bessy.\nAfter spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. Meanwhile, Ali was also working as a lawyer in law firms and corporate companies, with long hours, allowing little time to focus on fitness.\n\nIt wasn’t until she suffered a back injury that it clicked. Something had to change. \n\nAli studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. \n\nAfter undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. \n\nWords Ali lives by: You might dread a swim, but you'll never regret a swim.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -360,6 +360,21 @@
             "video_link_color": "text-dark"
           }
         },
+        "text_block_d3AGkL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__3013.jpg",
+            "title": "Align",
+            "text": "<p>Fun low weight, high rep movements to keep you motivated and feeling the burn! Still strength oriented - we tap into your Type 1 endurance fibres. A Pilates\/Barre inspired workout, with our signature Alimba twist.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
         "column-3": {
           "type": "text_block",
           "disabled": true,
@@ -380,6 +395,7 @@
         "column-0",
         "column-1",
         "column-2",
+        "text_block_d3AGkL",
         "column-3"
       ],
       "settings": {
@@ -414,6 +430,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
+            "hide_sm": false,
             "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2752.jpg",
             "overlay_opacity": 0,
             "text_color": "text-light",
@@ -432,13 +449,19 @@
           "disabled": true,
           "settings": {
             "text_position": "center",
+            "only_on_mobile": false,
             "top_image_width": 100,
             "text_color": "text-dark",
             "subheading": "Subheading",
             "title": "Our Story",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": true,
             "heading_size": 100,
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "text_size": 100,
+            "show_btn_arrow": false,
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -459,6 +482,8 @@
       ],
       "settings": {
         "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
         "bg_color": "",
         "width": "wrapper",
         "add_gutter": false,

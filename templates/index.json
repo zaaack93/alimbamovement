@@ -403,7 +403,7 @@
         "bg_color": "",
         "section_width": "wrapper--full",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 32
       }
     },
     "38e7bebf-083d-4d99-bae2-ca34290e3503": {
@@ -479,80 +479,13 @@
         "heading_size": 100
       }
     },
-    "e39fa223-34b6-4746-a272-b884b79d8d6f": {
-      "type": "section-custom-content",
-      "blocks": {
-        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1": {
-          "type": "text",
-          "settings": {
-            "text_position": "left",
-            "only_on_mobile": false,
-            "top_image_width": 50,
-            "text_color": "text-dark",
-            "subheading": "",
-            "title": "What makes Alimba different?",
-            "custom-class": "",
-            "para": "",
-            "mobile_para": "",
-            "show_membership": false,
-            "heading_size": 100,
-            "text": "<p>We think our program is pretty special. Check out this vid highlighting 3 features of Alimba that sets it apart from the other online fitness programs out there.<\/p>",
-            "text_size": 100,
-            "show_btn_arrow": false,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
-            "bg_color": ""
-          }
-        },
-        "b15babeb-357d-4ad0-b405-79efe2dc88e0": {
-          "type": "video",
-          "settings": {
-            "text_position": "middle-center",
-            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
-            "overlay_opacity": 0,
-            "text_color": "text-light",
-            "title": "",
-            "text": "",
-            "heading_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--secondary",
-            "button_style": "btn--solid",
-            "button_size": "btn--large"
-          }
-        }
-      },
-      "block_order": [
-        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1",
-        "b15babeb-357d-4ad0-b405-79efe2dc88e0"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "Custom_Class": "",
-        "Custom_id": "",
-        "bg_color": "",
-        "width": "wrapper--full-padded",
-        "add_gutter": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "3ec77d5b-731c-4c4e-b232-12d4f3ac28e0": {
       "type": "section-testimonials",
       "blocks": {
         "96b4f76b-d5de-4e38-8e83-f38a5621bebd": {
           "type": "text",
           "settings": {
-            "heading": "Hear from our community about how Alimba fits in with their life:",
+            "heading": "Hear from our community how Alimba fits into their life:",
             "text_size": 115,
             "subheading": "",
             "block_color": "#929379",
@@ -676,6 +609,15 @@
             "customer_name": "Lou T.",
             "subheading": "<p>Member since July 2023<\/p>"
           }
+        },
+        "testimonial_4iq6Jg": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I am so enjoying lifting weights again (was stuck on the HIIT, Pilates train because I didn't know where to go from there) I feel so much better in my body already.<\/p>",
+            "customer_name": "Courtney N.",
+            "subheading": "<p>Member since February 2023<\/p>"
+          }
         }
       },
       "block_order": [
@@ -692,7 +634,8 @@
         "83dd01bd-2bb0-48ca-af4e-d055305578a0",
         "cdaf7bb6-5e73-4880-a376-c1ec0f032e65",
         "a746159b-affd-442f-8310-90c6ce775c12",
-        "e3bbb7a6-a962-4808-80e3-b80c6e771bdd"
+        "e3bbb7a6-a962-4808-80e3-b80c6e771bdd",
+        "testimonial_4iq6Jg"
       ],
       "settings": {
         "title": "But don't just take our word for it...",
@@ -703,7 +646,130 @@
         "testimonial_text_color": "text-dark",
         "width": "wrapper--full-padded",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 40
+      }
+    },
+    "section_text_jLiHPJ": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_76p6Fc": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_AXDnzF": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>For more amazing reviews <\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "text_dTtNxh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_8KUBHp": {
+          "type": "button",
+          "settings": {
+            "button_text": "Click here for more amazing testimonials",
+            "button_link": "shopify:\/\/pages\/testimonials-page",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_76p6Fc",
+        "heading_AXDnzF",
+        "text_dTtNxh",
+        "button_8KUBHp"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 8,
+        "padding_bottom": 60
+      }
+    },
+    "e39fa223-34b6-4746-a272-b884b79d8d6f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "only_on_mobile": false,
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "What makes Alimba different?",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": false,
+            "heading_size": 100,
+            "text": "<p>We think our program is pretty special. Check out this vid highlighting 3 features of Alimba that sets it apart from the other online fitness programs out there.<\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "b15babeb-357d-4ad0-b405-79efe2dc88e0": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13469eaa54be44cb86b18aaee86cee96.mp4",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15062879076400__e39fa223-34b6-4746-a272-b884b79d8d6f-text-1",
+        "b15babeb-357d-4ad0-b405-79efe2dc88e0"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "add_gutter": false,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "d3a101bf-6771-469e-a5a5-a78f37ee34c6": {
@@ -1390,8 +1456,9 @@
     "bcd925b3-ea7a-4852-aea3-ef130c83affc",
     "d67d4fed-04c4-47dd-9489-96b4ad927d71",
     "38e7bebf-083d-4d99-bae2-ca34290e3503",
-    "e39fa223-34b6-4746-a272-b884b79d8d6f",
     "3ec77d5b-731c-4c4e-b232-12d4f3ac28e0",
+    "section_text_jLiHPJ",
+    "e39fa223-34b6-4746-a272-b884b79d8d6f",
     "d3a101bf-6771-469e-a5a5-a78f37ee34c6",
     "19178dfd-7ffc-449d-8dd3-3be0b204b7b4",
     "70df011d-c845-4830-b600-53e014fc9458",

@@ -1,0 +1,709 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18dcbc936f58f82b92d9158642617b21.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Member Love",
+            "text": "Read what our members love about Alimba",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "30be7d1b-5a59-4886-bd93-66ef9853e1eb": {
+      "type": "section-text",
+      "blocks": {
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>What Alimba can do for you<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Real women - real results<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-0",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-1",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-2",
+        "template--15026239143984__30be7d1b-5a59-4886-bd93-66ef9853e1eb-168195519289217bca-3"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 62,
+        "padding_bottom": 40
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_hagf7f": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8268.png",
+            "title": "Em",
+            "text": "<p><em>\"The workouts are so effective, and because they are low impact I can convince myself to do them, even when I am pooped. My body has completely changed shape in a few months, and I can carry both my kids at the same time!\"<\/em> - Member since November 2023<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_33_173063be-4358-4948-a2e3-6fe39f435be1.png",
+            "title": "Nikki",
+            "text": "<p><em>\"I love that the classes are short so you can smash them out, perfect when you are on the move. I love getting my teeth stuck into the longer classes when I have time too!\"  - <\/em>Member since June 2023<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_31.png",
+            "title": "Dani",
+            "text": "<p><em>\"This platform is amazing! I love the workouts and the education they provide. There are always modifications and they encourage you to listen to your body. 10\/10 recommend!\" - Member since August 2023. <\/em><\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_18_1d4790de-1233-4922-a22e-8a6842c0685e.png",
+            "title": "Ruby",
+            "text": "<p><em>\"I really love Alimba! There are so many class options and new classes every week. I can pick something depending on my mood or energy levels that day.\"<\/em> - Member since July 2023. <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_zYC6cL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_5_9f954d74-4b6e-496c-94ee-cbb56a6bb548.png",
+            "title": "Jocelyn",
+            "text": "<p><em>\"I can feel it working! I love how Alimba isolates specific muscle groups so I can really connect to them and feel them working. I don't feel completely exhausted after and still have energy for my day!\" - <\/em>Member since August 2023.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_7wLhRK": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_6_f953c026-7cc0-493b-9500-4f75bd72b817.png",
+            "title": "Rachael",
+            "text": "<p><em>\"After years of trying different forms of workouts, that usually stressed my joints and resulted in injuries, I love having Alimba at my fingertips!\" - <\/em>Member since August 2023.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_ReY9RG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_32_3d4cb59c-cd0d-4966-9db7-a6e859470b6d.png",
+            "title": "Ellen",
+            "text": "<p><em>\"The thinking is done for me! I love that I can just hit play, I actually feel motivated to finish the last reps - and get the most out of them. I never thought I could be someone who was into strength training but I now look forward to my workouts!\" <\/em>- Member since August 2023.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_hagf7f",
+        "column-0",
+        "column-1",
+        "column-2",
+        "text_block_zYC6cL",
+        "text_block_7wLhRK",
+        "text_block_ReY9RG",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_3YLUz7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_rFW9Ef": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c036e7bacf474ce68170d616367cc303.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c036e7bacf474ce68170d616367cc303.mp4",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Laksmi",
+            "text": "Busy mum of 3",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "video_Xgn9eQ": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/697c92d8d09e44229988a36b03798d51.mp4",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-04_at_11.42.23_am.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Jules",
+            "text": "Intensive Care Doctor",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "video_b8enNA": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/078614aaa9294a5491145fd6e8f229ef.mp4",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-04_at_11.41.04_am.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Nikki",
+            "text": "Part-time student & model",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "video_tAmxB6": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/19d6e151946b4ff5b4d60e6092b0038e.mp4",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-04_at_11.39.48_am.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Lou",
+            "text": "62 y\/o Surfing Hairdresser",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "video_kGaPg6": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=1_qtCt2yyV8&ab_channel=AlimbaMovement",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-04_at_11.38.19_am.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Jess",
+            "text": "Working mum",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "video_rFW9Ef",
+        "video_Xgn9eQ",
+        "video_b8enNA",
+        "video_tAmxB6",
+        "video_kGaPg6"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "d758e26e-4391-40eb-b5a1-01e1d2c22f74": {
+      "type": "section-text",
+      "blocks": {
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Why Alimba for your workplace?<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Healthy team members are happy and productive team members. <\/p><p><br\/><\/p><p>Wellness should be a key pillar of every workplace. Encouraging and providing space for your employees to be their healthiest and happiest selves is beneficial not only for the employee - but for your workplace. <\/p><p><br\/><\/p><p><strong>We are the perfect fit<\/strong><\/p><p>Our founder Ali is a lawyer by background. She has worked across multiple big corporations, including law firms and big-4 multi-national consulting firms. She understands how important wellness is to employees working long hours, often seated at their desks. <\/p><p><br\/><\/p><p>Maria has worked across multiple large mining sites across Australia, including as a #health and wellness rep##, encouraging fitness and exercise across these workplaces. <\/p><p><br\/><\/p><p>Ali & Maria have both seen how a well implemented health and wellness program can benefit workplaces and are passionate about bringing the Alimba method to as many workplaces as possible. <\/p>",
+            "size": 100
+          }
+        },
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-0",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-1",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-2",
+        "template--15026239143984__d758e26e-4391-40eb-b5a1-01e1d2c22f74-168195519289217bca-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cf149bf2-7dd0-48e4-87f2-b0f8cb92fe2f": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/KP1QLSUw.jpg",
+        "subheading": "",
+        "title": "<p>Online workouts - anytime, anywhere<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "You aren't limited by employees being in the office or available to come in early for a weekly run or bootcamp. Employees can take classes at home, from the gym or even in a group at work.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "c44c5a1d-82da-4d19-bd73-1f0282696608": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/LqCAakKo.jpg",
+        "subheading": "",
+        "title": "<p>Weekly scheduling<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "Every week is programmed for our members. This means that each week, everyone is doing the same workouts - creating a fantastic sense of community. \n\nThe workouts are fresh every week - keeping members engaged and motivated.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_mLU8xM": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSC_0650.jpg",
+        "subheading": "",
+        "title": "<p>In-house workshops<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "heading_size": 130,
+        "text_content": "Looking to take your employee wellness to the next level? We also offer in-house workshops with your team to share up-to-date knowledge on fitness & wellness to get your team living their best lives.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "overlapping-images": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/93134viw.jpg",
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Ali",
+        "description": "<p>After spending over 15 years focusing on high intensity workouts with a “burning calories” mentality, Ali's body started to break down. This manifested in hormonal issues and injuries. <\/p><p>It wasn’t until she suffered a back injury that it clicked. Something had to change. <\/p><p>Ali studied a more effective way to work out, focusing on building strength and stability and not ineffectively attempting to make the body as small as possible. <\/p><p>After undertaking her 200-hour Evlo method certification, Ali utilised her personal training qualification and corporate background to create Alimba Movement. <\/p><p>Words Ali lives by: If you can you must. <\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 86
+      }
+    },
+    "047367ee-0c6c-484c-a706-ac6ef0e5f505": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify:\/\/shop_images\/341133375_6522668031086306_9158382991015258901_n_857722af-4ed6-45f2-9b8f-9fc88f9ecacf.jpg",
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Maria",
+        "description": "<p>Maria is our very own Canadian pocket rocket.<\/p><p>Maria has a Bachelors Degree in Health Education and over 5 years working in the fitness industry. <\/p><p>In recent years she has focused her training and education on longevity. She finds relief in the fact that exercise doesn’t have to be gruelling or something we feel depleted from, but rather something that builds us up, and leaves us feeling energised and satisfied.<\/p><p>Maria loves to help people feel more like themselves. Her classes are energising and fun, but don’t let her sweet side fool you … one second you will be smiling along and before you know it your booty will be burnin’. <br\/><br\/>Words Maria lives by:\u2028 Remove the strictness but not the discipline, remove the pressure and bump up the passion, remove the comparison and amplify the confidence.<\/p><p><\/p><p><\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "9eb1d012-59b6-430a-896d-cdfd9284912c": {
+      "type": "section-text",
+      "blocks": {
+        "8ea5cba9-b783-4081-a21d-79003e29b418": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Class Styles<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "78117498-de91-4dc3-82c4-401097ebfae0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<h4>Check out the <a href=\"\/pages\/styles-schedule\" title=\"Styles & Schedule\">Styles & Schedule <\/a>page for more info<\/h4>",
+            "size": 120,
+            "margin_bottom": 16
+          }
+        },
+        "38b85774-ec4a-45f1-a21d-0306c5f28300": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "8ea5cba9-b783-4081-a21d-79003e29b418",
+        "78117498-de91-4dc3-82c4-401097ebfae0",
+        "38b85774-ec4a-45f1-a21d-0306c5f28300"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 62,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "e441e619-c794-403f-a0d4-980edfbd3e50": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "hide_sm": false,
+            "image": "shopify:\/\/shop_images\/220717_LimbaMovement__2752.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "Want to join our community?",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "Sign up now - 14 days free",
+            "button_link": "https:\/\/alimbamovement.uscreen.io\/join_us",
+            "button_color": "btn--secondary",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--large"
+          }
+        },
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_position": "center",
+            "only_on_mobile": false,
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Subheading",
+            "title": "Our Story",
+            "custom-class": "",
+            "para": "",
+            "mobile_para": "",
+            "show_membership": true,
+            "heading_size": 100,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 100,
+            "show_btn_arrow": false,
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-0",
+        "template--15026239143984__e441e619-c794-403f-a0d4-980edfbd3e50-168232809250a25a6a-1"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "Custom_Class": "",
+        "Custom_id": "",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 38,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "30be7d1b-5a59-4886-bd93-66ef9853e1eb",
+    "columns",
+    "section_custom_content_3YLUz7",
+    "d758e26e-4391-40eb-b5a1-01e1d2c22f74",
+    "cf149bf2-7dd0-48e4-87f2-b0f8cb92fe2f",
+    "c44c5a1d-82da-4d19-bd73-1f0282696608",
+    "section_image_with_text_mLU8xM",
+    "overlapping-images",
+    "047367ee-0c6c-484c-a706-ac6ef0e5f505",
+    "9eb1d012-59b6-430a-896d-cdfd9284912c",
+    "main",
+    "e441e619-c794-403f-a0d4-980edfbd3e50"
+  ]
+}
