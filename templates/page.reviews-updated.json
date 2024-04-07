@@ -135,6 +135,21 @@
             "video_link_color": "text-dark"
           }
         },
+        "text_block_J6nimj": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AF4F9E2E-3633-4D17-A48E-21EACFAA8069.jpg",
+            "title": "Ruby H.",
+            "text": "<p><em>\"Alimba is a godsend! The classes always flow so seamlessly. The girls give great prompts for technique which makes it feel like they are right there with you. I love how they keep it real with humour and good energy. It's super refreshing. I'm a huge fan!\"<\/em> - Member since March 2024.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
         "column-1": {
           "type": "text_block",
           "settings": {
@@ -154,7 +169,7 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-12-04_at_10.53_18_1d4790de-1233-4922-a22e-8a6842c0685e.png",
-            "title": "Ruby",
+            "title": "Ruby B.",
             "text": "<p><em>\"I really love Alimba! There are so many class options and new classes every week. I can pick something depending on my mood or energy levels that day.\"<\/em> - Member since July 2023. <\/p>",
             "button_text": "",
             "button_link": "",
@@ -212,11 +227,26 @@
         },
         "column-3": {
           "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d5eedaa8-f844-4a82-9ffe-17d2e94e0fb4.jpg",
+            "title": "Debbie",
+            "text": "<p><em>\"Their workouts are approachable, they don’t make me too sore. I feel stronger and more stable during my dance classes. It’s so great to do a workout with no pressure to push my limits. I decide how I’m feeling that day. Plus Ali and Maria are both inspiring & chill, as well as cute and funny!!\"<\/em> - Member since March 2024.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_4LTwXX": {
+          "type": "text_block",
           "disabled": true,
           "settings": {
             "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -229,12 +259,14 @@
       "block_order": [
         "text_block_hagf7f",
         "column-0",
+        "text_block_J6nimj",
         "column-1",
         "column-2",
         "text_block_zYC6cL",
         "text_block_7wLhRK",
         "text_block_ReY9RG",
-        "column-3"
+        "column-3",
+        "text_block_4LTwXX"
       ],
       "settings": {
         "title": "",
@@ -355,6 +387,9 @@
         "video_b8enNA",
         "video_tAmxB6",
         "video_kGaPg6"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {.brick__blocks__flex {overflow-x: scroll; }}"
       ],
       "settings": {
         "height": "six-fifty-height",

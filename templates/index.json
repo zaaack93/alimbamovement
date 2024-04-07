@@ -118,7 +118,7 @@
             "mobile_para": "",
             "show_membership": false,
             "heading_size": 100,
-            "text": "<p>With all new classes programmed for you every week - all you have to do is show up.<\/p>",
+            "text": "<p>With 6 new classes programmed for you every week - all you have to do is show up.<\/p>",
             "text_size": 100,
             "show_btn_arrow": false,
             "button_text": "See Class Styles & Schedule",
@@ -391,7 +391,7 @@
         "heading_highlight_type": "circle",
         "highlight_color": "#959ff2",
         "heading_size": 130,
-        "text_content": "At Alimba, we use biomechanics and physics principles to design workouts that are effective and efficient, without excess stress on your joints. \n\nWe are all about working smarter, not harder.",
+        "text_content": "We use biomechanics & physics principles to design workouts that are insanely effective and efficient. What does that mean? Short workouts that work! (Without wearing your body down).\n\nWe are all about working smarter, not harder.",
         "text_alignment": "left",
         "button_text": "Learn More About Alimba",
         "button_link": "shopify:\/\/pages\/about-us",
@@ -493,6 +493,15 @@
             "text_alignment": "text-left"
           }
         },
+        "testimonial_XLk3DB": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>The workouts are SO effective. I've only been using Alimba for a few months & my body has completely changed shape.  I can carry both kids at the same time!<\/p>",
+            "customer_name": "Emily B.",
+            "subheading": "<p>Member since November 2023<\/p>"
+          }
+        },
         "976223b2-52f0-4079-bd72-04cc57829497": {
           "type": "testimonial",
           "settings": {
@@ -506,16 +515,25 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>After years of trying different forms of workouts that usually put unnecesary pressure on my joints and resulted in injuries, I am excited to have Alimba at my fingertips!<\/p>",
+            "text": "<p>After years of trying different workouts that put unnecessary pressure on my joints and resulted in injuries, I am excited to have Alimba at my fingertips!<\/p>",
             "customer_name": "Rachael B.",
             "subheading": "<p>Member since July 2023<\/p>"
+          }
+        },
+        "testimonial_a9RwMQ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Alimba is a godsend! The classes flow seamlessly. The girls give great technique cues which makes it feel like they're right there with you. Love how they keep it realy with humour and good energy.<\/p>",
+            "customer_name": "Ruby H.",
+            "subheading": "<p>Member since March 2024<\/p>"
           }
         },
         "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-5": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Alimba's raw and unedited content sets it apart from other platforms. It is a far more personal experience than what I have experienced with fitness apps in the past.<\/p>",
+            "text": "<p>Alimba's raw and unedited content sets it apart from other platforms. It is a far more personal experience than what I have experienced with fitness apps<\/p>",
             "customer_name": "Imogen S.",
             "subheading": "<p>Member since July 2023<\/p>"
           }
@@ -551,7 +569,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>As a working mum, Alimba makes exercise easy as my week is planned. As an engineer, I love the ‘physics’ approach, I’m too busy to waste time when there is a smarter way to workout. <\/p>",
+            "text": "<p>As a working engineer\/mum, Alimba makes exercise easy.  My week is planned. I love the ‘physics’ approach, I’m too busy to waste time & this is the smarter way to workout. <\/p>",
             "customer_name": "Shana B.",
             "subheading": "<p>Member since July 2023<\/p>"
           }
@@ -578,7 +596,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>As a 30 yr old carpenter, I found it hard and taxing on my body trying to get to the gym routinely. Alimba workouts help me feel strong as a carpenter. I have more time and it’s cheaper than the gym! <\/p>",
+            "text": "<p>As a 30y\/o carpenter, I found it taxing on my body trying to get to the gym. Alimba helps me feel strong. I have more time and it’s cheaper than the gym! <\/p>",
             "customer_name": "Tom H.",
             "subheading": "<p>Member since July 2023<\/p>"
           }
@@ -596,7 +614,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>I love how Alimba isolates specific muscle groups in class so I can really connect to them and feel them working. I don't feel completely exhausted after class and still have energy for my day. <\/p>",
+            "text": "<p>I love how Alimba isolates muscle groups in class so I can really connect to them and feel them working. I don't feel completely exhausted after class & still have energy for my day. <\/p>",
             "customer_name": "Jocelyn M.",
             "subheading": "<p>Member since September 2023<\/p>"
           }
@@ -605,7 +623,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Alimba feels like a personal training session. As I am getting stronger I am increasing my weights which is exciting! I am 62 - these workouts are suitable for any age as they are so easily adaptable. <\/p>",
+            "text": "<p>Alimba feels like a PT session. As I am getting stronger I am increasing my weights which is exciting! I am 62 - these workouts are suitable for any age as they are so easily adaptable. <\/p>",
             "customer_name": "Lou T.",
             "subheading": "<p>Member since July 2023<\/p>"
           }
@@ -618,12 +636,32 @@
             "customer_name": "Courtney N.",
             "subheading": "<p>Member since February 2023<\/p>"
           }
+        },
+        "testimonial_KXJP39": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I love that these incredible ladies have built a brand around being authentic & realistic. Exercises you can do from home that definitely still mean you sweat! <\/p>",
+            "customer_name": "Jordja H.",
+            "subheading": "<p>Member since March 2024<\/p>"
+          }
+        },
+        "testimonial_EVkidL": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>I love how the classes always start with breathwork & gentle movement. So much less intimidating to start. Once you've done that you want to keep going!<\/p>",
+            "customer_name": "Cami B.",
+            "subheading": "<p>Member since August 2023<\/p>"
+          }
         }
       },
       "block_order": [
         "96b4f76b-d5de-4e38-8e83-f38a5621bebd",
+        "testimonial_XLk3DB",
         "976223b2-52f0-4079-bd72-04cc57829497",
         "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-2",
+        "testimonial_a9RwMQ",
         "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-5",
         "template--15062879076400__3ec77d5b-731c-4c4e-b232-12d4f3ac28e0-testimonial-1",
         "faa0d301-d125-4aa1-baf1-7bd0dd48b908",
@@ -635,7 +673,9 @@
         "cdaf7bb6-5e73-4880-a376-c1ec0f032e65",
         "a746159b-affd-442f-8310-90c6ce775c12",
         "e3bbb7a6-a962-4808-80e3-b80c6e771bdd",
-        "testimonial_4iq6Jg"
+        "testimonial_4iq6Jg",
+        "testimonial_KXJP39",
+        "testimonial_EVkidL"
       ],
       "settings": {
         "title": "But don't just take our word for it...",
@@ -863,7 +903,7 @@
         "template--15026239078448__19178dfd-7ffc-449d-8dd3-3be0b204b7b4-1682920691b38265c3-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Each week consists of 5 unique workouts, strategically planned to minimise overuse and maximise effectiveness.<\/p>",
+            "text": "<p>Each week consists of 6 unique workouts, strategically planned to minimise overuse and maximise effectiveness.<\/p>",
             "size": 100
           }
         },
@@ -1264,13 +1304,29 @@
             "title": "Are the classes \/ movements modifiable?",
             "text": "<p>For sure - that is what we are all about! We like to make our classes fit our bodies (not the other way around).<\/p><p>In class, we will often cue alternative movements or modifications that you can take to make sure the movements are working for your body.<\/p><p>In our membership portal we also have a table of suggested movement swaps so you can still be hitting the right muscles in the way that suits you best.<\/p><p>Of course if you have any specific physical requirements, be sure to discuss these with your doctor or health care professional, before starting any new program.<\/p>"
           }
+        },
+        "text_Qqk4AC": {
+          "type": "text",
+          "settings": {
+            "title": "Will lifting weights make me bulky?",
+            "text": "<p>It is incredibly hard to build muscle -  you will not turn into a full on body builder overnight - do not fear! You have to be lifting very heavy, consistently and eating a very dialed in nutrition program to build muscle. <\/p><p>Further - we think it is time to end the idea that building muscle for women is a bad thing. It is SO CRUCIAL for our health and longevity, and should be a goal - not something to be feared! <\/p>"
+          }
+        },
+        "text_rBTDnU": {
+          "type": "text",
+          "settings": {
+            "title": "I want to get \"toned\" - will this program help?",
+            "text": "<p>We are all about educating you. Being toned is a very common goal for a lot of women - but it is important to understand what this means. <\/p><p>Someone that is considered \"toned\" in general society will usually have visible muscle, and a low body fat percentage for this muscle to be visible. Fat loss is primarily achieved through diet - but it is super important to be focusing on building and maintaining muscle during this time! <\/p><p>Alimba is the perfect program to help you focus on building muscle if being \"toned\" is a goal of yours!<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-1",
         "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-2",
         "template--15062879076400__e1933c2a-7e3f-49e9-9b31-4f848150213a-text-3",
-        "9c1ec106-5b28-4383-a149-2420a581fbcf"
+        "9c1ec106-5b28-4383-a149-2420a581fbcf",
+        "text_Qqk4AC",
+        "text_rBTDnU"
       ],
       "settings": {
         "layout": "one-column",
@@ -1444,6 +1500,34 @@
         "padding_top": 60,
         "padding_bottom": 100
       }
+    },
+    "section_image_with_text_hGiWPd": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/b18e08e8-6ba1-4b72-a11b-a670db5cc75a.jpg",
+        "subheading": "",
+        "title": "<p>Give the gift of strength<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "heading_size": 130,
+        "text_content": "Think someone you know would love Alimba?",
+        "text_alignment": "left",
+        "button_text": "Buy them a gift card now!",
+        "button_link": "https:\/\/alimbamovement.uscreen.io\/gift_cards\/new",
+        "button_color": "btn--secondary",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1469,6 +1553,7 @@
     "e1933c2a-7e3f-49e9-9b31-4f848150213a",
     "2c032e7a-769f-434e-ba96-d723d918af70",
     "section-banner-text-columns",
-    "f05e0ce2-8a60-4f6d-9a34-1fda4defccc3"
+    "f05e0ce2-8a60-4f6d-9a34-1fda4defccc3",
+    "section_image_with_text_hGiWPd"
   ]
 }

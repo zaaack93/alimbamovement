@@ -195,6 +195,20 @@
             "title": "Can I modify movements or classes?",
             "text": "<p>For sure - that is what we are all about! We like to make our classes fit our bodies (not the other way around). <\/p><p>In class, we will often cue alternative movements or modifications that you can take to make sure the movements are working for your body. <\/p><p>In our membership portal we also have a table of suggested movement swaps so you can still be hitting the right muscles in the way that suits you best. <\/p><p>Of course if you have any specific physical requirements, be sure to discuss these with your doctor or health care professional, before starting any new program. <\/p>"
           }
+        },
+        "text_qArkzL": {
+          "type": "text",
+          "settings": {
+            "title": "I want to get toned - will this program work for me?",
+            "text": "<p>We are all about educating you. Being toned is a very common goal for a lot of women - but it is important to understand what this means. <\/p><p>Someone that is considered \"toned\" in general society will usually have visible muscle, and a low body fat percentage for this muscle to be visible. Fat loss is primarily achieved through diet - but it is super important to be focusing on building and maintaining muscle during this time! <\/p><p>Alimba is the perfect program to help you focus on building muscle if being \"toned\" is a goal of yours!<\/p>"
+          }
+        },
+        "text_iXRDC4": {
+          "type": "text",
+          "settings": {
+            "title": "Will lifting weights make me bulky?",
+            "text": "<p>It is incredibly hard to build muscle - you will not turn into a full on body builder overnight - do not fear! You have to be lifting very heavy, consistently and eating a very dialed in nutrition program to build muscle. <\/p><p>Further - we think it is time to end the idea that building muscle for women is a bad thing. It is SO CRUCIAL for our health and longevity, and should be a goal - not something to be feared!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -204,7 +218,9 @@
         "accordion_block_2_4",
         "a4be2d9b-774e-4c18-a3fb-c342e3aa4c1a",
         "9e567540-d3f5-40a1-a801-9bd10b28ea94",
-        "f5cd9cd2-29d7-470b-b5cd-3303719dbdb5"
+        "f5cd9cd2-29d7-470b-b5cd-3303719dbdb5",
+        "text_qArkzL",
+        "text_iXRDC4"
       ],
       "settings": {
         "layout": "one-column",
