@@ -8,7 +8,7 @@
         "text_zUQhkT": {
           "type": "text",
           "settings": {
-            "text": "<p>Today’s Offer: Free Trial + 20% Off. \"SHOWUP\"<\/p>",
+            "text": "<p><a href=\"https:\/\/alimbamovement.uscreen.io\/checkout\/new?o=102271\" target=\"_blank\" title=\"https:\/\/alimbamovement.uscreen.io\/checkout\/new?o=102271\">Start Free Trial<\/a> - 20% Off Code \"SHOWUP\"<\/p>",
             "icon_name": "none",
             "icon_color": "",
             "icon_width": 20,
@@ -41,13 +41,12 @@
       "blocks": {
         "b3894ac2-ab63-466b-9598-b792c5d74681": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Today’s Offer: Free Trial + 20% Off<\/p>",
-            "icon_name": "none",
+            "text": "<p>Start Free Trial - <a href=\"https:\/\/alimbamovement.uscreen.io\/join_us\" target=\"_blank\" title=\"https:\/\/alimbamovement.uscreen.io\/join_us\">Sign Up Here<\/a><\/p>",
+            "icon_name": "smile",
             "icon_color": "",
             "icon_width": 20,
-            "target_url_enabled": true,
+            "target_url_enabled": false,
             "target_url": "shopify:\/\/pages\/intro-offer",
             "target_referrer_enabled": false,
             "target_referrer": "",
@@ -80,7 +79,7 @@
         "custom_class": "custom_annoucement",
         "bg_color": "#2b4e67",
         "color": "#ffffff",
-        "layout": "marquee",
+        "layout": "slider",
         "padding": 10,
         "slider_speed": 5,
         "marquee_speed": 75,
@@ -92,16 +91,15 @@
       "type": "header",
       "settings": {
         "custom_class": "custom_header",
-        "custom_btn_label": "Try Alimba for Free Today",
+        "custom_btn_label": "",
         "custom_btn_url": "Hero_id",
         "sticky_header": false,
         "header_border": false,
-        "logo_not_home": "shopify:\/\/shop_images\/Alimba-Logo-01-Green.png",
         "logo_max_width": 100,
         "main-menu": "main-menu",
         "show_images": false,
         "image_aspect_ratio": 1,
-        "menu_alignment": "right",
+        "menu_alignment": "left",
         "highlight_item": "Sale",
         "highlight_item_color": "#959ff2",
         "header_transparent": true,
